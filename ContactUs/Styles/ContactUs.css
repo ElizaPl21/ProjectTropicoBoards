@@ -1,0 +1,74 @@
+
+body{
+    font-family: 'cabin', sans-serif;
+    background-color: #C8FFE0 ;
+    height: 1000px;
+    margin: 0px;
+    padding: 0%;
+}
+
+.container{
+    border:  #000000 1px;
+    border-style: solid;
+}
+
+#encabezado{
+    text-align: center;
+    background-color: white;
+    height: 140px;
+}
+
+#navbar{
+    position: fixed;
+    background-color: #85E6C5;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#cuerpo {
+    display: flex ;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    margin: 5%;
+    height: 500px;
+}
+
+#contactInfo{
+    flex: 40%;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    background-color: white;
+    /*text-align: center;*/
+    align-items: center;
+    align-content: center;
+}
+
+
+#boton {
+    background-color: #614BC3;
+    border: #000000 solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+div h4{
+    align-content: center;
+    text-align: center;
+    top: 0;
+}
