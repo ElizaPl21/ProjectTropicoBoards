@@ -8,45 +8,53 @@
     <title>Página Contáctanos</title>
 </head>
 
-<body class="outerBody">
+<body>
 
 
-    <div id="mainContainer">
-        <nav id="navbar" class="container">
+    <div class="mainContainer">
+        <nav class="navbar container">
             <h1>Aqui va la navbar</h1>
         </nav>
 
-        <header id="encabezado" class="container">
+        <header class="container encabezado">
             <h1 class="titulo">Contáctanos</h1>
-
         </header>
 
-        <div id="cuerpo" class="container">
+        <div class="container cuerpo">
 
-            <aside id="contactInfo">
-                <h3>Direccion</h3>
-                <h3>Telefono</h3>
-                <h3>Email </h3>
-            </aside>
-
-        <section class="form">
-            <div>
-                <form action="" method="">
-                    <label for="usuario">Nombre: </label> <br>
-                    <input type="text" id="usuario" required placeholder="a-z,A-Z"> <br>
-                    <label for="correo">Correo electronico</label><br>
-                    <input type="email" id="correo" required><br>
-                    <label for="asunto">Asunto</label><br>
-                    <input type="text" id="asunto" required><br>
-                    <label for="mensaje">Mensaje</label><br>
-                    <input type="text" id="mensaje" required><br>
-            </div>
-            
-            <div id="boton">
-                <button type="submit" id="boton">Enviar</button><br> 
+            <div class="contactInfo">
+                <h3 class="subtitle">
+                    Direccion 
+                    <p>	Un lugar en Veracruz</p>
+                </h3>
+                <h3 class="subtitle">
+                    Telefono
+                    <p>(999) 9-99-99</p>
+                </h3>
+                <h3 class="subtitle">
+                    Email 
+                    <p>correodela@empresa.com</p>
+                </h3>
             </div>
 
-        </section>
+            <div class="btnForm">
+                <div class="containerForm">
+                    <form class="formSection" method="">
+                        <label class="formTitle" for="usuario">Nombre: </label> <br>
+                        <input class="formImput" type="text" id="usuario" required placeholder="Nombre Apellido"> <br>
+                        <label class="formTitle" for="correo">Correo electronico</label><br>
+                        <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br>
+                        <label class="formTitle" for="asunto">Asunto</label><br>
+                        <input class="formImput" type="text" id="asunto" required placeholder="De qué trata tu mensaje"><br>
+                        <label class="formTitle" for="mensaje">Mensaje</label><br>
+                        <input class="formImput" type="text" id="mensaje" required placeholder="Cuentanos más!"><br>
+                </div>
+
+                <div class="containerBtn">
+                    <button type="submit" class="boton">Enviar</button><br>
+                </div>
+
+            </div>
 
         </div>
 
