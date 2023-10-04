@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #85E6C5 !important;
+  font-family: 'Rowdies', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar-nav.ml-auto {
+  margin-right: 0; /* Ajustar el margen derecho a cero para que esté alineado completamente a la derecha */
+}
+
+
+
+
