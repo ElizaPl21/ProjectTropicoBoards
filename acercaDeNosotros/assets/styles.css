@@ -1,0 +1,84 @@
+
+body {
+    background-color: #C8FFE0;
+       
+}
+
+.container_cards {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.tarjeta {
+    width: 300px;
+    margin: 10px;
+    transition: all, 300ms;
+}
+
+.tarjeta:hover {
+    width: 350px;
+    height: 300px;
+}
+
+.tarjeta .cover {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta .cover .image {
+    width: 250px;
+    display: block;
+    margin: auto;
+    top: 40px; 
+}
+
+.tarjeta:hover .cover {
+    top: 0px;
+}
+
+.tarjeta .description {
+    background-color: aliceblue;
+    margin-top: -10px;
+    padding: 20px;
+}
+
+.tarjeta .description h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nombre {
+    text-align: center;
+}
+
+.descripcion {
+    text-align: center;
+    font-family: 'Cabin', sans serif;
+    font-size: 18px;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Rowdies', sans;
+    font-size: 35px;
+}
+
+.nombre {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
