@@ -1,11 +1,18 @@
 
 body{
+    /* display: flex;
+    flex-direction: column; */
     font-family: 'cabin', sans-serif;
     background-color: #C8FFE0 ;
     height: 1000px;
     margin: 0px;
     padding: 0%;
+
 }
+/* .mainContainer {
+    display: flex;
+    flex-direction: column;
+} */
 
 .container{
     border:  #000000 1px;
@@ -13,17 +20,24 @@ body{
 }
 
 #encabezado{
-    text-align: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center ;
     background-color: white;
-    height: 140px;
+    height: 150PX;
+    justify-content: end;
+    color: black;
+    
+
 }
 
 #navbar{
     position: fixed;
     background-color: #85E6C5;
-    height: 80px;
+    height: 50px;
     text-align: center;
     align-items: center;
+    width: 100vw;
 
 
 }
