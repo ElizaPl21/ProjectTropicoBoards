@@ -3,9 +3,17 @@ body {
        
 }
 
+.card-text {
+    font-family: 'Acme', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-size: 18px;
+}
+
 h1 {
     text-align: center;
     padding: 40px;
+    font-family: Acme;
+    font-size: 25px;
 }
 
 
