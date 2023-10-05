@@ -1,14 +1,25 @@
 body {
-    font-family: 'cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
     background-color: #C8FFE0;
-    height: 1000px;
+    height: auto;
     margin: 0px;
     padding-top: 50px;
-
 }
 
+.titulo{
+    font-family: 'Rowdies', cursive;
+    font-size: 35px;
+}
+
+.subtitulos{
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+
+}
 .mainContainer {
     display: flex;
+    position: static;
     flex-direction: column;
 }
 
@@ -21,15 +32,12 @@ body {
     flex-direction: column;
     text-align: center;
     background-color: white;
-    height: 150PX;
+    height: auto;
     justify-content: center;
     color: black;
     background-image: url(/ContactUs/Assets/contact\ background.webp);
     background-size: cover;
 }
-
-
-
 
 .navbar {
     position: fixed;
@@ -48,17 +56,17 @@ body {
     align-content: center;
     text-align: center;
     background-color: white;
+    padding: 5%;
     margin: 5%;
-    height: 500px;
+    height: auto;
 }
 
 .btnForm {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     flex: 65%;
     margin: 5%;
-
 }
 
 .contactInfo {
@@ -116,4 +124,10 @@ p{
     padding: 15px 40px;
     margin: 10px 70px;
 
+}
+
+@media (max-width:650px){
+    .cuerpo{
+        flex-direction: column;
+    }
 }
