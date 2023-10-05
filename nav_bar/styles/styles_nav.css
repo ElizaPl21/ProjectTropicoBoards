@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #85E6C5 !important;
+}
+
+.navbar {
+  background-color: #85E6C5 !important;
+  font-family: 'acme', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+.navbar-nav {
+  margin: 0 auto; 
+}
+
+.navbar-nav.ml-auto {
+  margin-right: 0; 
+  font-family: 'Acme',sans-serif;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+.logo-img {
+  width: 100px; 
+  margin-right: 5px;
+}
+
+#marcaTB{
+   font-size: 35px;
+}
+
+#letter{
+  color: white;
+}
+
+
+
