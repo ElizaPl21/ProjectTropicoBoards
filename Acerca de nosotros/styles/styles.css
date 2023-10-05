@@ -1,6 +1,5 @@
 body {
-    background-color: #C8FFE0;
-       
+    background-color: #C8FFE0;  
 }
 
 .card-text {
@@ -12,7 +11,7 @@ font-size: 18px;
 h1 {
     text-align: center;
     padding: 40px;
-    font-family: Acme;
+    font-family: 'Acme', sans-serif;
     font-size: 25px;
 }
 
@@ -72,6 +71,23 @@ h1 {
 
 .descripcion {
     text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    background-color: #85E6C5;
+}
+
+.nombre {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+#about {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
 }
 
 
