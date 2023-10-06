@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Contáctanos</title>
+    <!-- Links a los iconos -->
+    <link rel="stylesheet" href="/ContactUs/Styles/ContactUs.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='icon' href='./Assets/usuarios.svg'>
+    <!-- Fonts desde google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cabin&family=Rowdies:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="mainContainer">
+        <nav class="navbar container">
+            <h1>Aqui va la navbar</h1>
+        </nav>
+
+        <header class="container encabezado">
+            <img src="./Assets/contact background.webp" alt="fondo">
+            <h1 class="titulo">Contáctanos</h1>
+        </header>
+
+        <div class="container cuerpo">
+
+            <div class="contactInfo">
+                <h3 class="subtitle">
+                    <i class="fi fi-sr-marker"></i>
+                    Direccion
+                    <p> Un lugar en Veracruz</p>
+                </h3>
+                <h3 class="subtitle">
+                    <i class="fi fi-sr-phone-call"></i>
+                    Telefono
+                    <p>(999) 9-99-99</p>
+                </h3>
+                <h3 class="subtitle">
+                    <i class="fi fi-sr-envelope"></i>
+                    Email
+                    <p>correodela@empresa.com</p>
+                </h3>
+            </div>
+
+            <div class="btnForm">
+                <div class="containerForm">
+                    <form class="formSection" method="">
+                        <label class="formTitle" for="usuario">Nombre: </label> <br>
+                        <input class="formImput" type="text" id="usuario" required placeholder="Nombre Apellido"> <br>
+                        <label class="formTitle" for="correo">Correo electronico</label><br>
+                        <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br>
+                        <label class="formTitle" for="asunto">Asunto</label><br>
+                        <input class="formImput" type="text" id="asunto" required
+                            placeholder="De qué trata tu mensaje"><br>
+                        <label class="formTitle" for="mensaje">Mensaje</label><br>
+                        <textarea class="formImput" name="mens" id="mensaje" rows="4" required
+                            placeholder="¡Cuentanos más!"></textarea>
+                </div>
+
+                <div class="containerBtn">
+                    <button type="submit" class="boton">Enviar</button><br>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
