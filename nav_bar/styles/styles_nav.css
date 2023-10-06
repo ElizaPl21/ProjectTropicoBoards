@@ -43,6 +43,10 @@
   color: white;
 }
 
+#letter:hover{
+  color: rgb(207, 27, 27);
+}
+
 .collapse{
   
   flex-grow: unset;
@@ -58,6 +62,9 @@
    font-size: 35px;
 }
 
+#pru:hover{
+  color: azure;
+}
 
 
 
