@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de nosotros</title>
  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
@@ -27,10 +27,71 @@
 
 </head>
 <body>
-    <div class="navbar">
-        <h1>NAVBAR</h1>
+    <div>
+        <nav class="navbar navbar-expand-xl bg-body-tertiary">
+            <a class="navbar-brand" id  ="marcaTB" href="#"> <img src="./assets/img/logo.png" alt="Logo de TropicoBoards" class="logo-img"></a>
+            <h2 id="tiLL">TropicoBoards</h2>
+        
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid" id="menuDer">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="pru" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Noticias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Eventos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Dealers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" id="pru" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Patinetas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Mercancias</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  id="pru"href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Explorar
+                    </a>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="#">Galeria de fotos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Testimonios</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Videos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ml-auto"> 
+                  <li class="nav-item">
+                    <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </div>
-    
+
+    <!-- TERMINA NAVBAR -->
+
     <header class="encabezado">
         <h1 class="titulo">
             Acerca de nosotros 
