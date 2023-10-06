@@ -31,14 +31,14 @@
   overflow: hidden;
 }
 
-img{
+.imgLogo{
   width: 100%;
   height: 100%;
   transition: 0.5s;
   object-fit: cover;
 }
 
-img:hover{
+.imgLogo:hover{
   transform: scale(1.2);
 }
 
