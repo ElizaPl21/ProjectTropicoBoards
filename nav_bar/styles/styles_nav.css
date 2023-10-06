@@ -43,6 +43,10 @@
   color: white;
 }
 
+#letter:hover{
+  color: rgb(207, 27, 27);
+}
+
 .collapse{
   
   flex-grow: unset;
@@ -56,4 +60,8 @@
 #tiLL{
    font-family: 'Rowdies',sans-serif; 
    font-size: 35px;
+}
+
+#pru:hover{
+  color: azure;
 }
