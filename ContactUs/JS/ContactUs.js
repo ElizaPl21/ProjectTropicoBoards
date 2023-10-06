@@ -4,6 +4,6 @@ const form = document.querySelector(".form");
 form.addEventListener('submit', manejoSubmit);
 
 //
-function manejoSubmit (event){
+function manejoSubmit (evento){
     evento.preventDefault()
 }
