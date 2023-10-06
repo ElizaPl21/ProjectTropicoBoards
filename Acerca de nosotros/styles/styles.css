@@ -25,8 +25,8 @@ body {
 
 .card-text {
     font-family: 'Acme', sans-serif;
-font-family: 'Cabin', sans-serif;
-font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -111,5 +111,28 @@ h1 {
     font-family: 'Rowdies', sans-serif;
     font-size: 35px;
 }
+
+.subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+}
+
+#contacto {
+    display: flex;
+
+}
+
+.card-contact {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+
+
+
+
 
 
