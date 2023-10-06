@@ -8,8 +8,14 @@ body {
 }
 
 .titulo{
-    font-family: 'Rowdies', cursive;
+    font-family: 'Rowdies', sans-serif;
     font-size: 35px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .subtitulos{
@@ -29,16 +35,24 @@ body {
 
 .encabezado {
     display: flex;
-    flex-direction: column;
+    position: relative;
     text-align: center;
     background-color: white;
-    height: auto;
-    justify-content: center;
     color: black;
-    background-size: 100% 100%;
-    height:350px;
-    background-image: url(/ContactUs/Assets/contact\ background.webp);
+    width: auto;
+    height: 350px;
+
 }
+
+
+img{
+  width: 100%;
+  object-fit: cover;
+  object-position:0% 25%;
+}
+
+
+
 
 .navbar {
     position: fixed;
