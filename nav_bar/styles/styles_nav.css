@@ -85,5 +85,7 @@ img:hover{
   color: azure;
 }
 
-
+.navbar-toggler{
+  margin: 15px;
+}
 
