@@ -4,7 +4,7 @@ body {
     background-color: #C8FFE0;
     height: auto;
     margin: 0px;
-    padding-top: 50px;
+    padding-top: 120px; 
 }
 
 .titulo{
@@ -18,7 +18,7 @@ body {
     transform: translate(-50%, -50%)
 }
 
-.subtitulos{
+.subtitulo{
     font-family: 'Acme', sans-serif;
     font-size: 25px;
 
@@ -28,24 +28,22 @@ body {
     position: static;
     flex-direction: column;
 }
-
+/*
 .container {
     display: flex;
 }
-
+*/
 .encabezado {
     display: flex;
     position: relative;
     text-align: center;
-    background-color: white;
-    color: black;
     width: auto;
     height: 350px;
 
 }
 
 
-img{
+.imgCU{
   width: 100%;
   object-fit: cover;
   object-position:0% 25%;
@@ -54,15 +52,16 @@ img{
 
 
 
-.navbar {
+.navbarCU {
     position: fixed;
     top: 0%;
     background-color: #85E6C5;
-    height: 50px;
+    height: 100px;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 100vw;
+    z-index: 20; 
 }
 
 .cuerpo {
@@ -94,7 +93,7 @@ img{
 }
 
 p{
-    font-size: small;
+    font-size: 18px;
 }
 .containerForm {
     display: flex;
