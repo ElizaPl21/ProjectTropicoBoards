@@ -4,7 +4,7 @@ body {
     background-color: #C8FFE0;
     height: auto;
     margin: 0px;
-    padding-top: 100px; 
+    padding-top: 120px; 
 }
 
 .titulo{
@@ -18,7 +18,7 @@ body {
     transform: translate(-50%, -50%)
 }
 
-.subtitulos{
+.subtitulo{
     font-family: 'Acme', sans-serif;
     font-size: 25px;
 
@@ -37,8 +37,6 @@ body {
     display: flex;
     position: relative;
     text-align: center;
-    background-color: white;
-    color: black;
     width: auto;
     height: 350px;
 
@@ -95,7 +93,7 @@ body {
 }
 
 p{
-    font-size: small;
+    font-size: 18px;
 }
 .containerForm {
     display: flex;
