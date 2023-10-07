@@ -27,33 +27,32 @@
 .logoContainerCu{
   display: flex;
   align-items: center;
+  margin-left: 20px;;
 }
+
 .logo-img {
   width: 100px; 
-  margin-right: 5px;
+  margin-left: 20px;
   overflow: hidden;
 }
 
-img{
-  width: 100%;
-  height: 100%;
+.imgLogo{
   transition: 0.5s;
   object-fit: cover;
 }
 
-img:hover{
+.imgLogo:hover{
   transform: scale(1.2);
 }
 
+/*
 .marcaTB{
-    display: flex;
+  display: flex;
    font-size: 35px;
    justify-content: center;
    margin-left: 20px;
-   
-   
 }
-
+*/
 #letter{
   color: white;
 }
@@ -68,7 +67,6 @@ img:hover{
 }
 
 #menuDer{
-  
   justify-content:end;
 }
 
@@ -86,6 +84,6 @@ img:hover{
 }
 
 .navbar-toggler{
-  margin: 15px;
+  margin: 20px;
 }
 

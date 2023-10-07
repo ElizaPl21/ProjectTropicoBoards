@@ -28,11 +28,11 @@ body {
     position: static;
     flex-direction: column;
 }
-
+/*
 .container {
-    /* display: flex; */
+    display: flex;
 }
-
+*/
 .encabezado {
     display: flex;
     position: relative;
