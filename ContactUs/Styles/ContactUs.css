@@ -4,7 +4,7 @@ body {
     background-color: #C8FFE0;
     height: auto;
     margin: 0px;
-    /* padding-top: 50px; */
+    padding-top: 100px; 
 }
 
 .titulo{
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
 }
 
 .encabezado {
@@ -45,7 +45,7 @@ body {
 }
 
 
-img{
+.imgCU{
   width: 100%;
   object-fit: cover;
   object-position:0% 25%;
@@ -54,17 +54,16 @@ img{
 
 
 
-.navbar {
-    position: sticky;
+.navbarCU {
+    position: fixed;
     top: 0%;
     background-color: #85E6C5;
-    height: 50px;
+    height: 100px;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 100vw;
     z-index: 20; 
-
 }
 
 .cuerpo {

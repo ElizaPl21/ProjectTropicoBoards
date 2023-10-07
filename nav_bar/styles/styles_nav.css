@@ -23,26 +23,29 @@
   align-items:center;
   
 }
-
-
+/*Se agregó el container para evitar deformaciones al momento de hacer union con otras paginas*/
+.logoContainerCu{
+  display: flex;
+  align-items: center;
+}
 .logo-img {
   width: 100px; 
   margin-right: 5px;
   overflow: hidden;
 }
 
-.imgLogo{
+img{
   width: 100%;
   height: 100%;
   transition: 0.5s;
   object-fit: cover;
 }
 
-.imgLogo:hover{
+img:hover{
   transform: scale(1.2);
 }
 
-#marcaTB{
+.marcaTB{
     display: flex;
    font-size: 35px;
    justify-content: center;
