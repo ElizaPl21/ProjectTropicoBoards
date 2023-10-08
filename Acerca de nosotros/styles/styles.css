@@ -20,7 +20,9 @@
 
 
 body {
-    background-color: #C8FFE0;  
+    background-color: #C8FFE0; 
+    padding-top: 120px; 
+    margin: 0px;
 }
 
 .card-text {
@@ -165,7 +167,7 @@ h1 {
   }
   
   .barranav {
-    position: sticky;
+    position: fixed;
     top: 0%;
     background-color: #85E6C5;
     height: 100px;
