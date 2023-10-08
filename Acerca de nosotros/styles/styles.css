@@ -7,7 +7,7 @@
     justify-content: center;
     background-size: cover;
     position: static;
-    background-image: url(../assets/img/cabezera.web);
+    background-image: url(../assets/img/background2.JPG);
     
 }
 
@@ -15,7 +15,8 @@
     font-size: 35px;
     font-family: 'Rowdies', sans-serif;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
+    padding-top: 120px;
 }
 
 
@@ -179,20 +180,19 @@ h1 {
 }
   
   .logo-img {
-    width: 100px; 
+    width: 100px;
     margin-right: 5px;
     
   }
   
-  img{
-    width: 100%;
-    height: 100%;
+  .imgLogo{
+    
     transition: 0.5s;
     object-fit: cover;
     
   }
   
-  img:hover{
+  .imgLogo:hover{
     transform: scale(1.2);
     
   }
