@@ -1,0 +1,151 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    background-color: #C8FFE0;
+    height: auto;
+    margin: 0px;
+    padding-top: 120px; 
+}
+
+.titulo{
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.subtitulo{
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+
+}
+.mainContainer {
+    display: flex;
+    position: static;
+    flex-direction: column;
+}
+/*
+.container {
+    display: flex;
+}
+*/
+.encabezado {
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 350px;
+
+}
+
+
+.imgCU{
+  width: 100%;
+  object-fit: cover;
+  object-position:0% 25%;
+}
+
+
+
+
+.navbarCU {
+    position: fixed;
+    top: 0%;
+    background-color: #85E6C5;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    z-index: 20; 
+}
+
+.cuerpo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    height: auto;
+}
+
+.btnForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 65%;
+    margin: 5%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 35%;
+    align-content: center;
+    text-align: start;
+    margin: 5%;
+}
+
+p{
+    font-size: 18px;
+}
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formTitle{
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+
+}
+
+.formImput{
+    padding: 16px;
+    border-radius: 13px;
+}
+
+
+
+.boton {
+    background-color: #614BC3;
+    border: #000000 solid;
+    border-radius: 13px;
+    justify-content: flex-end;
+    padding: 15px 40px;
+    margin: 10px 70px;
+
+}
+
+@media (max-width:650px){
+    .cuerpo{
+        flex-direction: column;
+    }
+}
+
+.boton {
+    background-color: bisque;
+}
