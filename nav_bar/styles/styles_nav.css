@@ -3,6 +3,7 @@
   font-family: 'Acme', sans-serif;
   font-size: 25px;
   font-weight: 600;
+
 }
 
 .navbar-nav {
@@ -63,6 +64,7 @@
 
 #menuDer{
   justify-content:end;
+  margin-right: 20px;
 }
 
 #tiLL{
@@ -79,6 +81,6 @@
 }
 
 .navbar-toggler{
-  margin: 20px;
+  margin: 30px;
 }
 

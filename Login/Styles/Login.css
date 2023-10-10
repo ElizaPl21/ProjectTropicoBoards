@@ -1,0 +1,75 @@
+body{
+    background-color: #C8FFE0;
+    height: 1000px;
+    padding-top: 120px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+}
+
+.navbar-LI{
+    position: fixed;
+    top: 0%;
+    height: 120px;
+    width: 100vw;
+    z-index: 20;
+}
+
+
+.mainContainer-LI {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+   
+}
+.encabezado-LI {
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 300px;
+}
+
+.img-LI{
+  width: 100%;
+  object-fit: cover;
+  object-position:0% 25%;
+}
+
+.titulo-LI{
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.input-group {
+    margin-top: 15px;
+    width: 350px;
+    padding: 20px 0px;
+}
+.cuerpo-LI{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    padding: 5% ;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.form-LI{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+  
+}
+
+.btn{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
