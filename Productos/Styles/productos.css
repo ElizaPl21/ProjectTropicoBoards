@@ -5,7 +5,7 @@
   justify-content: center;
   background-size: cover;
   position: static;
-  background-image: url(../Assets/Fondo.JPG);
+  background-image: url(../Assets/Fondo.png);
 }
 
 .titulo {
