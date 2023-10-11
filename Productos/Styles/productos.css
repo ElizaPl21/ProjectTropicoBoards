@@ -1,0 +1,30 @@
+.encabezado {
+  flex-direction: column;
+  height: 300px;
+  width: auto;
+  justify-content: center;
+  background-size: cover;
+  position: static;
+  background-image: url(../Assets/Fondo.png);
+}
+
+.titulo {
+  font-size: 35px;
+  font-family: 'Rowdies', sans-serif;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  padding-top: 120px;
+}
+
+body{
+  background-color: #85E6C5;
+}
+
+.card {
+  margin: 100px;
+}
+.list-group{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
+    grid-gap: 10px; 
+}
