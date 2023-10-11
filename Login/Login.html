@@ -17,8 +17,9 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <!-- Link de archivos CSS -->
-    <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
     <link rel="stylesheet" href="/Login/Styles/Login.css">
+    <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
+   
     <!-- <link rel="stylesheet" href="/Login/Styles/Registro.css"> -->
 
 </head>
@@ -107,98 +108,71 @@
                 </div>
             </nav>
         </div>
-        <header class="encabezado-LI">
+        <!-- <header class="encabezado-LI">
             <img class="img-LI" src="./Assets/LoginHeader.jpg" alt="fondo">
             <h1 class="titulo-LI">Inicio de Sesión</h1>
-        </header>
+        </header> -->
         <div class="cuerpo-LI">
-            <!-- <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">@</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                    aria-describedby="addon-wrapping">
-            </div>
-            <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">@</span>
-                <input type="text" class="form-control" placeholder="Password" aria-label="Username"
-                    aria-describedby="addon-wrapping">
-            </div> -->
+            <h1 class="titulo-LI">Inicio de Sesión</h1>
             <form class="form-LI">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
                     <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
                     <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="form2Example1" class="form-control" required/>
+                    <input type="email" id="form2Example1" class="form-control" required placeholder="ejmplo@correo.com" />
                     <label class="form-label" for="form2Example1">Email address</label>
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <input type="password" id="form2Example2" class="form-control" />
-                    <label class="form-label" for="form2Example2">Password</label>
+                    <input type="password" id="form2Example2" class="form-control" placeholder="Contraseña" />
+                    <label class="form-label" for="form2Example2">Contraseña</label>
                 </div>
 
-                <!-- 2 column grid layout for inline styling -->
-                <div class="row mb-4">
-                    <div class="col d-flex justify-content-center">
-                        <!-- Checkbox  -->
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                            <label class="form-check-label" for="form2Example31"> Remember me </label>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <!-- Simple link  -->
-                        <a href="#!">Forgot password?</a>
-                    </div>
-                </div> 
-
-                <!-- Submit button -->
-                <!-- <button type="submit" class="boton">Enviar</button><br> -->
-
-                <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
+                <div class="text-center">
+                    <p>Aún no eres miembro? <a href="#Registro">Registrate</a></p>
+                </div>
             </form>
-
+        </div>
+        <p id="Registro"></p>
+        <div class="cuerpo-RU">
+            <div class="titulo-RU" >Registro</div>
             <form class="form-LI">
+
                 <div class="form-outline mb-4">
                     <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
                     <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="form2Example1" class="form-control" required/>
-                    <label class="form-label" for="form2Example1">Email address</label>
+                    <input type="text" id="nombreUsuario" class="form-control" required  placeholder="Nombre"/>
+                    <label class="form-label" for="nombreUsuario">Nombre</label>
                 </div>
-
+                <div class="form-outline mb-4">
+                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
+                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
+                    <input type="text" id="apellidoUsuario" class="form-control" required  placeholder="Apellido"/>
+                    <label class="form-label" for="apellidoUsuario">Apellido</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
+                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
+                    <input type="email" id="correo" class="form-control" required placeholder="ejmplo@correo.com" />
+                    <label class="form-label" for="correo">Correo electrónico</label>
+                </div>
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <input type="password" id="form2Example2" class="form-control" />
-                    <label class="form-label" for="form2Example2">Password</label>
+                    <input type="password" id="contraseña" class="form-control" />
+                    <label class="form-label" for="contraseña">Contraseña</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="password" id="verificacionContraseña" class="form-control" />
+                    <label class="form-label" for="verificacionContraseña">Confrimar contraseña</label>
+                </div>
+                <div class="containerBoton-RU">
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
                 </div>
             </form>
-
-           
-        <!-- <div id="login-box">
-            <div class="left">
-              <h1 class = "titulo-RU">Registrate</h1>
-              
-              <input type="text" name="username" placeholder="Username" />
-              <input type="text" name="email" placeholder="E-mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Ingrese un correo electrónico válido." required />
-              <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos 8 caracteres, incluyendo al menos una letra mayúscula, una letra minúscula y un número." required />
-              <input type="password" name="password2" placeholder="Retype password" />
-              
-              <input type="submit" name="signup_submit" value="Registrame" />
-            </div>
             
-            <div class="right">
-              <span class="loginwith">Sign in with<br />social network</span>
-              
-              <button class="social-signin facebook">Log in with facebook</button>
-              <button class="social-signin twitter">Log in with Twitter</button>
-              <button class="social-signin google">Log in with Google+</button>
-            </div>
-          
-          </div> -->
-
-
-    </div>
+        </div>
 
 </body>
 

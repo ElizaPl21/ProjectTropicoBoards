@@ -80,7 +80,7 @@
 }
 
 .navbar-toggler{
-  margin: 25px;
+  margin-right: 25px;
 }
 
 @media (max-width:500px){
@@ -96,4 +96,7 @@
     transform: scale(1.0);
   }
 
+  .navbar{
+    padding: 0%;
+  }
 }
