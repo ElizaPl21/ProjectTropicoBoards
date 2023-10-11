@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="./validacion.js"></script>
+</head>
+<body>
+
+<div class="container mt-4">
+    <form id="productForm">
+        <div class="form-group">
+            <label for="productName">Nombre del producto</label>
+            <input type="text" class="form-control" id="productName" name="productName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="productPrice">Precio</label>
+            <input type="number" class="form-control" id="productPrice" name="productPrice" required>
+        </div>
+
+        <div class="form-group">
+            <label for="productDescription">Descripción</label>
+            <textarea class="form-control" id="productDescription" name="productDescription" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="stockQuantity">Cantidad en stock</label>
+            <input type="number" class="form-control" id="stockQuantity" name="stockQuantity" required>
+        </div>
+
+        <div class="form-group">
+            <label for="productImage">Añadir una imagen</label>
+            <input type="file" class="form-control-file" id="productImage" name="productImage">
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="validateForm()">Crear Producto</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
