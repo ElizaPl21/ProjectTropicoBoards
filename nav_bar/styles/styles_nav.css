@@ -7,7 +7,6 @@
 
 .navbar-nav {
   margin: 0 auto; 
-  
 }
 
 .navbar-nav.ml-auto {
@@ -86,14 +85,14 @@
 @media (max-width:500px){
   .logo-img{
     width: 60px;
-      height: auto;
+    height: auto;
   }
 
   #tiLL{
     font-size: 23px;
   }
   .imgLogo:hover{
-    transform: scale(1.0);
+    transform: scale(1.1);
   }
 
   .navbar{
