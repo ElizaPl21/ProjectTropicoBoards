@@ -3,16 +3,6 @@
   outline: none;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #DDD;
-  font-size: 16px;
-  color: #222;
-  font-family: cabin;
-  font-weight: 300;
-}
-
 #login-box {
   position: relative;
   margin: 5% auto;
@@ -33,7 +23,7 @@ body {
   height: 400px;
 }
 
-h1 {
+.titlo-RU {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
@@ -92,19 +82,23 @@ input[type="submit"]:active {
 }
 
 .or {
-  position: absolute;
+ /* position: absolute;*/
+ display: flex;
   top: 180px;
   left: 280px;
-  width: 40px;
-  height: 40px;
+  width: auto;
+  height: auto;
   background: #DDD;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   line-height: 40px;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
-.right {
+/* .right {
   position: absolute;
   top: 0;
   right: 0;
@@ -116,16 +110,16 @@ input[type="submit"]:active {
   background-size: cover;
   background-position: center;
   border-radius: 0 2px 2px 0;
-}
+} */
 
-.right .loginwith {
+/* .right .loginwith {
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
   color: #FFF;
   text-align: center;
-}
-
+} */
+/* 
 button.social-signin {
   margin-bottom: 20px;
   width: 220px;
@@ -137,9 +131,9 @@ button.social-signin {
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;
-}
+} */
 
-button.social-signin:hover,
+/* button.social-signin:hover,
 button.social-signin:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   transition: 0.2s ease;
@@ -160,4 +154,4 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
-}
+} */

@@ -1,4 +1,4 @@
-body{
+.body-LI{
     background-color: #C8FFE0;
     height: 1000px;
     padding-top: 120px;
@@ -64,12 +64,19 @@ body{
 .form-LI{
     display: flex;
     flex-direction: column;
-    min-width: 50%;
-  
+    align-items: center;
 }
 
 .btn{
     margin-left: 30%;
     margin-right: 30%;
+}
+@media (max-width:500px){
+    .navbar-LI{
+        height: 60px;
+    }
+    .body-LI{
+        padding-top: 60px;
+    }
 }
 

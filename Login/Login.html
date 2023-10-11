@@ -19,10 +19,11 @@
     <!-- Link de archivos CSS -->
     <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
     <link rel="stylesheet" href="/Login/Styles/Login.css">
+    <!-- <link rel="stylesheet" href="/Login/Styles/Registro.css"> -->
 
 </head>
 
-<body>
+<body class="body-LI">
 
     <div class="MainContainer-LI">
         <div class="navbar-LI">
@@ -139,31 +140,62 @@
                 <!-- 2 column grid layout for inline styling -->
                 <div class="row mb-4">
                     <div class="col d-flex justify-content-center">
-                        <!-- Checkbox -->
+                        <!-- Checkbox  -->
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
                             <label class="form-check-label" for="form2Example31"> Remember me </label>
                         </div>
                     </div>
 
-                    <!-- <div class="col">
-                        <-- Simple link 
+                    <div class="col">
+                        <!-- Simple link  -->
                         <a href="#!">Forgot password?</a>
-                    </div> -->
-                </div>
+                    </div>
+                </div> 
 
                 <!-- Submit button -->
                 <!-- <button type="submit" class="boton">Enviar</button><br> -->
 
                 <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+            </form>
 
-                <!-- Register buttons -->
-                <div class="text-center">
-                    <p>Not a member? <a href="#!">Register</a></p>
+            <form class="form-LI">
+                <div class="form-outline mb-4">
+                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
+                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
+                    <input type="email" id="form2Example1" class="form-control" required/>
+                    <label class="form-label" for="form2Example1">Email address</label>
+                </div>
 
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2">Password</label>
                 </div>
             </form>
-        </div>
+
+           
+        <!-- <div id="login-box">
+            <div class="left">
+              <h1 class = "titulo-RU">Registrate</h1>
+              
+              <input type="text" name="username" placeholder="Username" />
+              <input type="text" name="email" placeholder="E-mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Ingrese un correo electrónico válido." required />
+              <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos 8 caracteres, incluyendo al menos una letra mayúscula, una letra minúscula y un número." required />
+              <input type="password" name="password2" placeholder="Retype password" />
+              
+              <input type="submit" name="signup_submit" value="Registrame" />
+            </div>
+            
+            <div class="right">
+              <span class="loginwith">Sign in with<br />social network</span>
+              
+              <button class="social-signin facebook">Log in with facebook</button>
+              <button class="social-signin twitter">Log in with Twitter</button>
+              <button class="social-signin google">Log in with Google+</button>
+            </div>
+          
+          </div> -->
 
 
     </div>
