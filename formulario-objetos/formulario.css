@@ -13,9 +13,7 @@
     font-size: 18px;
 }
 
-.form {
-    padding-top: 120px;
-}
+
 
 .lista {
     list-style-type: none;
@@ -26,7 +24,7 @@
 
 /* ESTILOS DE LA NAVBAR */
   
-/*.navbar {
+.navbar {
     background-color: #85E6C5 !important;
     font-family: 'Acme', sans-serif;
     font-size: 25px;
@@ -36,7 +34,7 @@
   
   .navbar-nav {
     margin: 0 auto; 
-    
+    align-items: center;
   }
   
   .navbar-nav.ml-auto {
@@ -101,6 +99,7 @@
   #menuDer{
     
     justify-content:end;
+    
   }
   
   #till{
@@ -129,12 +128,13 @@
       padding-top: 100px;
     }
     .imgLogo {
-      width: 70px;
-      height: 70px;
+      width: 60px;
+      height: auto;
     } 
-    #till {
-      display: none;
-    }*/
+    #till{
+      font-size: 23px;
+   }
+  }
 
 
   
