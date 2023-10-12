@@ -1,4 +1,4 @@
-const pokemonContainer = document.querySelector(".pokemon-container");
+//Constantes que dan información a los elementos de la DOM en HTML
 const division = document.querySelector(".list-group.list-group-flush");
 
 // Función para cargar productos desde el archivo JSON
@@ -17,7 +17,7 @@ function mostrarProducto(producto) {
   image.classList.add("card-img-top", "imagencss");
   image.alt = "...";
   image.src = producto.imagen;
-   image.style.width = "246px";
+   image.style.width = "240px";
    image.style.height = "150px";
 
   const number = document.createElement("li");
@@ -58,10 +58,3 @@ fetchProductos()
       mostrarProducto(productos[i]);
     }
   });
-
-// function createCard (pikachu){
-//     document.getElementById('name').textContent= "nombre: " + pikachu.name;
-//      document.getElementById('id').textContent= "numero de pokemon: " + pikachu.id;
-//      document.getElementById('weigh').textContent= "peso: " + pikachu.weight;
-//      document.getElementById('img').src= pikachu.sprites.front_shiny_female;
-//  } 
