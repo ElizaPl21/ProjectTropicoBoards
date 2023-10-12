@@ -121,5 +121,18 @@ body {
     margin: 20px;
   }
   
+  @media (max-width: 768px) {
+    .navbar {
+        font-size: 20px; /* Tamaño de fuente más pequeño para letras en la barra de navegación */
+    }
 
+    .navbar-toggler {
+        margin: 10px; /* Reduzca el margen del botón de hamburguesa */
+    }
+
+    #marcaTB {
+        font-size: 15px; /* Tamaño de fuente más pequeño para el texto del logotipo */
+        margin-left: 10px;
+    }
+}
   
