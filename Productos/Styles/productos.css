@@ -1,108 +1,11 @@
-/* ESTILOS DE LA NAVBAR */
-.navbar {
-  background-color: #85E6C5 !important;
-  font-family: 'Acme', sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.navbar-nav {
-  margin: 0 auto;
-  align-items: center;
-
-}
-
-.navbar-nav.ml-auto {
-  margin-right: 0;
-  font-family: 'Acme', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.navbar-productos {
-  position: fixed;
-  top: 0%;
-  background-color: #85E6C5;
-  height: 100px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  z-index: 20;
-}
-
-.logo-img {
-  width: 100px;
-  margin-right: 5px;
-
-}
-
-.imgLogo {
-
-  transition: 0.5s;
-  object-fit: cover;
-
-}
-
-.imgLogo:hover {
-  transform: scale(1.2);
-
-}
-
-#marcaTB {
-  display: flex;
-  font-size: 35px;
-  justify-content: center;
-  margin-left: 20px;
-
-}
-
-#letter {
-  color: white;
-
-}
-
-#letter:hover {
-  color: rgba(255, 155, 93, 0.954);
-}
-
-.collapse {
-  flex-grow: unset;
-}
-
-#menuDer {
-
-  justify-content: end;
-}
-
-#tiLL {
-  font-family: 'Rowdies', sans-serif;
-  font-size: 35px;
-}
-
-#pru {
-  color: black;
-}
-
-#pru:hover {
-  color: azure;
-}
-
-.navbar-toggler {
-  margin: 20px;
-}
-
-/*Cuerpo*/
 .encabezado {
   flex-direction: column;
-  height: 50px;
+  height: 350px;
   width: auto;
   justify-content: center;
   background-size: cover;
   position: static;
-  background-image: url(../Assets/Fondo.JPG);
+  background-image: url(../Assets/Fondo.png);
 }
 
 .titulo {
@@ -113,15 +16,43 @@
   padding-top: 120px;
 }
 
-body{
+.color_b{
   background-color: #85E6C5;
 }
 
 .card {
-  margin: 100px;
+  margin: 20px;
 }
 .list-group{
   display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
     grid-gap: 10px; 
+}
+
+@media (max-width:500px){
+  .list-group{
+    display: flex;
+    
+      
+  }
+
+.card-img-top {
+    
+    
+  overflow: hidden;
+}
+
+.imgencss{
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.imagencss:hover{
+  transform: scale(1.2);
+}}
+
+.sticky-element {
+  position: sticky;
+  z-index: 20;
+  top: 0; /* Ajusta el valor según tu diseño */
 }
