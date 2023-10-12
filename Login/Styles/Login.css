@@ -115,3 +115,50 @@
         margin-right: 5%;
     }
 }
+
+
+.nombre {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+#about {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+}
+
+.subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+}
+
+#contacto {
+    display: flex;
+
+}
+
+.info-contacto {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    padding-top: 20px;
+}
+
+.card-contact {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+
+}
+
+.icon-insta {
+    width: 35px;
+    height: 35px;
+
+}
+
+  
+
+     
+
