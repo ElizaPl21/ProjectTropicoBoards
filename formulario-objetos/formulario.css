@@ -1,6 +1,6 @@
 
 
-body {
+.body {
     background-color: #c8ffe0;
 }
 .subtitulo {
@@ -67,7 +67,6 @@ body {
   }
   
   .imgLogo{
-    
     transition: 0.5s;
     object-fit: cover;
     
@@ -104,8 +103,8 @@ body {
     justify-content:end;
   }
   
-  #tiLL{
-     font-family: 'Rowdies',sans-serif; 
+  #till{
+     font-family: 'Rowdies', sans-serif; 
      font-size: 35px;
   }
   
@@ -121,5 +120,22 @@ body {
     margin: 20px;
   }
   
+  @media (max-width:500px){
+    #letter{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    .form {
+      padding-top: 100px;
+    }
+    .imgLogo {
+      width: 70px;
+      height: 70px;
+    } 
+    #till {
+      display: none;
+    }
+    }
+
 
   
