@@ -37,7 +37,7 @@ let products = [
             "productName": "Rivera",
             "productPrice": 1900,
             "productDescription": "Color morado con diseño de mar",
-            "stockQuantity": 7,
+            "stockQuantity": 7
           },
           {
             "id":"Pat-006",
@@ -45,7 +45,7 @@ let products = [
             "productName": "Creative",
             "productPrice": 2600,
             "productDescription": "Color amarillo con diseño de amanecer",
-            "stockQuantity": 5,
+            "stockQuantity": 5
           },
           {
             "id":"Pat-007",
