@@ -1,3 +1,4 @@
+// estas constantes son los contenedores donde se dibuja todos los elementos de la DOM
 const pokemonContainer = document.querySelector(".pokemon-container");
 const division = document.querySelector(".list-group.list-group-flush");
 
