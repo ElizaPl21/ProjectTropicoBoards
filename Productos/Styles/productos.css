@@ -16,15 +16,43 @@
   padding-top: 120px;
 }
 
-body{
+.color_b{
   background-color: #85E6C5;
 }
 
 .card {
-  margin: 100px;
+  margin: 20px;
 }
 .list-group{
   display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
     grid-gap: 10px; 
+}
+
+@media (max-width:500px){
+  .list-group{
+    display: flex;
+    
+      
+  }
+
+.card-img-top {
+    
+    
+  overflow: hidden;
+}
+
+.imgencss{
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.imagencss:hover{
+  transform: scale(1.2);
+}}
+
+.sticky-element {
+  position: sticky;
+  z-index: 20;
+  top: 0; /* Ajusta el valor según tu diseño */
 }

@@ -3,6 +3,7 @@
   font-family: 'Acme', sans-serif;
   font-size: 25px;
   font-weight: 600;
+  text-align: center;
 }
 
 .navbar-nav {
@@ -82,3 +83,23 @@
   margin: 20px;
 }
 
+@media (max-width:500px){
+  .logo-img{
+    width: 60px;
+      height: auto;
+  }
+
+  #tiLL{
+    font-size: 23px;
+  }
+  .imgLogo:hover{
+    transform: scale(1.0);
+  }
+
+  .navbar{
+    padding: 0%;
+  }}
+
+  
+
+  
