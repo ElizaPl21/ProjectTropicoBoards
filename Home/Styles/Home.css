@@ -1,0 +1,116 @@
+body{
+    background-color: #C8FFE0;
+    height: 1000px;
+    padding-top: 120px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+}
+
+.navbar-LI {
+    position: fixed;
+    top: 0%;
+    height: 120px;
+    width: 100vw;
+    z-index: 20;
+}  
+
+/* ESTILOS CARRUSEL */
+
+.fotos-carrusel {
+    padding: 40px;
+
+}
+
+  /* ESTILOS TARJETAS PRODUCTOS */
+
+  .card-text {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+
+.container_cards {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+     
+  .tarjeta {
+    width: 300px;
+    margin: 10px;
+    transition: all, 300ms;
+}
+
+.tarjeta:hover {
+    width: 350px;
+    height: 300px;
+}
+
+.tarjeta .cover {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta .cover .image {
+    width: 250px;
+    display: block;
+    margin: auto;
+    top: 40px; 
+}
+
+.tarjeta:hover.cover .image {
+    top: 0px;
+}
+
+.tarjeta .description {
+    background-color: aliceblue;
+    margin-top: -10px;
+    padding: 20px;
+}
+
+.tarjeta .description h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nombre h1 {
+    text-align: center;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+.nombre {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+}
+
+#about {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+}
+
+.subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+}
+
