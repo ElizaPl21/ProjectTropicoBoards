@@ -43,8 +43,8 @@
 }
 
 .imgencss{
-  width: 100%; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
-  height: auto; /* Esto conservará la proporción original de la imagen */
+  width: 100px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
+  height: 350px; /* Esto conservará la proporción original de la imagen */
   max-width: 246px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
   max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
   transition: 0.5s;

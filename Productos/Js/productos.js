@@ -17,8 +17,8 @@ function mostrarProducto(producto) {
   image.classList.add("card-img-top", "imagencss");
   image.alt = "...";
   image.src = producto.imagen;
-   image.style.width = "240px";
-   image.style.height = "150px";
+  //image.style.width = "240px";
+  //image.style.height = "150px";
 
   const number = document.createElement("li");
   number.classList.add("list-group-item");
