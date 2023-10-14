@@ -1,4 +1,4 @@
-.encabezado {
+.encabezado-prod {
   flex-direction: column;
   height: 350px;
   width: auto;
@@ -8,7 +8,7 @@
   background-image: url(../Assets/Fondo.png);
 }
 
-.titulo {
+.titulo-prod {
   font-size: 35px;
   font-family: 'Rowdies', sans-serif;
   text-align: center;
@@ -31,25 +31,22 @@
 
 @media (max-width:500px){
   .list-group{
-    display: flex;
-    
+    display: flex;  
       
   }
 
-.card-img-top {
-    
-    
-  overflow: hidden;
-}
+/*.card-img-top {    
+overflow: hidden;
+}*/
 
 .imgencss{
-  width: 100px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
-  height: 350px; /* Esto conservará la proporción original de la imagen */
-  max-width: 246px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  transition: 0.5s;
+  width: 250px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
+  height: 250px; /* Esto conservará la proporción original de la imagen */
+  transition: 0.10s;
   object-fit: cover;
 }
+  /*max-width: 345Spx; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
+  /*max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
 
 .imagencss:hover{
   transform: scale(1.2);
