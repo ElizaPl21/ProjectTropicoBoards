@@ -26,8 +26,12 @@
 
 .list-group{
   display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
-    grid-gap: 10px; 
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
+  grid-gap: 10px; 
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+
 }
 
 @media (max-width:500px){
@@ -54,4 +58,38 @@ display: block;
   position: sticky;
   z-index: 20;
   top: 0; /* Ajusta el valor según tu diseño */
+}
+
+.container-xll{
+  background-color: white;
+
+}
+
+.card-text {
+  font-family: 'Acme', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
+.subtitulo {
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  padding: 40px;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+}
+
+.info-contacto {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  padding-top: 20px;
+}
+
+
+.icon-insta {
+  width: 35px;
+  height: 35px;
+
 }
