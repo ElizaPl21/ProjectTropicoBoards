@@ -16,13 +16,14 @@
   padding-top: 120px;
 }
 
-.color_b{
+.product{
   background-color: #85E6C5;
 }
 
 .card {
-  margin: 20px;
+  margin: 10px;
 }
+
 .list-group{
   display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
@@ -34,23 +35,29 @@
     display: flex;  
       
   }
-
-/*.card-img-top {    
-overflow: hidden;
-}*/
-
-.imgencss{
-  width: 250px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
-  height: 250px; /* Esto conservará la proporción original de la imagen */
-  transition: 0.10s;
-  object-fit: cover;
 }
-  /*max-width: 345Spx; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  /*max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
 
-.imagencss:hover{
+.card-img-top {    
+overflow: hidden;
+width: auto;
+height: 475px;
+text-align: center;
+transition: transform 0.2s ease;
+display: block;
+}
+
+.card-img-top:hover {
   transform: scale(1.2);
-}}
+}
+
+/*.imgencss{
+  width: 250px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
+  /*height: 250px; /* Esto conservará la proporción original de la imagen */
+  /*transition: 0.10s;
+  object-fit: cover;
+  max-width: 345Spx; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
+  /*max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
+/*}*/
 
 .sticky-element {
   position: sticky;

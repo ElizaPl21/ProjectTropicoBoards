@@ -12,6 +12,7 @@ const fetchProductos= async() => {
   }
 }
 
+
 // Función para mostrar un producto en la DOM-Creando tarjeta
 function mostrarProducto(producto) {
   const card = document.createElement("div");
@@ -20,7 +21,7 @@ function mostrarProducto(producto) {
 
  //Obteniendo imagen
   const image = document.createElement("img");
-  image.classList.add("card-img-top", "imagencss");
+  image.classList.add("card-img-top");
   image.alt = "...";
   image.src = producto.imagen;
  
