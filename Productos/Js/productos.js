@@ -49,7 +49,6 @@ function mostrarProducto(producto) {
   const stock = document.createElement("li");
   stock.classList.add("list-group-item");
   stock.textContent = `En stock: ${producto.stockQuantity}`;
-  
 
   card.appendChild(image);
   card.appendChild(number);

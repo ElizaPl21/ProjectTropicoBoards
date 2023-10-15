@@ -50,15 +50,6 @@ display: block;
   transform: scale(1.2);
 }
 
-/*.imgencss{
-  width: 250px; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
-  /*height: 250px; /* Esto conservará la proporción original de la imagen */
-  /*transition: 0.10s;
-  object-fit: cover;
-  max-width: 345Spx; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  /*max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-/*}*/
-
 .sticky-element {
   position: sticky;
   z-index: 20;
