@@ -1,0 +1,167 @@
+.nav-producto {
+        position: sticky;
+        z-index: 20;
+        top: 0; /* Ajusta el valor según tu diseño */
+      }
+
+
+.producto{
+    background-color: #e585a6;
+    display: block;
+    height: 600px;
+   min-width: 100%;
+    
+}
+
+.principal{
+    display: flex;
+    background-color: #f5fdfc;
+    margin: 5%;
+    place-items: center;
+}
+
+.img-producto {
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    width: auto;
+}
+
+.descripción {
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px;
+    margin:30px;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    flex:1
+}
+
+.categoria-prod{
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.titulo{
+    font-family: "Acme", sans-serif;
+    font-size: 35px;
+}
+
+.subtitulo{
+    font-family: "Acme", sans-serif;
+    font-size: 25px;
+}
+
+.btn-producto{
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    
+}
+
+.container-reseñas {
+    display: flex;
+    background-color: white;
+    margin-bottom: 30px;
+    margin: 30px;
+}
+ /*Estilos CONTACTO*/
+.container-xll{
+    background-color: white;
+  
+  }
+  
+  .card-text {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+  }
+  
+  .subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .info-contacto, .icono {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .icon-insta {
+    width: 35px;
+    height: 35px; 
+  }
+
+  .icono {
+    padding-top: 30px;
+  }
+
+  .boton {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cuadro {
+    display: flex;
+    width:auto;
+    height: 200px;
+    margin-left: 30px;
+  }
+
+  
+
+@media (max-width:1200px){
+    .principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-reseñas {
+        display: flex;
+    }
+    .info-contacto {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+    }
+     .mini-container {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+     }
+    
+}
+@media (max-width:650px){
+   .principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .producto{
+        width: 200px;
+        height: 330px;
+    }
+
+    .descripción{
+        width: 280px;
+        height: 220px;
+    }
+
+    .btn-producto{
+        width: 3px;
+        padding-bottom: 40px;
+        margin-left: 200px;
+    }
+    
+}
+

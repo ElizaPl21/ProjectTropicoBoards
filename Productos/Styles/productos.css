@@ -1,0 +1,109 @@
+.encabezado-prod {
+  flex-direction: column;
+  height: 350px;
+  width: auto;
+  justify-content: center;
+  background-size: cover;
+  position: static;
+  background-image: url(../Assets/Fondo.png);
+}
+
+.titulo-prod {
+  font-size: 35px;
+  font-family: 'Rowdies', sans-serif;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  padding-top: 120px;
+}
+
+.product{
+  background-color: #85E6C5;
+}
+
+.card {
+  margin: 25px;
+}
+
+.list-group{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
+  grid-gap: 10px; 
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+
+}
+
+@media (max-width:700px){
+  .list-group{
+    display: flex;  
+      
+  }
+}
+
+.card-img-top {    
+overflow: hidden;
+width: auto;
+height: 475px;
+text-align: center;
+transition: transform 0.2s ease;
+display: block;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.sticky-element {
+  position: sticky;
+  z-index: 20;
+  top: 0; /* Ajusta el valor según tu diseño */
+}
+
+/*Estilos CONTACTO*/
+.container-xll{
+  background-color: white;
+
+}
+
+.card-text {
+  font-family: 'Acme', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
+.subtitulo {
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.info-contacto, .icono {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  padding-top: 20px;
+}
+
+.icon-insta {
+  width: 35px;
+  height: 35px; 
+}
+
+.icono {
+  padding-top: 30px;
+}
+
+@media (max-width:675px){
+  .info-contacto {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+}
+ .mini-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+ }
+}

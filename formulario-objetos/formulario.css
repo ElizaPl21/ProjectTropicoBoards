@@ -1,6 +1,6 @@
 
 
-body {
+.body {
     background-color: #c8ffe0;
 }
 .subtitulo {
@@ -13,9 +13,7 @@ body {
     font-size: 18px;
 }
 
-.form {
-    padding-top: 120px;
-}
+
 
 .lista {
     list-style-type: none;
@@ -36,7 +34,7 @@ body {
   
   .navbar-nav {
     margin: 0 auto; 
-    
+    align-items: center;
   }
   
   .navbar-nav.ml-auto {
@@ -67,7 +65,6 @@ body {
   }
   
   .imgLogo{
-    
     transition: 0.5s;
     object-fit: cover;
     
@@ -102,10 +99,11 @@ body {
   #menuDer{
     
     justify-content:end;
+    
   }
   
-  #tiLL{
-     font-family: 'Rowdies',sans-serif; 
+  #till{
+     font-family: 'Rowdies', sans-serif; 
      font-size: 35px;
   }
   
@@ -121,10 +119,23 @@ body {
     margin: 20px;
   }
   
-  @media (max-width: 768px) {
-    .navbar {
-        font-size: 20px; /* Tamaño de fuente más pequeño para letras en la barra de navegación */
+  @media (max-width:500px){
+    #letter{
+        padding-top: 60px;
+        font-size: 20px;
     }
+    .form {
+      padding-top: 100px;
+    }
+    .imgLogo {
+      width: 60px;
+      height: auto;
+    } 
+    #till{
+      font-size: 23px;
+   }
+  }
+
 
     .navbar-toggler {
         margin: 10px; /* Reduzca el margen del botón de hamburguesa */
