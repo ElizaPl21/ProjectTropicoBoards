@@ -50,12 +50,23 @@ function mostrarProducto(producto) {
   stock.classList.add("list-group-item");
   stock.textContent = `En stock: ${producto.stockQuantity}`;
 
+ //boton
+const button = document.createElement("button");
+button.classList.add("btn", "btn-primary");
+button.type = "button";
+//button.classList.add("btn btn-primary")
+button.innerText = "Agregar al carrito"; 
+
+// Agregar una clase al botón
+
+
   card.appendChild(image);
   card.appendChild(number);
   card.appendChild(name);
   card.appendChild(price);
   card.appendChild(description);
   card.appendChild(stock);
+  card.appendChild(button);
 
   division.appendChild(card);
 }

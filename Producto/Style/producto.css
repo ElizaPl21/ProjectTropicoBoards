@@ -6,7 +6,7 @@
 
 
 .producto{
-    background-color: #C8FFE0;
+    background-color: #e585a6;
     display: block;
     height: 600px;
    min-width: 100%;
@@ -15,7 +15,7 @@
 
 .principal{
     display: flex;
-    background-color: #C8FFE0;;
+    background-color: #f5fdfc;
     margin: 5%;
     place-items: center;
 }
@@ -87,8 +87,6 @@
     font-family: 'Acme', sans-serif;
     text-align: center;
     padding: 40px;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
   }
   
   .info-contacto, .icono {
@@ -107,8 +105,6 @@
     padding-top: 30px;
   }
 
- 
-
   .boton {
     display: flex;
     justify-content: right;
@@ -118,7 +114,7 @@
 
   .cuadro {
     display: flex;
-    width:1300px;
+    width:auto;
     height: 200px;
     margin-left: 30px;
   }

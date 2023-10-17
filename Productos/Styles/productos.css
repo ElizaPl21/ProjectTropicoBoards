@@ -34,7 +34,7 @@
 
 }
 
-@media (max-width:500px){
+@media (max-width:700px){
   .list-group{
     display: flex;  
       
@@ -60,6 +60,7 @@ display: block;
   top: 0; /* Ajusta el valor según tu diseño */
 }
 
+/*Estilos CONTACTO*/
 .container-xll{
   background-color: white;
 
@@ -76,20 +77,33 @@ display: block;
   font-family: 'Acme', sans-serif;
   text-align: center;
   padding: 40px;
-  font-family: 'Acme', sans-serif;
-  font-size: 25px;
 }
 
-.info-contacto {
-  justify-content: space-between;
+.info-contacto, .icono {
+  justify-content: center;
   flex-direction: row;
   display: flex;
   padding-top: 20px;
 }
 
-
 .icon-insta {
   width: 35px;
-  height: 35px;
+  height: 35px; 
+}
 
+.icono {
+  padding-top: 30px;
+}
+
+@media (max-width:675px){
+  .info-contacto {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+}
+ .mini-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+ }
 }
