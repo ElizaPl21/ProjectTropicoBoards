@@ -60,6 +60,9 @@ display: block;
   top: 0; /* Ajusta el valor según tu diseño */
 }
 
+.btn{
+  background-color: bisque;
+}
 /*Estilos CONTACTO*/
 .container-xll{
   background-color: white;
