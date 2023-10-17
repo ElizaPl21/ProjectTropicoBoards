@@ -15,7 +15,7 @@ function mostrarProducto(producto) {
   card.classList.add("card");
 
   const image = document.createElement("img");
-  image.classList.add("card-img-top", "imagencss");
+  image.classList.add("card-img-top", "imagencss", "imagen-item");
   image.alt = "...";
   image.src = producto.imagen;
    image.style.width = "246px";
@@ -26,11 +26,11 @@ function mostrarProducto(producto) {
   number.textContent = `ID: ${producto.id}`;
 
   const name = document.createElement("li");
-  name.classList.add("list-group-item");
+  name.classList.add("list-group-item", "titulo-item");
   name.textContent = `Nombre: ${producto.productName}`;
 
   const price = document.createElement("li");
-  price.classList.add("list-group-item");
+  price.classList.add("list-group-item", "precio-item");
   price.textContent = `Precio: $${producto.productPrice}`;
 
   const description = document.createElement("li");
@@ -40,6 +40,12 @@ function mostrarProducto(producto) {
   const stock = document.createElement("li");
   stock.classList.add("list-group-item");
   stock.textContent = `En stock: ${producto.stockQuantity}`;
+
+  const button = document.createElement("button");
+  button.classList.add("list-group-item","boton-item");
+  button.textContent = "Comprar";
+  
+
   
 
   card.appendChild(image);
@@ -48,6 +54,7 @@ function mostrarProducto(producto) {
   card.appendChild(price);
   card.appendChild(description);
   card.appendChild(stock);
+  card.appendChild(button);
 
   division.appendChild(card);
 }

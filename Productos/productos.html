@@ -20,10 +20,12 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./Styles/styles_nav.css">
   <link rel="stylesheet" href="./Styles/productos.css">
+  <link rel="stylesheet" href="./Styles/carrito.css">
   </link>
 
   <!--Link JavaScript-->
   <script async defer src="./Js/productos.js"></script>
+  
   
 
 </head>
@@ -128,11 +130,65 @@
     </div>
   </section>
 
+  <section>
+   <!-- Carrito de Compras -->
+   <div class="carrito" id="carrito">
+    <div class="header-carrito">
+        <h2>Tu Carrito</h2>
+    </div>
+
+    <div class="carrito-items">
+        <!-- 
+        <div class="carrito-item">
+            <img src="img/boxengasse.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Box Engasse</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$15.000,00</span>
+            </div>
+           <span class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </span>
+        </div>
+        <div class="carrito-item">
+            <img src="img/skinglam.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Skin Glam</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$18.000,00</span>
+            </div>
+           <button class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </button>
+        </div>
+         -->
+    </div>
+    <div class="carrito-total">
+        <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total">
+                $120.000,00
+            </span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+    </div>
+</div>
+  </section>
+
   <div class="container row">
     <button id="atras-btn" class="btn primary">Atras</button>
     <button id="siguiente" class="btn primary">Siguiente</button>
   </div>
-
+<script src="./Js/carrito_compras.js" async></script>
 </body>
 
 </html>
+
