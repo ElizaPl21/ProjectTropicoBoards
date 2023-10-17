@@ -79,7 +79,14 @@
 
 .boton {
   display: flex;
-  justify-content: rigth;
+  justify-content: end;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: rgb(164, 77, 245);
+  border-color: rgb(164, 77, 245);
 }
  /*Estilos CONTACTO*/
 .container-xll{
@@ -166,5 +173,6 @@
         margin-left: 200px;
     }
     
+  
 }
 
