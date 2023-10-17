@@ -137,4 +137,13 @@
   }
 
 
+    .navbar-toggler {
+        margin: 10px; /* Reduzca el margen del botón de hamburguesa */
+    }
+
+    #marcaTB {
+        font-size: 15px; /* Tamaño de fuente más pequeño para el texto del logotipo */
+        margin-left: 10px;
+    }
+}
   
