@@ -6,16 +6,16 @@
 
 
 .producto{
-    background-color: #e585a6;
+    background-color: #C8FFE0;
     display: block;
     height: 600px;
-   min-width: 100%;
+    min-width: 100%;
     
 }
 
 .principal{
     display: flex;
-    background-color: #f5fdfc;
+    background-color: white;
     margin: 5%;
     place-items: center;
 }
@@ -57,18 +57,29 @@
     font-size: 25px;
 }
 
-.btn-producto{
+.btn-producto {
     display: flex;
     justify-content: right;
-    padding-right: 30px;
-    
+    padding-right: 30px;  
 }
 
 .container-reseñas {
-    display: flex;
     background-color: white;
     margin-bottom: 30px;
     margin: 30px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.form-group {
+  margin : 55px;
+  max-width: 100%;
+  
+}
+
+.boton {
+  display: flex;
+  justify-content: rigth;
 }
  /*Estilos CONTACTO*/
 .container-xll{
@@ -86,14 +97,14 @@
     font-size: 25px;
     font-family: 'Acme', sans-serif;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
   }
   
   .info-contacto, .icono {
     justify-content: center;
     flex-direction: row;
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   .icon-insta {
@@ -105,20 +116,6 @@
     padding-top: 30px;
   }
 
-  .boton {
-    display: flex;
-    justify-content: right;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .cuadro {
-    display: flex;
-    width:auto;
-    height: 200px;
-    margin-left: 30px;
-  }
-
   
 
 @media (max-width:1200px){
@@ -126,20 +123,26 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .container-reseñas {
-        display: flex;
-    }
+    
     .info-contacto {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         justify-content: center;
     }
+    
      .mini-container {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         justify-content: center;
      }
     
+     .boton {
+      margin-right: 20px;
+     }
+
+     .btn-producto {
+      margin-bottom: 20px;
+     }
 }
 @media (max-width:650px){
    .principal{
