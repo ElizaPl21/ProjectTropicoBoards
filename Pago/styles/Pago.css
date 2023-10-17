@@ -52,12 +52,14 @@
 
 
 .containerContactoPago {
-    justify-content: space-evenly;
-    flex-direction: row;
     display: flex;
-    padding-top: 20px;
-    margin: auto;
-    height: 120px;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .contactoPago{
@@ -66,10 +68,11 @@
 
 }
 
-.icon-insta {
-    width: 35px;
+.iconosPago {
     height: 35px;
-    margin-left: 20px;
+    width: auto;
+
+   
 }
 
 @media (max-width:800px){
@@ -78,8 +81,21 @@
         flex-direction: column;
     }
     .detallesPago, .resumenPago{
-
         height: auto;
     }
+    .containerContactoPago{
+        height: auto;
+        align-self: center;
+ 
+       
+    }
+    .iconosPago {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoPago{
+        display: none;
+    }
+
 }
 
