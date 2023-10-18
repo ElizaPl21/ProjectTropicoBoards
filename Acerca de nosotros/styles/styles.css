@@ -241,3 +241,43 @@ h1 {
   }
 
   
+.containerContactoAcercaDe {
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.contactoAcercaDe{
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.iconosContactoAcercaDe {
+  height: 35px;
+  width: auto;
+}
+
+@media (max-width:800px){
+  .containerContactoAcercaDe{
+      height: auto;
+      align-self: center;
+  }
+  .iconosContactoAcercaDe {
+      height:  50px;
+      margin: 15px;
+  }
+  .textoContactoAcercaDe{
+      display: none;
+  }
+
+}
+
+
+
+  
