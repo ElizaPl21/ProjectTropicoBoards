@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+
+    <!-- Links fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cabin&family=Rowdies:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- Links Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--Link JavaScript-->
+    <script async defer src="./JS/producto.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./Style/styles_nav.css">
+    <link rel="stylesheet" href="./Style/producto.css">
+
+    <!-- Links iconos -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+
+</head>
+
+<body class="bodyProducto">
+
+    <header class="nav-producto">
+        <nav class="navbar navbar-expand-xl bg-body-tertiary">
+            <a class="navbar-brand" id="marcaTB" href="#"> <img class="logo-img imgLogo"
+                    src="../nav_bar/assets/logo.png" alt="Logo de TropicoBoards"></a>
+            <h2 id="tiLL">TropicoBoards</h2>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid" id="menuDer">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
+                        </li>
+                        <!--<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Noticias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Eventos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Dealers</a></li>
+                            </ul>
+                        </li>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                id="pru" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Patinetas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Mercancias</a></li>
+                            </ul>
+                        </li>
+                        <!--<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Explorar
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Galeria de fotos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Testimonios</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Videos</a></li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="categoria-prod">
+        <h1 class="titulo">Patinetas</h1>
+    </div>
+
+    <div class="principal">
+        <div class="img-producto">
+            <img class="producto" src="../Productos/Assets/patinetas/Pat001.jpg">
+        </div>
+
+        <div class="containerDescripcion">
+            <div class="descripción">
+                <h1 class="subtitulo">Descripción</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti odit provident nisi odio
+                    dolores pariatur sed esse quam. Totam velit soluta fuga autem, in molestias assumenda nobis vel quos
+                    nulla dolorem sed amet enim nihil pariatur distinctio tenetur. Ad modi aliquam nisi maxime in
+                    eveniet reiciendis at numquam architecto.</p>
+            </div>
+            <div class="btn-producto">
+                <button type="button" class="btn btn-primary btn-comentarios">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-reseñas">
+
+        <h2 class="subtitulo">Reseñas y Comentarios</h2>
+
+        <form>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Ingresa comentario"></textarea>
+            </div>
+
+            <div class="boton">
+                <button type="button" class="btn btn-primary btn-comentarios"><span
+                        class="enviar">Enviar</span></button>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <!-- <div class="card text-center mb-3 mx-auto"> -->
+        <div class="containerContactoLI">
+
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"> <a href="#" target="_blank">
+                        <img class="iconosContactoLI" src="/Productos/Assets/Location.png" alt="Icono ubicacion">
+                    </a> <span class="textoContactoLI">Dirección: <br>Un lugar en Veracruz</p></span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"><a href="#" target="_blank">
+                        <img class="iconosContactoLI" src="/Productos/Assets/icono-telefono.png" alt="Icono telefono">
+                    </a> <span class="textoContactoLI">Teléfono: <br>(999)9-99-99-99</p></span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"> <a href="#" target="_blank">
+                        <img class="iconosContactoLI" src="/Productos/Assets/email.png" alt="Icono correo">
+                    </a><span class="textoContactoLI">Email: <br>correodela@empresa.com</p> </span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+                <a href="https://www.instagram.com/tropico_boards/" target="_blank">
+                    <img class="iconosContactoLI" src="/Productos/Assets/insta.png" alt="Logo instagram">
+                </a>
+                <span class="textoContactoLI descripcion">Instagram</span>
+            </h3>
+        </div>
+    <!-- </div> -->
+
+
+
+</body>
+
+</html>

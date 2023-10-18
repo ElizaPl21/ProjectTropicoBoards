@@ -1,0 +1,160 @@
+.nav-producto {
+    position: sticky;
+    z-index: 20;
+    top: 0; /* Ajusta el valor según tu diseño */
+}
+/* El body tenia un alto de 600px, el body solo debe tener altura si es necesario para probar scrolll o alguna otra feature */
+.bodyProducto{
+    background-color: #C8FFE0;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.img-producto {
+    background-color: white;
+    margin: 5%;
+    min-width: auto;
+    max-width: 500px;
+    align-self: center;
+}
+
+.descripción {
+    background-color: white;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    margin:30px;
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 350px;
+    text-align: center;
+}
+
+.categoria-prod{
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.titulo{
+    font-family: "Acme", sans-serif;
+    font-size: 35px;
+}
+
+.subtitulo{
+    font-family: "Acme", sans-serif;
+    font-size: 25px;
+}
+
+.btn-producto {
+    display: flex;
+    justify-content: right;
+    margin-right: 40px; 
+    margin-bottom: 20px;
+}
+
+.container-reseñas {
+    background-color: white;
+    margin: 5%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.form-group {
+  margin : 55px;
+  max-width: 100%;
+  
+}
+
+.boton {
+  display: flex;
+  justify-content: end;
+  padding-right: 7%;
+  padding-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: rgb(164, 77, 245);
+  border-color: rgb(164, 77, 245);
+}
+
+  
+  .card-text {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+  }
+  
+  .subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  
+  .producto{
+    width: 100%;
+  }
+/* Estilos del footer contacto */
+.containerContactoLI {
+    display: flex;
+    padding: 10px;
+    margin: 5%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .contactoLI{
+    padding-left: 1%;
+    padding-right: 1%;
+  
+  }
+  
+  .iconosContactoLI {
+    height: 35px;
+    width: auto;
+  }
+  .descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+  
+  @media (max-width:800px){
+    .containerContactoLI{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoLI {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoLI{
+        display: none;
+    }
+  
+  }
+
+  @media (max-width:600px){
+    .principal{
+        flex-direction: column;
+    }
+  }
+  
+ 
