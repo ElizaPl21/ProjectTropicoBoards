@@ -2,11 +2,11 @@
 var carritoVisible = false;
 
 //Espermos que todos los elementos de la pàgina cargen para ejecutar el script
-if(document.readyState == 'loading'){
-    document.addEventListener('DOMContentLoaded', ready)
-}else{
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready);
+  } else {
     ready();
-}
+  }
 
 function ready(){
     //Agregremos funcionalidad a los botones eliminar del carrito

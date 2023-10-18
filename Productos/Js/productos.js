@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 // estas constantes son los contenedores donde se dibuja todos los elementos de la DOM
 const pokemonContainer = document.querySelector(".pokemon-container");
 const division = document.querySelector(".list-group.list-group-flush");
@@ -65,6 +66,13 @@ fetchProductos()
     for (let i = 0; i < 10 && i < productos.length; i++) {
       mostrarProducto(productos[i]);
     }
+
+
+    //cargar el archivo "carrito_compras.js" después de que se haya cargado la DOM de "productos"
+      const scriptCarrito = document.createElement('script');
+      scriptCarrito.src = 'carrito_compras.js'; // Ruta al archivo "carrito_compras.js"
+      document.body.appendChild(scriptCarrito);
+    });
   });
 
 // function createCard (pikachu){
