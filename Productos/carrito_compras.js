@@ -9,7 +9,6 @@ if(document.readyState == 'loading'){
 }
 
 function ready(){
-    
     //Agregremos funcionalidad a los botones eliminar del carrito
     var botonesEliminarItem = document.getElementsByClassName('btn-eliminar');
     for(var i=0;i<botonesEliminarItem.length; i++){
@@ -36,6 +35,7 @@ function ready(){
     for(var i=0; i<botonesAgregarAlCarrito.length;i++){
         var button = botonesAgregarAlCarrito[i];
         button.addEventListener('click', agregarAlCarritoClicked);
+        
     }
 
     //Agregamos funcionalidad al botón comprar
@@ -58,8 +58,16 @@ function agregarAlCarritoClicked(event){
     var item = button.parentElement;
     var titulo = item.getElementsByClassName('titulo-item')[0].innerText;
     var precio = item.getElementsByClassName('precio-item')[0].innerText;
-    var imagenSrc = item.getElementsByClassName('img-item')[0].src;
-    console.log(imagenSrc);
+    var imgElements = item.getElementsByClassName('imagencss');
+if (imgElements.length > 0) {
+  var imagenSrc = imgElements[0].src;
+  console.log(imagenSrc);
+} else {
+  console.log("No se encontró ningún elemento con la clase 'img-item'.");
+}
+
+//Este código verifica si hay elementos con la clase "img-item" en item antes de intentar acceder a la propiedad src. Si no se encuentra ningún elemento, muestra un mensaje en la consola indicando que no se encontró ningún elemento con esa clase.
+
 
     agregarItemAlCarrito(titulo, precio, imagenSrc);
 
@@ -173,25 +181,45 @@ function ocultarCarrito(){
         items.style.width = '100%';
     }
 }
-//Actualizamos el total de Carrito
-function actualizarTotalCarrito(){
-    //seleccionamos el contenedor carrito
+function actualizarTotalCarrito() {
+    // Seleccionamos el contenedor del carrito
     var carritoContenedor = document.getElementsByClassName('carrito')[0];
     var carritoItems = carritoContenedor.getElementsByClassName('carrito-item');
     var total = 0;
-    //recorremos cada elemento del carrito para actualizar el total
-    for(var i=0; i< carritoItems.length;i++){
-        var item = carritoItems[i];
-        var precioElemento = item.getElementsByClassName('carrito-item-precio')[0];
-        //quitamos el simobolo peso y el punto de milesimos.
-        var precio = parseFloat(precioElemento.innerText.replace('$','').replace('.',''));
-        var cantidadItem = item.getElementsByClassName('carrito-item-cantidad')[0];
-        console.log(precio);
-        var cantidad = cantidadItem.value;
-        total = total + (precio * cantidad);
+    
+    for (var i = 0; i < carritoItems.length; i++) {
+      var item = carritoItems[i];
+      var precioElemento = item.getElementsByClassName('carrito-item-precio')[0];
+      
+      // Obtenemos el precio como una cadena
+      var precioTexto = precioElemento.innerText;
+      
+      // Eliminamos el símbolo "$" y el punto de milesimos
+      var precioLimpio = precioTexto.replace('$', '').replace('.', '');
+      
+      // Convertimos el precio a número
+      var precio = parseFloat(precioLimpio);
+      
+      var cantidadItem = item.getElementsByClassName('carrito-item-cantidad')[0];
+      var cantidad = cantidadItem.value;
+      
+      // Agrega console.log para depurar
+      console.log(precio);
+      console.log(cantidad);
+      
+      total = total + (precio * cantidad);
     }
-    total = Math.round(total * 100)/100;
-
-    document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
-
-}
+    
+    // Verifica si total es un número válido
+    console.log(total);
+    total = Math.round(total * 100) / 100;
+    
+    if (!isNaN(total)) {
+      document.getElementsByClassName('carrito-precio-total')[0].innerText = '$' + total.toLocaleString("es") + ",00";
+    } else {
+      // Si total no es un número válido, proporciona un mensaje de error en la consola
+      console.log("Error: Total no válido");
+      console.log()
+      document.getElementsByClassName('carrito-precio-total')[0].innerText = 'Valor no válido';
+    }
+  }

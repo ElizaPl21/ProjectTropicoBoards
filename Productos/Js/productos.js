@@ -15,7 +15,7 @@ function mostrarProducto(producto) {
   card.classList.add("card");
 
   const image = document.createElement("img");
-  image.classList.add("card-img-top", "imagencss", "imagen-item");
+  image.classList.add("card-img-top", "imagencss");
   image.alt = "...";
   image.src = producto.imagen;
    image.style.width = "246px";
@@ -29,9 +29,9 @@ function mostrarProducto(producto) {
   name.classList.add("list-group-item", "titulo-item");
   name.textContent = `Nombre: ${producto.productName}`;
 
-  const price = document.createElement("li");
+  const price = document.createElement("span");
   price.classList.add("list-group-item", "precio-item");
-  price.textContent = `Precio: $${producto.productPrice}`;
+  price.textContent = `${producto.productPrice}`;
 
   const description = document.createElement("li");
   description.classList.add("list-group-item");
@@ -42,7 +42,7 @@ function mostrarProducto(producto) {
   stock.textContent = `En stock: ${producto.stockQuantity}`;
 
   const button = document.createElement("button");
-  button.classList.add("list-group-item","boton-item");
+  button.classList.add("boton-item");
   button.textContent = "Comprar";
   
 
