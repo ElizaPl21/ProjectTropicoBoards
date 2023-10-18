@@ -89,60 +89,45 @@
   border-color: rgb(164, 77, 245);
 }
  /*Estilos CONTACTO*/
-.container-xll{
-    background-color: white;
-  
+ .containerContactoLI {
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.contactoLI{
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.iconosContactoLI {
+  height: 35px;
+  width: auto;
+}
+
+@media (max-width:800px){
+  .containerContactoLI{
+      height: auto;
+      align-self: center;
   }
-  
-  .card-text {
-    font-family: 'Acme', sans-serif;
-    font-family: 'Cabin', sans-serif;
-    font-size: 18px;
+  .iconosContactoLI {
+      height:  50px;
+      margin: 15px;
   }
-  
-  .subtitulo {
-    font-size: 25px;
-    font-family: 'Acme', sans-serif;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .info-contacto, .icono {
-    justify-content: center;
-    flex-direction: row;
-    display: flex;
-    padding-top: 10px;
-  }
-  
-  .icon-insta {
-    width: 35px;
-    height: 35px; 
+  .textoContactoLI{
+      display: none;
   }
 
-  .icono {
-    padding-top: 30px;
-  }
-
+}
   
 
-@media (max-width:1200px){
-    .principal{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .info-contacto {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        justify-content: center;
-    }
-    
-     .mini-container {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        justify-content: center;
-     }
-    
+@media (max-width:1200px){   
      .boton {
       margin-right: 20px;
      }
@@ -172,7 +157,5 @@
         padding-bottom: 40px;
         margin-left: 200px;
     }
-    
-  
 }
 
