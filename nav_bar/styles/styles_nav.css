@@ -1,6 +1,8 @@
 .navbar {
   background-color: #85E6C5 !important;
-
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .navbar-nav {
@@ -15,6 +17,50 @@
   align-items:center;
   
 }
+/* /Se agregó el container para evitar deformaciones al momento de hacer union con otras paginas/ */
+.logoContainerCu{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;;
+}
+
+.logo-img {
+  width: 100px; 
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.imgLogo{
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.imgLogo:hover{
+  transform: scale(1.2);
+}
+
+/*
+.marcaTB{
+  display: flex;
+   font-size: 35px;
+   justify-content: center;
+   margin-left: 20px;
+}
+*/
+#letter{
+  color: white;
+}
+
+#letter:hover{
+  color: rgba(255, 155, 93, 0.954);
+}
+
+.collapse{
+  
+  flex-grow: unset;
+}
+
+#menuDer{
   justify-content:end;
 
 }
@@ -24,3 +70,32 @@
    font-size: 35px;
 }
 
+#pru{
+  color: black;
+}
+
+#pru:hover{
+  color: azure;
+}
+
+.navbar-toggler{
+  margin-right: 25px;
+}
+
+@media (max-width:500px){
+  .logo-img{
+    width: 60px;
+    height: auto;
+  }
+
+  #tiLL{
+    font-size: 23px;
+  }
+  .imgLogo:hover{
+    transform: scale(1.1);
+  }
+
+  .navbar{
+    padding: 0%;
+  }
+}
