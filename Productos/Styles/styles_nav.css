@@ -3,11 +3,12 @@
   font-family: 'Acme', sans-serif;
   font-size: 25px;
   font-weight: 600;
+  text-align: center;
 }
 
 .navbar-nav {
-  margin: 0 auto;
-  align-items: center; 
+  margin: 0 auto; 
+  
 }
 
 .navbar-nav.ml-auto {
@@ -63,7 +64,6 @@
 
 #menuDer{
   justify-content:end;
-
 }
 
 #tiLL{
@@ -80,24 +80,26 @@
 }
 
 .navbar-toggler{
-  margin-right: 25px;
-justify-content: center;
+  margin: 20px;
 }
 
 @media (max-width:500px){
   .logo-img{
     width: 60px;
-    height: auto;
+      height: auto;
   }
 
   #tiLL{
     font-size: 23px;
   }
   .imgLogo:hover{
-    transform: scale(1.1);
+    transform: scale(1.0);
   }
 
   .navbar{
     padding: 0%;
-  }
-}
+  }}
+
+  
+
+  
