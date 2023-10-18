@@ -75,7 +75,6 @@
   margin : 55px;
   max-width: 100%;
   
-  
 }
 
 .boton {
@@ -89,7 +88,47 @@
   background-color: rgb(164, 77, 245);
   border-color: rgb(164, 77, 245);
 }
+
  /*Estilos CONTACTO*/
+ .containerContactoLI {
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .contactoLI{
+    padding-left: 1%;
+    padding-right: 1%;
+  
+  }
+  
+  .iconosContactoLI {
+    height: 35px;
+    width: auto;
+  }
+  
+  @media (max-width:800px){
+    .containerContactoLI{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoLI {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoLI{
+        display: none;
+    }
+  
+  }
+
+
+ /*SOn nuestros estilos*/
  .container-xll{
     background-color: white;
   
