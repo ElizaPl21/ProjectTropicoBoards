@@ -1,4 +1,4 @@
-.encabezado {
+.encabezado-prod {
   flex-direction: column;
   height: 350px;
   width: auto;
@@ -8,7 +8,7 @@
   background-image: url(../Assets/Fondo.png);
 }
 
-.titulo {
+.titulo-prod {
   font-size: 35px;
   font-family: 'Rowdies', sans-serif;
   text-align: center;
@@ -16,47 +16,92 @@
   padding-top: 120px;
 }
 
-.color_b{
-  background-color: #85E6C5;
+.product{
+  background-color: #C8FFE0;
 }
 
 .card {
-  margin: 20px;
+  margin: 25px;
 }
+
 .list-group{
   display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
-    grid-gap: 10px; 
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
+  grid-gap: 10px; 
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+
 }
 
-@media (max-width:500px){
+@media (max-width:700px){
   .list-group{
-    display: flex;
-    
+    display: flex;  
       
   }
-
-.card-img-top {
-    
-    
-  overflow: hidden;
 }
 
-.imgencss{
-  width: 100%; /* Opcional: Esto hará que la imagen se ajuste al ancho del contenedor card */
-  height: auto; /* Esto conservará la proporción original de la imagen */
-  max-width: 246px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  max-height: 150px; /* Tamaño fijo máximo (ajusta esto según tus necesidades) */
-  transition: 0.5s;
-  object-fit: cover;
+.card-img-top {    
+overflow: hidden;
+width: auto;
+height: 475px;
+text-align: center;
+transition: transform 0.2s ease;
+display: block;
 }
 
-.imagencss:hover{
+.card-img-top:hover {
   transform: scale(1.2);
-}}
+}
 
 .sticky-element {
   position: sticky;
   z-index: 20;
   top: 0; /* Ajusta el valor según tu diseño */
+}
+
+.btn{
+  background-color: #A66CFF;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: white;
+  border: solid #A66CFF;
+}
+
+/* Estilos del footer contacto */
+.containerContactoLI {
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.contactoLI{
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.iconosContactoLI {
+  height: 35px;
+  width: auto;
+}
+
+@media (max-width:800px){
+  .containerContactoLI{
+      height: auto;
+      align-self: center;
+  }
+  .iconosContactoLI {
+      height:  50px;
+      margin: 15px;
+  }
+  .textoContactoLI{
+      display: none;
+  }
+
 }

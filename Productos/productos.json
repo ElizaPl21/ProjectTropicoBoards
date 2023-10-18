@@ -1,10 +1,9 @@
-
   
   [  
    
      {
       "id":"Pat-001",
-        "imagen":"./Assets/patinetas/pat001.jpeg",
+        "imagen":"./Assets/patinetas/pat001.jpg",
         "productName": "Arrecife",
         "productPrice": "$1900",
         "productDescription": "Color rojo con diseño de cocos",
@@ -12,7 +11,7 @@
       },
       {
         "id":"Pat-002",
-        "imagen":"./Assets/patinetas/pat002.jpeg",
+        "imagen":"./Assets/patinetas/pat002.jpg",
         "productName": "Cocotera",
         "productPrice": "$1900",
         "productDescription": "Color azul con diseño de tortugas",
@@ -20,7 +19,7 @@
       },
       {
         "id":"Pat-003",
-        "imagen":"./Assets/patinetas/pat003.jpeg",
+        "imagen":"./Assets/patinetas/pat003.jpg",
         "productName": "Nativo",
         "productPrice": "$1900",
         "productDescription": "Color verde con diseño de delfines",
@@ -28,7 +27,7 @@
       },
       {
         "id":"Pat-004",
-        "imagen":"./Assets/patinetas/pat004.jpeg",
+        "imagen":"./Assets/patinetas/pat004.jpg",
         "productName": "Verdadera cruz",
         "productPrice": "$1900",
         "productDescription": "Color naranja con diseño de flores",
@@ -36,7 +35,7 @@
       },
       {
         "id":"Pat-005",
-        "imagen":"./Assets/patinetas/pat005.jpeg",
+        "imagen":"./Assets/patinetas/pat005.jpg",
         "productName": "Rivera",
         "productPrice": "$1900",
         "productDescription": "Color morado con diseño de mar",

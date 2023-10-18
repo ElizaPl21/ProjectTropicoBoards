@@ -81,7 +81,7 @@ function hacerVisibleCarrito(){
     carrito.style.marginRight = '0';
     carrito.style.opacity = '1';
 
-    var items =document.getElementsByClassName('pokemon-container')[0];
+    var items =document.getElementsByClassName('productos-container')[0];
     items.style.width = '60%';
 }
 
@@ -95,6 +95,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
     var nombresItemsCarrito = itemsCarrito.getElementsByClassName('carrito-item-titulo');
     for(var i=0;i < nombresItemsCarrito.length;i++){
         if(nombresItemsCarrito[i].innerText==titulo){
+            console.log(titulo);
             alert("El item ya se encuentra en el carrito");
             return;
         }
@@ -177,7 +178,7 @@ function ocultarCarrito(){
         carrito.style.opacity = '0';
         carritoVisible = false;
     
-        var items =document.getElementsByClassName('pokemon-container')[0];
+        var items =document.getElementsByClassName('productos-container')[0];
         items.style.width = '100%';
     }
 }
@@ -195,8 +196,14 @@ function actualizarTotalCarrito() {
       var precioTexto = precioElemento.innerText;
       
       // Eliminamos el símbolo "$" y el punto de milesimos
-      var precioLimpio = precioTexto.replace('$', '').replace('.', '');
       
+      var match = precioTexto.match(/\$([\d,]+)/); // Busca un patrón de "$" seguido de dígitos y comas
+        if (match) {
+        var precioLimpio = match[1].replace(',', ''); // Elimina las comas si las hay
+        } else {
+        console.log("No se encontró un precio en la cadena.");
+            }
+
       // Convertimos el precio a número
       var precio = parseFloat(precioLimpio);
       
