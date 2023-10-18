@@ -134,7 +134,7 @@
     font-size: 18px;
 }
 
-h1 {
+.subtitulo {
     text-align: center;
     padding: 40px;
     font-family: 'Acme', sans-serif;
@@ -186,12 +186,12 @@ h1 {
     padding: 20px;
 }
 
-.tarjeta .description h3 {
+.tarjeta .description {
     margin-top: 10px;
     font-size: 18px;
 }
 
-.nombre h1 {
+.nombre {
     text-align: center;
 }
 
@@ -208,17 +208,11 @@ h1 {
     font-family: 'Acme', sans-serif;
     font-size: 25px;
 }
-
+/* 
 #about {
     font-family: 'Rowdies', sans-serif;
     font-size: 35px;
-}
-
-.subtitulo {
-    font-size: 25px;
-    font-family: 'Acme', sans-serif;
-}
-
+} */
 
 /* SE AÑADE UN PADING A VIDEO  */
 
