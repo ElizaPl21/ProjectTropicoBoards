@@ -23,89 +23,84 @@
 </head>
 
 <body class="body-HOME">
+    
+    <nav class="navbar navbar-expand-xl bg-body-tertiary">
+        <a class="navbar-brand" href="#">
+          <img class="logo-img imgLogo" src="./assets/logo.png" alt="Logo de TropicoBoards">
+        </a>
+    
+        <h2 id="tiLL">TropicoBoards</h2>
+    
 
-    <div class="MainContainer-LI">
-        <div class="navbar-LI">
-            <nav class="navbar navbar-expand-xl bg-body-tertiary">
-                <a class="navbar-brand" href="#">
-                    <img class="logo-img imgLogo" src="../nav_bar/assets/logo.png" alt="Logo de TropicoBoards">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid" id="menuDer">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Noticias
                 </a>
-
-                <h2 id="tiLL">TropicoBoards</h2>
-
-
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container-fluid" id="menuDer">
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Noticias
-                                </a>
-                                <!-- <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Eventos</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Dealers</a></li>
-                                </ul> -->
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                                    id="pru" aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Patinetas</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Mercancias</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Explorar
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Galeria de fotos</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Testimonios</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Videos</a></li>
-                                </ul>
-                            </li> -->
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Eventos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Dealers</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" id="pru"
+                  aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Patinetas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Mercancias</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Explorar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Galeria de fotos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Testimonios</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Videos</a></li>
+                </ul>
+              </li> -->
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
         
 <!-- INICIA CARRUSEL DE IMAGENES -->
     <div class="fotos-carrusel">
@@ -182,50 +177,44 @@
   <!-- SE AÑADE VIDEO PRESENTACIÓN CON AUTOPLAY Y LOOP PARA QUE SE REPRODUZCA SOLO AL CARGAR LA PAGINA Y EN BUCLE -->
 
   <div class="ratio ratio-16x9">
-    <video controls autoplay loop>
+    <video controls &autoplay="1" loop>
         <source src="./Assets/video_home.mp4" type="video/mp4">
-    </video>
-</div>
-
-<br>
-
-<!-- SECCIÓN DE CONTACTO -->
+      </video>
+  </div>
+  <br>
 
 <div class="card text-center mb-3 mx-auto" style="max-width: 70rem;">
-    <div class="containerContactoPago">
+  <div class="containerContactoAcercaDe">
 
-      <h3 class="contactoPago" class="subtitulo">
+    <h3 class="contactoAcercaDe" class="subtitulo">
 
-        <p class="descripcion"> <a href="#" target="_blank">
-          <img class="iconosContactoPago" src="./Assets/Location.png" alt="Icono ubicacion">
-        </a> <span class="textoContactoPago">Dirección: <br>Un lugar en Veracruz</p></span>
+      <p class="descripcion"> <a href="#" target="_blank">
+        <img class="iconosContactoAcercaDe" src="/Pago/assets/Location.png" alt="Icono ubicacion">
+      </a> <span class="textoContactoAcercaDe">Dirección: <br>Un lugar en Veracruz</p></span>
 
-      </h3>
-      <h3 class="contactoPago" class="subtitulo">
+    </h3>
+    <h3 class="contactoAcercaDe" class="subtitulo">
 
-        <p class="descripcion"><a href="#" target="_blank">
-          <img class="iconosContactoPago" src="./Assets/icono-telefono.png" alt="Icono telefono">
-        </a> <span class="textoContactoPago">Teléfono: <br>(999)9-99-99-99</p></span>
+      <p class="descripcion"><a href="#" target="_blank">
+        <img class="iconosContactoAcercaDe" src="/Pago/assets/icono-telefono.png" alt="Icono telefono">
+      </a> <span class="textoContactoAcercaDe">Teléfono: <br>(999)9-99-99-99</p></span>
 
-      </h3>
-      <h3 class="contactoPago" class="subtitulo">
-        
-        <p class="descripcion"> <a href="#" target="_blank">
-          <img class="iconosContactoPago" src="./Assets/email.png" alt="Icono correo">
-        </a><span class="textoContactoPago">Email: <br>correodela@empresa.com</p> </span>
+    </h3>
+    <h3 class="contactoAcercaDe" class="subtitulo">
+      
+      <p class="descripcion"> <a href="#" target="_blank">
+        <img class="iconosContactoAcercaDe" src="/Pago/assets/email.png" alt="Icono correo">
+      </a><span class="textoContactoAcercaDe">Email: <br>correodela@empresa.com</p> </span>
 
-      </h3>
-      <h3 class="contactoPago" class="subtitulo">
-        <a href="https://www.instagram.com/tropico_boards/" target="_blank">
-          <img class="iconosContactoPago" src="./Assets/insta.png" alt="Logo instagram">
-        </a>
-        <span class="textoContactoPago">Instagram</span>
-      </h3>
-    </div>
+    </h3>
+    <h3 class="contactoAcercaDe" class="subtitulo">
+      <a href="https://www.instagram.com/tropico_boards/" target="_blank">
+        <img class="iconosContactoAcercaDe" src="/Pago/assets/insta.png" alt="Logo instagram">
+      </a>
+      <span class="textoContactoAcercaDe descripcion">Instagram</span>
+    </h3>
   </div>
-
 </div>
-
   
 
 
