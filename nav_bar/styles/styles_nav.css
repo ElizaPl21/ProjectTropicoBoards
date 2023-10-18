@@ -80,6 +80,7 @@
 
 .navbar-toggler{
   margin-right: 25px;
+justify-content: center;
 }
 
 @media (max-width:500px){

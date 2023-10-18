@@ -6,23 +6,20 @@
     font-size: 18px;
 }
 
-.navbar {
-    position: fixed;
-    top: 0%;
-    background-color: #85E6C5;
-    height: 120px;
-    /*text-align: center;
-    align-items: center;
-    justify-content: center;*/
-    width: 100vw;
-    z-index:20;
-}
 
 @media (max-width: 500px) {
     .navbar {
       height: 100px;
     }
 }
+
+.navbar-LI {
+  position: fixed;
+  top: 0%;
+  height: 120px;
+  width: 100vw;
+  z-index: 20;
+align-items: center;}
 
 /* .navbar {
     background-color: #85E6C5 !important;
