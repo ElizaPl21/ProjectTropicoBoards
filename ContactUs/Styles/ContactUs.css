@@ -129,13 +129,14 @@ p{
 
 
 
-.boton {
+.btn {
     background-color: #A66CFF;
     border: #A66CFF solid;
     border-radius: 13px;
     justify-content: flex-end;
     padding: 15px 40px;
     margin: 10px 70px;
+    margin-top: 50px;
     color: white;
 
 }

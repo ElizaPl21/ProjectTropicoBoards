@@ -11,12 +11,19 @@
     top: 0%;
     background-color: #85E6C5;
     height: 120px;
-    text-align: center;
+    /*text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
     width: 100vw;
     z-index:20;
 }
+
+@media (max-width: 500px) {
+    .navbar {
+      height: 100px;
+    }
+}
+
 /* .navbar {
     background-color: #85E6C5 !important;
     font-family: 'Acme', sans-serif;
@@ -251,6 +258,7 @@ h1 {
     }
   
   }
+
 
 /* Estilos del div con el video */
   .video-container {
