@@ -1,0 +1,149 @@
+
+
+.body {
+    background-color: #c8ffe0;
+}
+.subtitulo {
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+}
+
+.texto {
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.lista {
+    list-style-type: none;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+
+/* ESTILOS DE LA NAVBAR */
+  
+.navbar {
+    background-color: #85E6C5 !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    font-weight: 600; 
+
+  }
+  
+  .navbar-nav {
+    margin: 0 auto; 
+    align-items: center;
+  }
+  
+  .navbar-nav.ml-auto {
+    margin-right: 0; 
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  
+  .barranav {
+    position: fixed;
+    top: 0%;
+    background-color: #85E6C5;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    z-index: 20; 
+}
+  
+  .logo-img {
+    width: 100px;
+    margin-right: 5px;
+    
+  }
+  
+  .imgLogo{
+    transition: 0.5s;
+    object-fit: cover;
+    
+  }
+  
+  .imgLogo:hover{
+    transform: scale(1.2);
+    
+  }
+  
+  #marcaTB{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    margin-left: 20px;
+     
+  }
+  
+  #letter{
+    color: white;
+
+  }
+  
+  #letter:hover{
+    color: rgba(255, 155, 93, 0.954);
+  }
+  
+  .collapse{
+    flex-grow: unset;
+  }
+  
+  #menuDer{
+    
+    justify-content:end;
+    
+  }
+  
+  #till{
+     font-family: 'Rowdies', sans-serif; 
+     font-size: 35px;
+  }
+  
+  #pru{
+    color: black;
+  }
+  
+  #pru:hover{
+    color: azure;
+  }
+
+  .navbar-toggler {
+    margin: 20px;
+  }
+  
+  @media (max-width:500px){
+    #letter{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    .form {
+      padding-top: 100px;
+    }
+    .imgLogo {
+      width: 60px;
+      height: auto;
+    } 
+    #till{
+      font-size: 23px;
+   }
+  }
+
+
+    .navbar-toggler {
+        margin: 10px; /* Reduzca el margen del botón de hamburguesa */
+    }
+
+    #marcaTB {
+        font-size: 15px; /* Tamaño de fuente más pequeño para el texto del logotipo */
+        margin-left: 10px;
+    }
+}
+  
