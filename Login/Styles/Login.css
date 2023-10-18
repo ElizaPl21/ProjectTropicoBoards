@@ -115,3 +115,44 @@
         margin-right: 5%;
     }
 }
+/* Estilos del footer contacto */
+.containerContactoLI {
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .contactoLI{
+    padding-left: 1%;
+    padding-right: 1%;
+  
+  }
+  
+  .iconosContactoLI {
+    height: 35px;
+    width: auto;
+  }
+  
+  @media (max-width:800px){
+    .containerContactoLI{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoLI {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoLI{
+        display: none;
+    }
+  
+  }
+  
+  
+  
+    
