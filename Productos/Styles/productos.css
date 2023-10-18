@@ -61,8 +61,13 @@ display: block;
 }
 
 .btn{
-  background-color: bisque;
+  background-color: #A66CFF;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: white;
+  border: solid #A66CFF;
 }
+
 /*Estilos CONTACTO*/
 .container-xll{
   background-color: white;
