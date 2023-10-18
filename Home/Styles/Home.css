@@ -1,9 +1,14 @@
-body{
+.body-HOME{
     background-color: #C8FFE0;
-    height: 1000px;
     padding-top: 120px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
+}
+
+@media (max-width:500px){
+   .body-HOME{
+    padding-top: 68px;
+   }
 }
 
 .navbar-LI {
@@ -115,7 +120,47 @@ h1 {
 }
 
 
-/* SE AÑADE UN PADING A VIDEO  */
+/* ESTILOS SECCIÓN CONTACTO */
+
+.containerContactoPago {
+    display: flex;
+    padding: 10px;
+    /* margin: 15px; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.contactoPago{
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.iconosContactoPago {
+    height: 35px;
+    width: auto;
+
+   
+}
+
+@media (max-width:800px){
+   
+    .containerContactoPago{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoPago {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoPago{
+        display: none;
+    }
+
+}
 
 
 
