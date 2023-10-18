@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+//con esta linea aseguramos que se ejecte el codigo carrito compras despues de ejcutar productos
+document.addEventListener("DOMContentLoaded", function() {
+>>>>>>> Ricardo-carrito
 //Constantes que dan información a los elementos de la DOM en HTML
 const division = document.querySelector(".list-group.list-group-flush");
 
@@ -21,7 +27,11 @@ function mostrarProducto(producto) {
 
  //Obteniendo imagen
   const image = document.createElement("img");
+<<<<<<< HEAD
   image.classList.add("card-img-top");
+=======
+  image.classList.add("card-img-top","imagencss");
+>>>>>>> Ricardo-carrito
   image.alt = "...";
   image.src = producto.imagen;
  
@@ -32,13 +42,13 @@ function mostrarProducto(producto) {
 
 //Obteniendo nombre
   const name = document.createElement("li");
-  name.classList.add("list-group-item");
-  name.textContent = `Nombre: ${producto.productName}`;
+  name.classList.add("list-group-item", "titulo-item");
+  name.textContent = `${producto.productName}`;
 
 //Obteniendo precio
   const price = document.createElement("li");
-  price.classList.add("list-group-item");
-  price.textContent = `Precio: $${producto.productPrice}`;
+  price.classList.add("list-group-item", "precio-item");
+  price.textContent = `Precio: ${producto.productPrice}`;
 
 //Obteniendo descripción
   const description = document.createElement("li");
@@ -52,7 +62,11 @@ function mostrarProducto(producto) {
 
  //boton
 const button = document.createElement("button");
+<<<<<<< HEAD
 button.classList.add("btn", "btn-primary");
+=======
+button.classList.add("btn", "btn-primary","boton-item");
+>>>>>>> Ricardo-carrito
 button.type = "button";
 //button.classList.add("btn btn-primary")
 button.innerText = "Agregar al carrito"; 
@@ -77,4 +91,13 @@ fetchProductos()
     for (let i = 0; i < 10 && i < productos.length; i++) {
       mostrarProducto(productos[i]);
     }
+<<<<<<< HEAD
+=======
+
+    //cargar el archivo "carrito_compras.js" después de que se haya cargado la DOM de "productos"
+    const scriptCarrito = document.createElement('script');
+    scriptCarrito.src = 'carrito_compras.js'; // Ruta al archivo "carrito_compras.js"
+    document.body.appendChild(scriptCarrito);
+  });
+>>>>>>> Ricardo-carrito
   });

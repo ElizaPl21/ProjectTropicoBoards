@@ -34,17 +34,28 @@
 
 }
 
+<<<<<<< HEAD
 @media (max-width:850px){
   .list-group{
     display: flex;
     margin: 10%;  
+=======
+@media (max-width:700px){
+  .list-group{
+    display: flex;  
+      
+>>>>>>> Ricardo-carrito
   }
 }
 
 .card-img-top {    
 overflow: hidden;
 width: auto;
+<<<<<<< HEAD
 height: 100%;
+=======
+height: 475px;
+>>>>>>> Ricardo-carrito
 text-align: center;
 transition: transform 0.2s ease;
 display: block;
