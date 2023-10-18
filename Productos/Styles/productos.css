@@ -34,17 +34,17 @@
 
 }
 
-@media (max-width:700px){
+@media (max-width:850px){
   .list-group{
-    display: flex;  
-      
+    display: flex;
+    margin: 10%;  
   }
 }
 
 .card-img-top {    
 overflow: hidden;
 width: auto;
-height: 475px;
+height: 100%;
 text-align: center;
 transition: transform 0.2s ease;
 display: block;

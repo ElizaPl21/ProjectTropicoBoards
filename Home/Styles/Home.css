@@ -255,10 +255,7 @@ h1 {
 /* Estilos del div con el video */
   .video-container {
     max-width: 100%; /* Establece un ancho máximo del 100% del contenedor padre */
-    margin: 0 auto; /* Centra el div horizontalmente en el viewport */
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 5%; /* Centra el div horizontalmente en el viewport */
 }
 
 .video-container video {

@@ -37,7 +37,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .cuerpoPago {
@@ -79,6 +79,10 @@
 
    
 }
+.btn{
+    background-color: #A66CFF;
+    border: #A66CFF solid; 
+  }
 
 @media (max-width:800px){
     .cuerpoPago{

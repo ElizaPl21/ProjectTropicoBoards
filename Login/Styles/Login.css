@@ -100,6 +100,11 @@
     justify-content: flex-end;
 }
 
+.btn{
+    background-color: #A66CFF;
+    border: #A66CFF solid; 
+  }
+
 @media (max-width:500px) {
     .navbar-LI {
         height: 60px;

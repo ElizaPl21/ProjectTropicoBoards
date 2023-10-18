@@ -15,7 +15,7 @@
     font-size: 35px;
     font-family: 'Rowdies', sans-serif;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color:white;
     padding-top: 120px;
 }
 
@@ -142,10 +142,7 @@ h1 {
 
 }
 
-/* ESTILOS DE LA NAVBAR */
-
-
-  
+/* ESTILOS DE LA NAVBAR */  
   .navbar {
     background-color: #85E6C5 !important;
     font-family: 'Acme', sans-serif;
