@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producto</title>
+    <title>Productos</title>
 
     <!-- Links fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,16 +27,16 @@
     <link rel="stylesheet" href="./Style/producto.css">
 
     <!-- Links iconos -->
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 
 
 </head>
 
-<body class="producto">
+<body class="bodyProducto">
 
     <header class="nav-producto">
         <nav class="navbar navbar-expand-xl bg-body-tertiary">
-            <a class="navbar-brand" id="marcaTB" href="#"> <img class="logo-img imgLogo"
+            <a class="navbar-brand" id="marcaTB" href="/Home/Home.html"> <img class="logo-img imgLogo"
                     src="../nav_bar/assets/logo.png" alt="Logo de TropicoBoards"></a>
             <h2 id="tiLL">TropicoBoards</h2>
 
@@ -49,7 +49,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ">
                         <li class="nav-item ">
-                            <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
+                            <a class="nav-link active " aria-current="page" id="pru" href="/Home/Home.html">Principal</a>
                         </li>
                         <!--<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
@@ -74,7 +74,7 @@
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Patinetas</a></li>
+                                <li><a class="dropdown-item" href="/Producto/producto.html">Patinetas</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -97,16 +97,19 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Videos</a></li>
                             </ul>
-                        </li>
-                    </ul>-->
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
-                        </li>
+                        </li>-->
+                            <li class="nav-item ">
+                                <a class="nav-link active " aria-current="page" id="pru" href="/Acerca de nosotros/AcercaDe.html">Nosotros</a>
+                            </li>
                     </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="letter" aria-current="page" href="/ContactUs/ContactUs.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="letter" href="/Login/Login.html">Iniciar Sesión</a>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </nav>
@@ -118,72 +121,77 @@
 
     <div class="principal">
         <div class="img-producto">
-                <img class="producto" src="../Productos/Assets/patinetas/Pat001.jpg">
+            <img class="producto" src="../Productos/Assets/patinetas/Pat001.jpg">
         </div>
 
-    <div>
-        <div class="descripción">
-            <h1 class="subtitulo">Descripción</h1>
+        <div class="containerDescripcion">
+            <div class="descripción">
+                <h1 class="subtitulo">Descripción</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti odit provident nisi odio
+                    dolores pariatur sed esse quam. Totam velit soluta fuga autem, in molestias assumenda nobis vel quos
+                    nulla dolorem sed amet enim nihil pariatur distinctio tenetur. Ad modi aliquam nisi maxime in
+                    eveniet reiciendis at numquam architecto.</p>
+            </div>
+            <div class="btn-producto">
+                <button type="button" class="btn btn-primary btn-comentarios">Agregar al carrito</button>
+            </div>
         </div>
-        <div class="btn-producto">
-            <button type="button" class="btn btn-primary btn-comentarios">Agregar al carrito</button>
-        </div>
-    </div>
     </div>
 
     <div class="container-reseñas">
-        
+
         <h2 class="subtitulo">Reseñas y Comentarios</h2>
-    
+
         <form>
             <div class="form-group">
-              <textarea class="form-control" rows="5" placeholder="Ingresa comentario"></textarea>
+                <textarea class="form-control" rows="5" placeholder="Ingresa comentario"></textarea>
             </div>
-       
-                <form>
-                    <div class="form-group">
-                      <textarea class="form-control" rows="5" placeholder="Ingresa comentario">Enviar</textarea>
-                    </div>
-                    
-                  </form>
-                  <div class="boton">
-                  <button type="button" class="btn btn-primary btn-comentarios"><span class="enviar">Enviar</span></button>
-                  </div>
-        
+
+            <div class="boton">
+                <button type="button" class="btn btn-primary btn-comentarios"><span
+                        class="enviar">Enviar</span></button>
+            </div>
+        </form>
+
     </div>
-    <div class="card text-center mb-3 mx-auto" style="max-width: 70rem;">
+
+
+
+    <!-- <div class="card text-center mb-3 mx-auto"> -->
         <div class="containerContactoLI">
-      
-          <h3 class="contactoLI" class="subtitulo">
-      
-            <p class="descripcion"> <a href="#" target="_blank">
-              <img class="iconosContactoLI" src="../Productos/Assets/Location.png" alt="Icono ubicacion">
-            </a> <span class="textoContactoLI">Dirección: <br>Un lugar en Veracruz</p></span>
-      
-          </h3>
-          <h3 class="contactoLI" class="subtitulo">
-      
-            <p class="descripcion"><a href="#" target="_blank">
-              <img class="iconosContactoLI" src="../Productos/Assets/icono-telefono.png" alt="Icono telefono">
-            </a> <span class="textoContactoLI">Teléfono: <br>(999)9-99-99-99</p></span>
-      
-          </h3>
-          <h3 class="contactoLI" class="subtitulo">
-            
-            <p class="descripcion"> <a href="#" target="_blank">
-              <img class="iconosContactoLI" src="../Productos/Assets/email.png" alt="Icono correo">
-            </a><span class="textoContactoLI">Email: <br>correodela@empresa.com</p> </span>
-      
-          </h3>
-          <h3 class="contactoLI" class="subtitulo">
-            <a href="https://www.instagram.com/tropico_boards/" target="_blank">
-              <img class="iconosContactoLI" src="../Productos/Assets/insta.png" alt="Logo instagram">
-            </a>
-            <span class="textoContactoLI descripcion">Instagram</span>
-          </h3>
+
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"> <a href="/ContactUs/ContactUs.html">
+                        <img class="iconosContactoLI" src="/Productos/Assets/Location.png" alt="Icono ubicacion">
+                    </a> <span class="textoContactoLI">Dirección: <br>Un lugar en Veracruz</p></span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"><a href="/ContactUs/ContactUs.html">
+                        <img class="iconosContactoLI" src="/Productos/Assets/icono-telefono.png" alt="Icono telefono">
+                    </a> <span class="textoContactoLI">Teléfono: <br>(999)9-99-99-99</p></span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+
+                <p class="descripcion"> <a href="/ContactUs/ContactUs.html">
+                        <img class="iconosContactoLI" src="/Productos/Assets/email.png" alt="Icono correo">
+                    </a><span class="textoContactoLI">Email: <br>correodela@empresa.com</p> </span>
+
+            </h3>
+            <h3 class="contactoLI" class="subtitulo">
+                <a href="https://www.instagram.com/tropico_boards/" target="_blank">
+                    <img class="iconosContactoLI" src="/Productos/Assets/insta.png" alt="Logo instagram">
+                </a>
+                <span class="textoContactoLI descripcion">Instagram</span>
+            </h3>
         </div>
-      </div>
-   
+    <!-- </div> -->
+
+
+
 </body>
 
 </html>

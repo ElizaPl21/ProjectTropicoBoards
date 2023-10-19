@@ -32,7 +32,40 @@ font-size: 25px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
 }
-
+.error{
+    background-color: #C8FFE0;
+    min-height: 100vh; /100% de la altura de la centana gráfica/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .error404{
+        text-align: center;
+    }
+    .err404{
+        width: 600px;
+        max-width: 75%;
+    }
+    .titulo-err{
+    font-family: "Rowdie", sans-serif;
+    font-size: 35px;
+    
+    }
+    
+    .subtitulo-err{
+    font-family: "Acme", sans-serif;
+    font-size: 25px;
+    
+    }
+    
+    .btn{
+        background-color: #A66CFF;
+        color:white;
+        border: solid #A66CFF; 
+        align-items: center;
+        font-family: "Cabin", sans-serif;
+        font-size: 18px;
+    }
 
 @media(max-width:767px){
     .err404{

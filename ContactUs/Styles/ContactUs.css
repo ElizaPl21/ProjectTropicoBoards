@@ -38,7 +38,7 @@ body {
     position: relative;
     text-align: center;
     width: auto;
-    height: 350px;
+    height: 300px;
 
 }
 
@@ -107,7 +107,6 @@ p{
 .containerBtn {
     display: flex;
     justify-content: flex-end;
-
 }
 
 .formSection {
@@ -130,13 +129,15 @@ p{
 
 
 
-.boton {
-    background-color: #614BC3;
-    border: #000000 solid;
+.btn {
+    background-color: #A66CFF;
+    border: #A66CFF solid;
     border-radius: 13px;
     justify-content: flex-end;
     padding: 15px 40px;
     margin: 10px 70px;
+    margin-top: 50px;
+    color: white;
 
 }
 
@@ -146,6 +147,21 @@ p{
     }
 }
 
-.boton {
-    background-color: bisque;
+.iconosContactoPago {
+    height: 35px;
+    width: auto;
+
+   
+}
+
+.contactoPago{
+    padding: 10px;
+}
+@media(max-width:500px){
+    .navbarCU{
+        height: 70px;
+    }
+    .contac{
+        padding-top:70px;
+    }
 }

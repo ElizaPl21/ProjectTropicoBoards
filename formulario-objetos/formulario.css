@@ -20,6 +20,10 @@
     margin-left: auto;
     padding-right: 20px;
 }
+.btn{
+  background-color: #A66CFF;
+  border: #A66CFF solid; 
+}
 
 
 /* ESTILOS DE LA NAVBAR */
@@ -145,5 +149,5 @@
         font-size: 15px; /* Tamaño de fuente más pequeño para el texto del logotipo */
         margin-left: 10px;
     }
-}
+
   

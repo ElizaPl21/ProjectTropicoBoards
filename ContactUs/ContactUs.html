@@ -28,14 +28,14 @@
 
 </head>
 <!-- /*Comentario de verficacion*/ -->
-<body>
+<body class="contac">
 
     <div class="mainContainer">
 
         <div class="navbarCU ">
             <nav class="navbar navbar-expand-xl bg-body-tertiary">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/Home/Home.html">
                     <img class="logo-img imgLogo" src="/nav_bar/assets/logo.png" alt="Logo de TropicoBoards">
                 </a>
 
@@ -50,9 +50,9 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav ">
                             <li class="nav-item ">
-                                <a class="nav-link active " aria-current="page" id="pru" href="#">Principal</a>
+                                <a class="nav-link active " aria-current="page" id="pru" href="../Home/Home.html">Principal</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Noticias
@@ -68,21 +68,21 @@
                                     </li>
                                     <li><a class="dropdown-item" href="#">Dealers</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                     id="pru" aria-expanded="false">
                                     Productos
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Patinetas</a></li>
+                                    <li><a class="dropdown-item" href="/Productos/productos.html">Patinetas</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li><a class="dropdown-item" href="#">Mercancias</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Explorar
@@ -98,14 +98,18 @@
                                     </li>
                                     <li><a class="dropdown-item" href="#">Videos</a></li>
                                 </ul>
+                            </li> -->
+                            <li class="nav-item ">
+                                <a class="nav-link active " aria-current="page" id="pru" href="/Acerca de nosotros/AcercaDe.html">Nosotros</a>
                             </li>
+
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" id="letter" aria-current="page" href="#">Contacto</a>
+                                <a class="nav-link active" id="letter" aria-current="page" href="/ContactUs/ContactUs.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
+                                <a class="nav-link active" id="letter" href="/Login/Login.html">Iniciar Sesión</a>
                             </li>
                         </ul>
                     </div>
@@ -121,7 +125,7 @@
         <div class="cuerpo">
 
             <div class="contactInfo">
-                <h3 class="subtitulo">
+               <!-- <h3 class="subtitulo">
                     <i class="fi fi-sr-marker"></i>
                     Direccion
                 </h3>
@@ -135,8 +139,36 @@
                     <i class="fi fi-sr-envelope"></i>
                     Email
                 </h3>
-                <p>correodela@empresa.com</p>
+                <p>correodela@empresa.com</p>-->
+                <h3 class="contactoPago" class="subtitulo">
+
+                    <p class="descripcion"> <a href="#" target="_blank">
+                      <img class="iconosContactoPago" src="/Pago/assets/Location.png" alt="Icono ubicacion">
+                    </a> <span class="textoContactoPago subtitulo">Dirección: <br>Un lugar en Veracruz</p></span>
+          
+                  </h3>
+                  <h3 class="contactoPago" class="subtitulo">
+          
+                    <p class="descripcion"><a href="#" target="_blank">
+                      <img class="iconosContactoPago" src="/Pago/assets/icono-telefono.png" alt="Icono telefono">
+                    </a> <span class="textoContactoPago subtitulo">Teléfono: <br>(999)9-99-99-99</p></span>
+          
+                  </h3>
+                  <h3 class="contactoPago" class="subtitulo">
+                    
+                    <p class="descripcion"> <a href="#" target="_blank">
+                      <img class="iconosContactoPago" src="/Pago/assets/email.png" alt="Icono correo">
+                    </a><span class="textoContactoPago subtitulo">Email: <br>correodela@empresa.com</p> </span>
+          
+                  </h3>
+                  <h3 class="contactoPago" class="subtitulo">
+                    <a href="https://www.instagram.com/tropico_boards/" target="_blank">
+                      <img class="iconosContactoPago" src="/Pago/assets/insta.png" alt="Logo instagram">
+                    </a>
+                    <span class="textoContactoPago descripcion subtitulo">Instagram</span>
+                  </h3>
             </div>
+
 
             <div class="btnForm">
                 <div class="containerForm">
@@ -154,7 +186,7 @@
                 </div>
 
                 <div class="containerBtn">
-                    <button type="submit" class="boton">Enviar</button><br>
+                    <button type="submit" class="btn btn-primary">Enviar</button><br>
                 </div>
 
             </div>

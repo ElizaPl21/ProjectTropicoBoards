@@ -1,43 +1,43 @@
 .nav-producto {
-        position: sticky;
-        z-index: 20;
-        top: 0; /* Ajusta el valor según tu diseño */
-      }
-
-
-.producto{
+    position: sticky;
+    z-index: 20;
+    top: 0; /* Ajusta el valor según tu diseño */
+}
+/* El body tenia un alto de 600px, el body solo debe tener altura si es necesario para probar scrolll o alguna otra feature */
+.bodyProducto{
     background-color: #C8FFE0;
-    display: block;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
     min-width: 100%;
     
 }
 
 .principal{
     display: flex;
+    justify-content: center;
     background-color: white;
-    margin: 5%;
-    place-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
 }
 
 .img-producto {
     background-color: white;
-    border: 1px solid #000;
-    padding: 10px;
-    margin: 5px;
-    flex: 1;
-    width: auto;
+    margin: 5%;
+    min-width: auto;
+    max-width: 500px;
+    align-self: center;
 }
 
 .descripción {
     background-color: white;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     padding: 10px;
     margin:30px;
-    width: 550px;
-    height: 450px;
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 350px;
     text-align: center;
-    flex:1
 }
 
 .categoria-prod{
@@ -60,13 +60,13 @@
 .btn-producto {
     display: flex;
     justify-content: right;
-    padding-right: 30px;  
+    margin-right: 40px; 
+    margin-bottom: 20px;
 }
 
 .container-reseñas {
     background-color: white;
-    margin-bottom: 30px;
-    margin: 30px;
+    margin: 5%;
     max-width: 100%;
     justify-content: center;
 }
@@ -80,7 +80,7 @@
 .boton {
   display: flex;
   justify-content: end;
-  padding-right: 50px;
+  padding-right: 7%;
   padding-bottom: 50px;
 }
 
@@ -88,74 +88,73 @@
   background-color: rgb(164, 77, 245);
   border-color: rgb(164, 77, 245);
 }
- /*Estilos CONTACTO*/
- .containerContactoLI {
-  display: flex;
-  padding: 10px;
-  margin: 15px;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
 
-.contactoLI{
-  padding-left: 1%;
-  padding-right: 1%;
-
-}
-
-.iconosContactoLI {
-  height: 35px;
-  width: auto;
-}
-
-@media (max-width:800px){
-  .containerContactoLI{
-      height: auto;
-      align-self: center;
+  
+  .card-text {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
   }
+  
+  .subtitulo {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  
+  .producto{
+    width: 100%;
+  }
+/* Estilos del footer contacto */
+.containerContactoLI {
+    display: flex;
+    padding: 10px;
+    margin: 5%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .contactoLI{
+    padding-left: 1%;
+    padding-right: 1%;
+  
+  }
+  
   .iconosContactoLI {
-      height:  50px;
-      margin: 15px;
+    height: 35px;
+    width: auto;
   }
-  .textoContactoLI{
-      display: none;
-  }
-
+  .descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
 }
   
-
-@media (max-width:1200px){   
-     .boton {
-      margin-right: 20px;
-     }
-
-     .btn-producto {
-      margin-bottom: 20px;
-     }
-}
-@media (max-width:650px){
-   .principal{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+  @media (max-width:800px){
+    .containerContactoLI{
+        height: auto;
+        align-self: center;
     }
-    .producto{
-        width: 200px;
-        height: 330px;
+    .iconosContactoLI {
+        height:  50px;
+        margin: 15px;
     }
-
-    .descripción{
-        width: 280px;
-        height: 220px;
+    .textoContactoLI{
+        display: none;
     }
+  
+  }
 
-    .btn-producto{
-        width: 3px;
-        padding-bottom: 40px;
-        margin-left: 200px;
+  @media (max-width:600px){
+    .principal{
+        flex-direction: column;
     }
-}
-
+  }
+  
+ 
