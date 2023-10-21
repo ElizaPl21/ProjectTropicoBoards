@@ -19,7 +19,8 @@
     <!-- Link de archivos CSS -->
     <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
     <link rel="stylesheet" href="./Styles/Login.css">
-    <!-- <link rel="stylesheet" href="/Login/Styles/Registro.css"> -->
+    <!-- Link para tener icono superior en la pestaña -->
+    <link rel="icon" href="../NavbarNueva/assets/logo.png">
 
 </head>
 
@@ -113,71 +114,66 @@
         </header> -->
         <div class="cuerpo-LI">
             <h1 class="titulo-LI">Inicio de Sesión</h1>
-            <form class="form-LI">
+            <form id="inicioSesionForm" class="form-LI">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="form2Example1" class="form-control" required placeholder="ejmplo@correo.com" />
-                    <label class="form-label" for="form2Example1">Email address</label>
+                    <input type="email" id="correoInicio" class="form-control" required placeholder="ejemplo@correo.com" />
+                    <label class="form-label" for="correoInicio">Correo electrónico</label>
+                    <div id="correoInicioError" class="error"></div>
                 </div>
-
+        
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <input type="password" id="form2Example2" class="form-control" placeholder="Contraseña" />
-                    <label class="form-label" for="form2Example2">Contraseña</label>
+                    <input type="password" id="contrasenaInicio" class="form-control" required placeholder="Contraseña" />
+                    <label class="form-label" for="contrasenaInicio">Contraseña</label>
+                    <div id="contrasenaInicioError" class="error"></div>
                 </div>
-
+        
                 <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
                 <div class="text-center">
                     <p>¿Aún no eres miembro? </p>
-                    
-                    <a id="mostrarRegistro" href="#contenedorRegistro">Registrate</a>
+                    <a id="mostrarRegistro" href="#contenedorRegistro">Regístrate</a>
                 </div>
             </form>
         </div>
 
         <!-- SECCIÓN DE REGISTRO -->
 
-<div id="contenedorRegistro" style="display: none;">
-        <div class="cuerpo-RU">
-            <div class="titulo-RU" >Registro</div>
-            <form class="form-LI">
-
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="text" id="nombreUsuario" class="form-control" required  placeholder="Nombre"/>
-                    <label class="form-label" for="nombreUsuario">Nombre</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="text" id="apellidoUsuario" class="form-control" required  placeholder="Apellido"/>
-                    <label class="form-label" for="apellidoUsuario">Apellido</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="correo" class="form-control" required placeholder="ejmplo@correo.com" />
-                    <label class="form-label" for="correo">Correo electrónico</label>
-                </div>
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="contraseña" class="form-control" />
-                    <label class="form-label" for="contraseña">Contraseña</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <input type="password" id="verificacionContraseña" class="form-control" />
-                    <label class="form-label" for="verificacionContraseña">Confrimar contraseña</label>
-                </div>
-                <div class="containerBoton-RU">
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-                </div>
-            </form>
-            
+        <div id="contenedorRegistro" style="display: none;">
+            <div class="cuerpo-RU">
+                <div class="titulo-RU">Registro</div>
+                <form id="registroForm" class="form-LI">
+                    <div class="form-outline mb-4">
+                        <input type="text" id="nombreUsuario" class="form-control" required placeholder="Nombre" />
+                        <label class="form-label" for="nombreUsuario">Nombre</label>
+                        <div id="nombreUsuarioError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="text" id="apellidoUsuario" class="form-control" required placeholder="Apellido" />
+                        <label class="form-label" for "apellidoUsuario">Apellido</label>
+                        <div id="apellidoUsuarioError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="email" id="correoRegistro" class="form-control" required placeholder="ejemplo@correo.com" />
+                        <label class="form-label" for="correoRegistro">Correo electrónico</label>
+                        <div id="correoRegistroError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="password" id="contrasenaRegistro" class="form-control" required placeholder="Contraseña" />
+                        <label class="form-label" for="contrasenaRegistro">Contraseña</label>
+                        <div id="contrasenaRegistroError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="password" id="verificacionContrasena" class="form-control" required placeholder="Confirmar contraseña" />
+                        <label class="form-label" for="verificacionContrasena">Confirmar contraseña</label>
+                        <div id="verificacionContrasenaError" class="error"></div>
+                    </div>
+                    <div class="containerBoton-RU">
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-</div>
 
      <!--    Sección contacto 
 
