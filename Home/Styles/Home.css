@@ -1,7 +1,7 @@
 
 .body-HOME{
     margin-top: 90px;
-    background-color: #e4e8f1;
+    background-color: #fff2e6;
     height: 1000px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
@@ -12,6 +12,28 @@
     padding: 10px;
 }
 
+.productos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+}
   /* ESTILOS TARJETAS PRODUCTOS */
   .card-text {
     font-family: 'Acme', sans-serif;
@@ -94,7 +116,6 @@
     font-size: 25px;
 }
 
-
 /* SE AÑADE UN PADING A VIDEO  */
 
 /*TEXTO DE CARRUSEL*/
@@ -132,6 +153,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media(max-width: 500px) {
+    .descuento {
+        font-size: 15px;
+    }
+}
   @media (max-width:800px){
     .containerContactoAcercaDe{
         height: auto;
@@ -146,7 +173,7 @@
     }
   
   }
-
+/*Agregar a cada página para la responsividad de navbar*/
   @media (max-width: 525px) {
     .body-HOME {
         margin-top: 70px;
