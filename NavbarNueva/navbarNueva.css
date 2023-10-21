@@ -1,0 +1,66 @@
+.barra{
+    position: fixed;
+    top: 0%;
+    height: 120px;
+    width: 100vw;
+    z-index: 20; 
+}
+
+.titulo-navbar {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.seccion-navbar {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    
+}
+
+.img-logo {
+    display: flex;
+}
+
+.navbar {
+    background-color: #B2A4FF !important;    
+}
+
+
+.logo-img {
+    width: 80px; 
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  
+  .imgLogo{
+    transition: 0.5s;
+    object-fit: cover;
+  }
+
+  .imgLogo:hover{
+    transform: scale(1.2);
+  }
+
+  .secciones-navbar {
+    justify-content: end;
+    
+  }
+
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  @media (max-width:500px) {
+    .titulo-navbar {
+        font-size: 17px;
+    }
+    .logo-img {
+        width: 60px; 
+        margin-left: 20px;
+        overflow: hidden;
+    }
+  }
+
+  
+  

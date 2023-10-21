@@ -1,0 +1,34 @@
+
+
+.footer {
+    display: flex;
+    width: 1300px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d4d0f1;
+    margin-bottom: 0;
+  }
+ 
+  .descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.iconos.contacto {
+    width: 200px;
+    justify-content: space-between;
+}
+
+.parrafo {
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.aviso {
+    text-decoration: underline;
+}
+
