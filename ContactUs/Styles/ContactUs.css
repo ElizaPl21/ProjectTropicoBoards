@@ -1,167 +1,28 @@
-body {
-    font-family: 'Cabin', sans-serif;
-    font-size: 18px;
-    background-color: #C8FFE0;
-    height: auto;
-    margin: 0px;
-    padding-top: 120px; 
+.contac {
+    background-color: #f7f5f1;
 }
-
-.titulo{
-    font-family: 'Rowdies', sans-serif;
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.subtitulo{
+.titulo-RU,
+.titulo-LI {
     font-family: 'Acme', sans-serif;
     font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
 
 }
-.mainContainer {
+
+.cuerpo-LI {
+    background-color:white;
     display: flex;
-    position: static;
     flex-direction: column;
-}
-/*
-.container {
-    display: flex;
-}
-*/
-.encabezado {
-    display: flex;
-    position: relative;
-    text-align: center;
-    width: auto;
-    height: 300px;
-
-}
-
-
-.imgCU{
-  width: 100%;
-  object-fit: cover;
-  object-position:0% 25%;
-}
-
-
-
-
-.navbarCU {
-    position: fixed;
-    top: 0%;
-    background-color: #85E6C5;
-    height: 100px;
-    text-align: center;
     align-items: center;
-    justify-content: center;
-    width: 100vw;
-    z-index: 20; 
-}
-
-.cuerpo {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    background-color: white;
+    margin: 2%;
     padding: 5%;
-    margin: 5%;
-    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
-.btnForm {
+.form-LI {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 65%;
-    margin: 5%;
-}
-
-.contactInfo {
-    display: flex;
-    flex-direction: column;
-    flex: 35%;
-    align-content: center;
-    text-align: start;
-    margin: 5%;
-}
-
-p{
-    font-size: 18px;
-}
-.containerForm {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    text-align: center;
-    justify-content: center;
     align-items: center;
-}
-
-.containerBtn {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.formSection {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.formTitle{
-    display: flex;
-    justify-content: start;
-    font-weight: 500;
-
-}
-
-.formImput{
-    padding: 16px;
-    border-radius: 13px;
-}
-
-
-
-.btn {
-    background-color: #A66CFF;
-    border: #A66CFF solid;
-    border-radius: 13px;
-    justify-content: flex-end;
-    padding: 15px 40px;
-    margin: 10px 70px;
-    margin-top: 50px;
-    color: white;
-
-}
-
-@media (max-width:650px){
-    .cuerpo{
-        flex-direction: column;
-    }
-}
-
-.iconosContactoPago {
-    height: 35px;
-    width: auto;
-
-   
-}
-
-.contactoPago{
-    padding: 10px;
-}
-@media(max-width:500px){
-    .navbarCU{
-        height: 70px;
-    }
-    .contac{
-        padding-top:70px;
-    }
 }
