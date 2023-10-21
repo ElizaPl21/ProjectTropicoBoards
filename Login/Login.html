@@ -18,7 +18,7 @@
         crossorigin="anonymous"></script>
     <!-- Link de archivos CSS -->
     <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
-    <link rel="stylesheet" href="./Styles/Login.css">   
+    <link rel="stylesheet" href="./Styles/Login.css">
     <!-- <link rel="stylesheet" href="/Login/Styles/Registro.css"> -->
 
 </head>
@@ -130,11 +130,16 @@
 
                 <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
                 <div class="text-center">
-                    <p>Aún no eres miembro? <a href="#Registro">Registrate</a></p>
+                    <p>¿Aún no eres miembro? </p>
+                    
+                    <a id="mostrarRegistro" href="#contenedorRegistro">Registrate</a>
                 </div>
             </form>
         </div>
-        <p id="Registro"></p>
+
+        <!-- SECCIÓN DE REGISTRO -->
+
+<div id="contenedorRegistro" style="display: none;">
         <div class="cuerpo-RU">
             <div class="titulo-RU" >Registro</div>
             <form class="form-LI">
@@ -172,11 +177,12 @@
             </form>
             
         </div>
+</div>
 
         <!-- Sección contacto -->
 
         <div>
-            <h1 class="titulo-LI">CONTACTO</h1>
+            <!-- <h1 class="titulo-LI">CONTACTO</h1> -->
         </div>
         <div class="card text-center mb-3 mx-auto" style="max-width: 70rem;">
             <div class="info-contacto" class="card-contact" >
@@ -207,8 +213,12 @@
                 </p>
             </div>
           </div>
-    
         </div>
+
+
+
+
+<script src="./js/Login.js"></script>   
 
 </body>
 

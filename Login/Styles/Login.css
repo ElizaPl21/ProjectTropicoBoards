@@ -1,10 +1,11 @@
 .body-LI {
-    background-color: #C8FFE0;
+    background-image: url('https://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png');
     height: 1000px;
     padding-top: 120px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
 }
+
 
 .navbar-LI {
     position: fixed;
@@ -36,16 +37,6 @@
     object-position: 0% 25%;
 }
 
-/* .titulo-LI {
-    font-family: 'Rowdies', sans-serif;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-} */
 
 .titulo-RU,
 .titulo-LI {
@@ -65,8 +56,11 @@
     align-items: center;
     margin: 2%;
     padding: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 90px;
+    border: 2px solid black; /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
 }
 
 .cuerpo-RU {
@@ -81,24 +75,33 @@
 
 .form-control {
     min-width: 300px;
+    border-radius: 90px;
 }
 
 .btn {
     margin-left: 30%;
     margin-right: 30%;
     text-wrap: nowrap;
-}
-
-.containerBoton-RU {
-    display: flex;
-}
-
-.boton-RU {
     background-color: #614BC3;
-    border: #000000 solid;
-    border-radius: 13px;
-    justify-content: flex-end;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: #FFF; 
+    font-size: 16px; 
+
 }
+
+.btn:hover {
+    background-color: #7E69D2; /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #614BC3; /* Agregar un borde al pasar el mouse */
+
+}
+
+#mostrarRegistro {
+    color: #7E69D2;
+}
+
 
 @media (max-width:500px) {
     .navbar-LI {
@@ -116,7 +119,7 @@
     }
 }
 
-
+/* ESTILOS SECCIÓN CONTACTO */
 .nombre {
     text-align: center;
     font-family: 'Acme', sans-serif;
