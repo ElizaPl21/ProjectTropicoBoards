@@ -1,5 +1,5 @@
 .acercade {
-  background-color: #f7f5f1;  
+  background-color: #fff2e6;;  
   display: flex;
   flex-direction: column;
   min-width: 100%;
@@ -21,168 +21,137 @@
   font-family: "Cabin",sans-serif;
   font-size: 18px;
   text-align: justify;
- padding: auto;
+  padding: auto;
+  margin-right: 50px;
 }
 
-/*.somos{
+.somos{
   display: flex;
-  justify-content: space-between;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 8%;
   margin-top: 2%;
 }
 
-.conteinerSomos{
+.containerSomos{
   padding: 10px;
-  margin:30px;
-  min-width: 200px;
-  max-width: 350px;
-  min-height: 350px;
-  text-align: center;
+  margin: 30px;
 }
 
+.misiNos{
+  text-align: center;
+  padding-top: 30px;
+}
 .imgNos{
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
-  width: auto;
-  height: 300px;
-  padding: 24px;
-  margin: 24px;
-  margin: 5%;
-  min-width: auto;
-  max-width: 200px;
-  align-self: center;
+  align-items: center;
+  margin-top: 10%;
+  min-width: 20vw;
 }
 
 .misión{
   display: flex;
   padding: 24px;
-  margin: 24px;
+  margin-left: 7%;
+  margin-right: 5%;
 }
 
-.imgMis{
+.misi{
+  margin-right: 8%;
+}
+.descripcionNos{
+  align-items: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.img-fluid{
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
-  width: auto;
-  height: 375px;
-  padding: 24px;
-  margin: 24px;
-}*/
-
-.somos {
-  background-color: #f0f0f0; /* Color de fondo */
-  padding: 20px; /* Espaciado interior */
 }
 
-.containerSomos {
-  max-width: 900px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centrar horizontalmente */
+.equipo{
+  text-align: center;
 }
-
-.contenido {
-  display: flex; /* Utilizar Flexbox para organizar el contenido en filas */
-  flex-direction: row; /* Organizar elementos en fila (horizontal) */
-  align-items: center; /* Centrar verticalmente los elementos */
-}
-
-.texto {
-  flex: 1; /* Que el texto ocupe el espacio restante disponible */
-}
-
-.imagen {
-  margin-left: 20px; /* Espaciado entre el texto y la imagen */
-}
-
-.subtituloNos {
-  font-size: 24px; /* Tamaño de fuente */
-  text-align: center; /* Centrar el texto */
-}
-
-.textoNos {
-  font-size: 16px; /* Tamaño de fuente */
-}
-
-/* Estilos para pantallas más pequeñas (móviles) */
-@media screen and (max-width: 768px) {
-  .contenido {
-      flex-direction: column; /* Cambiar a una disposición de columna en pantallas pequeñas */
-  }
-
-  .imagen {
-      margin-left: 0; /* Eliminar el espaciado entre el texto y la imagen */
-      margin-top: 20px; /* Agregar espaciado superior para la imagen */
-  }
-}
-
-
-
-/*estilos mios*/
 
 .container_cards {
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tarjeta {
-    width: 300px;
-    margin: 10px;
-    transition: all, 300ms;
+  width: 300px;
+  margin: 10px;
+  transition: all, 300ms;
 }
 
 .tarjeta:hover {
-    width: 350px;
-    height: 300px;
+  width: 350px;
+  height: 300px;
 }
 
 .tarjeta .cover {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
 }
 
 .tarjeta .cover .image {
-    width: 250px;
-    display: block;
-    margin: auto;
-    top: 40px; 
+  width: 250px;
+  display: block;
+  margin: auto;
+  top: 40px; 
 }
 
 .tarjeta:hover.cover .image {
-    top: 0px;
+  top: 0px;
 }
 
 .tarjeta .description {
-    background-color: aliceblue;
-    margin-top: -10px;
-    padding: 20px;
+  background-color: rgb(241, 223, 186);
+  margin-top: -10px;
+  padding: 20px;
 }
 
-.tarjeta .description h3 {
-    margin-top: 10px;
-    font-size: 18px;
+.tarjeta .description{
+  margin-top: 10px;
+  font-size: 18px;
 }
 
-.nombre h1 {
-    text-align: center;
+.nombre{
+  text-align: center;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
 }
 
 .descripcion {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Cabin', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
 }
 
-
-
-.nombre {
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 1000px) {
+  .somos, .misión, .containerSomos, .textoNos{
+      flex-direction: column; /* Cambiar a una disposición de columna en pantallas pequeñas */
+      margin-right: 2%;
+      margin-left:2% ;
+      padding: 1%
+  }
+  .tropico{
     text-align: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
+  }
+  .nosotros, .misi{
+  min-width: 10px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 }
+
