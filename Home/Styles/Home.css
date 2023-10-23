@@ -6,24 +6,23 @@
     font-family: "Cabin", sans-serif;
     font-size: 18px;
 }
-/*ICONOS NAVBAR*/
-.lista-iconos {
-    list-style: none;
-    padding: 10px;
-}
+
 
 .productos {
-    margin-top: 50px;
+    
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
+    margin-bottom: 5px;
+    display: table-row-group;
 }
 
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
+    padding: 20px;
 }
 .centrado{
     position: absolute;
@@ -52,7 +51,6 @@
 .container_cards {
     max-width: 1200px;
     margin: auto;
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -153,13 +151,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*Agregar a cada página para responsividad de navbaer*/
+@media(max-width:1000px){
+.iconos {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 
-@media(max-width: 500px) {
-    .descuento {
-        font-size: 15px;
-    }
 }
-  @media (max-width:800px){
+}
+
+@media (max-width:800px){
     .containerContactoAcercaDe{
         height: auto;
         align-self: center;
@@ -191,3 +194,8 @@
     height: auto; /* Ajusta automáticamente la altura en función del ancho */
 }
 
+@media(max-width: 500px) {
+    .descuento {
+        font-size: 15px;
+    }
+}
