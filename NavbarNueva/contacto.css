@@ -2,8 +2,6 @@
 
 .footer {
     display: flex;
-    width: 1300px;
-    height: 150px;
     align-items: center;
     justify-content: center;
     padding: 10px;

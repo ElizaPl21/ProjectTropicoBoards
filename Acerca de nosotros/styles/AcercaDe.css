@@ -1,305 +1,157 @@
-.encabezado {
-    /* display: flex; */
-    flex-direction: column;
-    background-color: white;
-    height: 300px;
-    width: auto;
-    justify-content: center;
-    background-size: cover;
-    position: static;
-    background-image: url(../assets/img/background2.JPG);
-    
-}
-
-.titulo {
-    font-size: 35px;
-    font-family: 'Rowdies', sans-serif;
-    text-align: center;
-    color:white;
-    padding-top: 120px;
-}
-
-
-.body-acercade {
-    background-color: #C8FFE0; 
-    padding-top: 120px; 
-    margin: 0px;
-}
-
-.card-text {
-    font-family: 'Acme', sans-serif;
-    font-family: 'Cabin', sans-serif;
-    font-size: 18px;
-}
-
-.subtitulo {
-    text-align: center;
-    padding: 40px;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
-}
-
-
-.container_cards {
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tarjeta {
-    width: 300px;
-    margin: 10px;
-    transition: all, 300ms;
-}
-
-.tarjeta:hover {
-    width: 350px;
-    height: 300px;
-}
-
-.tarjeta .cover {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-}
-
-.tarjeta .cover .image {
-    width: 250px;
-    display: block;
-    margin: auto;
-    top: 40px; 
-}
-
-.tarjeta:hover.cover .image {
-    top: 0px;
-}
-
-.tarjeta .description {
-    background-color: aliceblue;
-    margin-top: -10px;
-    padding: 20px;
-}
-
-.tarjeta .description h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.nombre h1 {
-    text-align: center;
-}
-
-.descripcion {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Cabin', sans-serif;
-}
-
-
-
-.nombre {
-    text-align: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
-}
-
-.till {
-    font-family: 'Rowdies', sans-serif;
-    font-size: 35px;
-}
-
-.subtitulo {
-    font-size: 25px;
-    font-family: 'Acme', sans-serif;
-}
-
-#contacto {
-    display: flex;
-
-}
-
-.info-contacto {
-    justify-content: space-between;
-    flex-direction: row;
-    display: flex;
-    padding-top: 20px;
-}
-
-.card-contact {
-    display: flex;
-    margin: auto;
-    flex-direction: row;
-
-}
-
-.icon-insta {
-    width: 35px;
-    height: 35px;
-
-}
-
-/* ESTILOS DE LA NAVBAR */  
-  .navbar {
-    background-color: #85E6C5 !important;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
-    font-weight: 600; 
-  }
-  
-  .navbar-nav {
-    margin: 0 auto; 
-    
-  }
-  
-  .navbar-nav.ml-auto {
-    margin-right: 0; 
-    font-family: 'Acme', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    
-  }
-  
-  .barranav {
-    position: fixed;
-    top: 0%;
-    background-color: #85E6C5;
-    height: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    z-index: 20; 
-}
-  
-  .logo-img {
-    width: 100px;
-    margin-right: 5px;
-    
-  }
-  
-  .imgLogo{
-    
-    transition: 0.5s;
-    object-fit: cover;
-    
-  }
-  
-  .imgLogo:hover{
-    transform: scale(1.2);
-    
-  }
-  
-  #marcaTB{
-    display: flex;
-    font-size: 35px;
-    justify-content: center;
-    margin-left: 20px;
-     
-  }
-  
-  #letter{
-    color: white;
-
-  }
-  
-  #letter:hover{
-    color: rgba(255, 155, 93, 0.954);
-  }
-  
-  .collapse{
-    flex-grow: unset;
-  }
-  
-  #menuDer{
-    
-    justify-content:end;
-  }
-  
-  /*#tiLL{
-     font-family: 'Rowdies',sans-serif; 
-     font-size: 35px;
-  }*/
-  
-  #pru{
-    color: black;
-  }
-  
-  #pru:hover{
-    color: azure;
-  }
-
-  .navbar-toggler {
-    margin: 10px;
-  }
-
-  
-<<<<<<< HEAD:Acerca de nosotros/styles/styles.css
-=======
-.containerContactoAcercaDe {
+.acercade {
+  background-color: #fff2e6;;  
   display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.tituloNos{
+  font-family: "Rowdies",sans-serif;
+  font-size:35px ;
+  text-align: center;
+}
+
+.subtituloNos{
+  font-family: "Acme",sans-serif;
+  font-size:25px;
+  
+}
+
+.textoNos{
+  font-family: "Cabin",sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  padding: auto;
+  margin-right: 50px;
+}
+
+.somos{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 8%;
+  margin-top: 2%;
+}
+
+.containerSomos{
   padding: 10px;
-  margin: 15px;
-  height: auto;
-  width: 100%;
+  margin: 30px;
+}
+
+.misiNos{
+  text-align: center;
+  padding-top: 30px;
+}
+.imgNos{
+  align-items: center;
+  margin-top: 10%;
+  min-width: 20vw;
+}
+
+.misión{
+  display: flex;
+  padding: 24px;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.misi{
+  margin-right: 8%;
+}
+.descripcionNos{
   align-items: center;
   align-content: center;
+  padding-top: 30px;
+}
+
+.img-fluid{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.equipo{
+  text-align: center;
+}
+
+.container_cards {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.contactoAcercaDe{
-  padding-left: 1%;
-  padding-right: 1%;
+.tarjeta {
+  width: 300px;
+  margin: 10px;
+  transition: all, 300ms;
+}
+
+.tarjeta:hover {
+  width: 350px;
+  height: 650px;
+}
+
+.tarjeta .cover {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tarjeta .cover .image {
+  width: 250px;
+  display: block;
+  margin: auto;
+  top: 40px; 
+}
+
+.tarjeta:hover.cover .image {
+  top: 0px;
+}
+
+.tarjeta .description {
+  background-color: rgb(241, 223, 186);
+  margin-top: -10px;
+  padding: 20px;
+}
+
+.tarjeta .description{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.nombre{
+  text-align: center;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+}
+
+.descripcion2 {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 1000px) {
+  .somos, .misión, .containerSomos, .textoNos{
+      flex-direction: column; /* Cambiar a una disposición de columna en pantallas pequeñas */
+      margin-right: 2%;
+      margin-left:2% ;
+      padding: 1%
+  }
+  .tropico{
+    text-align: center;
+  }
+  .nosotros, .misi{
+  min-width: 10px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 }
 
-.iconosContactoAcercaDe {
-  height: 35px;
-  width: auto;
-}
-
-@media (max-width:800px){
-  .containerContactoAcercaDe{
-      height: auto;
-      align-self: center;
-  }
-  .iconosContactoAcercaDe {
-      height:  50px;
-      margin: 15px;
-  }
-  .textoContactoAcercaDe{
-      display: none;
-  }
-
-}
-
-@media (max-width:500px){
-  .logo-img{
-    width: 60px;
-    height: auto;
-  }
-
-  .till{
-    font-size: 23px;
-  }
-  .imgLogo:hover{
-    transform: scale(1.1);
-  }
-
-  .navbar{
-    padding: 0%;
-  }
-
-  .body-acercade {
-    padding-top: 100px;
-  }
-}
-
-
->>>>>>> desarrolloPrueba:Acerca de nosotros/styles/AcercaDe.css
-
-  
