@@ -9,7 +9,6 @@
     color: black;
     text-align: center;
     margin-bottom: 5%;
-
 }
 
 .cuerpoCon {
@@ -61,6 +60,13 @@
         margin: auto;
         align-items: center;
         }
+        .barra-nav{
+            margin-bottom: 5%;
+        }
+        .footer{
+            margin-top: 5%;
+        }
+    }
 
     /*.form-con, #name{
         max-width: 170px;
@@ -76,4 +82,28 @@
         margin-top: 5%;
     }
         
-    }*/}
+    }*/
+   /* .footer {
+        margin: 5%;
+       
+
+    }
+    .iconos-contacto{
+        padding-left: 1%;
+        padding-right: 1%;
+      
+      }
+      
+      
+      @media (max-width:800px){
+        .footer{
+            height: auto;
+            align-self: center;
+        }
+        .iconos-contacto {
+            height:  50px;
+            margin: 15px;
+        }
+        
+      
+      } */
