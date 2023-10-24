@@ -1,0 +1,119 @@
+.barra{
+    position: fixed;
+    top: 0%;
+    height: 120px;
+    width: 100vw;
+    z-index: 20; 
+}
+
+.titulo-navbar {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.seccion-navbar:hover {
+    color: #ffeee3;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.img-logo {
+    display: flex;
+}
+
+.navbar {
+  background: linear-gradient(to right, #ffeee3, #e9ac67, #f7a446, #ff9215);   
+}
+
+
+.logo-img {
+    width: 80px; 
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  
+.imgLogo{
+    transition: 0.5s;
+    object-fit: cover;
+  }
+
+.imgLogo:hover{
+    transform: scale(1.2);
+  }
+
+
+
+
+
+  /*ICONOS NAVBAR*/
+   
+  .lista-iconos {
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+
+  }
+  
+  .boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff; /* Cambia el color del botón a tu preferencia */
+  }
+
+
+ 
+@media (max-width: 1000px) {
+    .titulo-navbar {
+       font-size: 20px;
+    }
+    .logo-img {
+       text-align: center;
+     }
+
+     .boton {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      margin: 20px;
+    }
+    
+    .lista-iconos {
+      list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+    display: contents
+    }
+   .fi {
+    margin-left: 10px;
+    padding-left: 10px;
+   }
+  }
+
+ @media(max-width:600px) {
+  .titulo-navbar{
+    font-size: 15px;
+  }
+ }
+
+  @media (max-width:500px) {
+    .titulo-navbar {
+       display: none;
+    }
+    .logo-img {
+        width: 60px; 
+        margin-left: 20px;
+        overflow: hidden;
+    }
+  }
+
+
+  
+  
+
+  
+  

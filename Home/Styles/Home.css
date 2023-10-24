@@ -1,130 +1,39 @@
+
 .body-HOME{
-    background-color: #C8FFE0;
+    margin-top: 90px;
+    background-color: #fff2e6;
     height: 1000px;
-    padding-top: 120px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
 }
 
 
-@media (max-width: 500px) {
-    .navbar {
-      height: 100px;
-    }
-}
-
-.navbar-LI {
-  position: fixed;
-  top: 0%;
-  height: 120px;
-  width: 100vw;
-  z-index: 20;
-align-items: center;}
-
-/* .navbar {
-    background-color: #85E6C5 !important;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
-    font-weight: 600; 
-  }
-  
-  .navbar-nav {
-    margin: 0 auto; 
+.productos {
     
-  }
-  
-  .navbar-nav.ml-auto {
-    margin-right: 0; 
-    font-family: 'Acme', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    
-  }
-  
-  .barranav {
-    position: fixed;
-    top: 0%;
-    background-color: #85E6C5;
-    height: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    z-index: 20; 
-}
-  
-  .logo-img {
-    width: 100px;
+    margin-bottom: 50px;
+    margin-left: 5px;
     margin-right: 5px;
-    
-  }
-  
-  .imgLogo{
-    
-    transition: 0.5s;
-    object-fit: cover;
-    
-  }
-  
-  .imgLogo:hover{
-    transform: scale(1.2);
-    
-  }
-  
-  #marcaTB{
-    display: flex;
-    font-size: 35px;
-    justify-content: center;
-    margin-left: 20px;
-     
-  }
-  
-  #letter{
-    color: white;
-
-  }
-  
-  #letter:hover{
-    color: rgba(255, 155, 93, 0.954);
-  }
-  
-  .collapse{
-    flex-grow: unset;
-  }
-  
-  #menuDer{
-    
-    justify-content:end;
-  }
-  
-  #tiLL{
-     font-family: 'Rowdies',sans-serif; 
-     font-size: 35px;
-  }
-  
-  #pru{
-    color: black;
-  }
-  
-  #pru:hover{
-    color: azure;
-  }
-
-  .navbar-toggler {
-    margin: 20px;
-  } */
-
-
-/* ESTILOS CARRUSEL */
-
-.fotos-carrusel {
-    padding: 40px;
-
+    text-align: center;
+    margin-bottom: 5px;
+    display: table-row-group;
 }
 
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 35px;
+}
   /* ESTILOS TARJETAS PRODUCTOS */
-
   .card-text {
     font-family: 'Acme', sans-serif;
     font-family: 'Cabin', sans-serif;
@@ -142,7 +51,6 @@ align-items: center;}
 .container_cards {
     max-width: 1200px;
     margin: auto;
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -178,7 +86,7 @@ align-items: center;}
 }
 
 .tarjeta .description {
-    background-color: aliceblue;
+    background-color: #e4e8f1;
     margin-top: -10px;
     padding: 20px;
 }
@@ -205,37 +113,56 @@ align-items: center;}
     font-family: 'Acme', sans-serif;
     font-size: 25px;
 }
-/* 
-#about {
-    font-family: 'Rowdies', sans-serif;
-    font-size: 35px;
-} */
 
 /* SE AÑADE UN PADING A VIDEO  */
 
-.containerContactoAcercaDe {
-    display: flex;
-    padding: 10px;
-    margin: 15px;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-  }
-  
-  .contactoAcercaDe{
-    padding-left: 1%;
-    padding-right: 1%;
-  
-  }
-  
-  .iconosContactoAcercaDe {
-    height: 35px;
-    width: auto;
-  }
-  
-  @media (max-width:800px){
+/*TEXTO DE CARRUSEL*/
+.parrafo1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
+
+.texto, .texto1 {
+    color: #0e093d;
+}
+
+/*ICONOS CONTACTO*/
+.lista-contacto {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+/*IMAGEN*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.descuento {
+    color: #ffffff;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 30px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Agregar a cada página para responsividad de navbaer*/
+@media(max-width:1000px){
+.iconos {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+}
+
+@media (max-width:800px){
     .containerContactoAcercaDe{
         height: auto;
         align-self: center;
@@ -249,10 +176,15 @@ align-items: center;}
     }
   
   }
+/*Agregar a cada página para la responsividad de navbar*/
+  @media (max-width: 525px) {
+    .body-HOME {
+        margin-top: 70px;
+    }
+  }
 
-
-/* Estilos del div con el video */
-  .video-container {
+/* ESTILOS DEL DIV DEL VIDEO */
+.video-container {
     max-width: 100%; /* Establece un ancho máximo del 100% del contenedor padre */
     margin: 5%; /* Centra el div horizontalmente en el viewport */
 }
@@ -262,3 +194,8 @@ align-items: center;}
     height: auto; /* Ajusta automáticamente la altura en función del ancho */
 }
 
+@media(max-width: 500px) {
+    .descuento {
+        font-size: 15px;
+    }
+}
