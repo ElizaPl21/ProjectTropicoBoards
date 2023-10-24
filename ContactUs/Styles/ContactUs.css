@@ -51,3 +51,8 @@
     border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
 
 }
+.lista-contacto {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
