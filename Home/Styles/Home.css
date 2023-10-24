@@ -150,16 +150,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*Agregar a cada página para responsividad de navbaer*/
-@media(max-width:1000px){
-.iconos {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
 
-}
-}
 
 @media (max-width:800px){
     .containerContactoAcercaDe{
