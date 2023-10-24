@@ -135,6 +135,7 @@
   font-family: 'Cabin', sans-serif;
 }
 
+
 /* Estilos para pantallas más pequeñas (móviles) */
 @media (max-width: 1000px) {
   .somos, .misión, .containerSomos, .textoNos{
