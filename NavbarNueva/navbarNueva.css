@@ -49,10 +49,6 @@
     transform: scale(1.2);
   }
 
-
-
-
-
   /*ICONOS NAVBAR*/
    
   .lista-iconos {
@@ -118,7 +114,7 @@
   }
 
 
-  /*Agregar a cada página para responsividad de navbaer*/
+  /*Agregar a cada página para responsividad de navbar*/
 @media(max-width:1000px){
   .iconos {
       position: relative;
