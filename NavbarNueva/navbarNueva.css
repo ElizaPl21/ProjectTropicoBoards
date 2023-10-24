@@ -1,3 +1,9 @@
+/*Agregar a cada página para la responsividad de navbar*/
+  @media (max-width: 525px) {
+    .body-HOME {
+        margin-top: 70px;
+    }
+  }
 .barra{
     position: fixed;
     top: 0%;
@@ -112,6 +118,16 @@
   }
 
 
+  /*Agregar a cada página para responsividad de navbaer*/
+@media(max-width:1000px){
+  .iconos {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+  
+  }
+  }
   
   
 

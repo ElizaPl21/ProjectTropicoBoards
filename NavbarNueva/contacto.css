@@ -32,3 +32,24 @@
     text-decoration: underline;
 }
 
+/*ICONOS CONTACTO*/
+.lista-contacto {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+@media (max-width:800px){
+    .containerContactoAcercaDe{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoAcercaDe {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoAcercaDe{
+        display: none;
+    }
+  
+  }
