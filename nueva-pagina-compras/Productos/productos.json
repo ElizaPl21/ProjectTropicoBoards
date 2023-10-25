@@ -1,0 +1,103 @@
+  
+  [  
+   
+     {
+      "id":"Pat-001",
+        "imagen":"./Assets/patinetas/pat001.jpg",
+        "productName": "Arrecife",
+        "productPrice": "$1900",
+        "productDescription": "Color rojo con diseño de cocos",
+        "stockQuantity": 5
+      },
+      {
+        "id":"Pat-002",
+        "imagen":"./Assets/patinetas/pat002.jpg",
+        "productName": "Cocotera",
+        "productPrice": "$1900",
+        "productDescription": "Color azul con diseño de tortugas",
+        "stockQuantity": 4
+      },
+      {
+        "id":"Pat-003",
+        "imagen":"./Assets/patinetas/pat003.jpg",
+        "productName": "Nativo",
+        "productPrice": "$1900",
+        "productDescription": "Color verde con diseño de delfines",
+        "stockQuantity": 6
+      },
+      {
+        "id":"Pat-004",
+        "imagen":"./Assets/patinetas/pat004.jpg",
+        "productName": "Verdadera cruz",
+        "productPrice": "$1900",
+        "productDescription": "Color naranja con diseño de flores",
+        "stockQuantity": 5
+      },
+      {
+        "id":"Pat-005",
+        "imagen":"./Assets/patinetas/pat005.jpg",
+        "productName": "Rivera",
+        "productPrice": "$1900",
+        "productDescription": "Color morado con diseño de mar",
+        "stockQuantity": 7
+      },
+      {
+        "id":"Pat-006",
+        "imagen":"./Assets/patinetas/pat006.jpeg",
+        "productName": "Creative",
+        "productPrice": "$2600",
+        "productDescription": "Color amarillo con diseño de amanecer",
+        "stockQuantity": 5
+      },
+      {
+        "id":"Pat-007",
+        "imagen":"./Assets/patinetas/pat007.jpeg",
+        "productName": "Sea",
+        "productPrice": "$2400",
+        "productDescription": "Color rosa con diseño de arcoiris",
+        "stockQuantity": 8
+      },
+      {
+        "id":"Pat-008",
+        "imagen":"./Assets/patinetas/pat008.jpeg",
+        "productName": "Turtle",
+        "productPrice": "$2800",
+        "productDescription": "Color rojo con diseño de estrellas de mar",
+        "stockQuantity": 8
+      },
+      {
+        "id":"Pat-009",
+        "imagen":"./Assets/patinetas/pat009.jpeg",
+        "productName": "Axolotl",
+        "productPrice": "$2800",
+        "productDescription": "Color arcoiris con diseño de mandala",
+        "stockQuantity": 6
+      },
+      
+      {
+        "id":"Acc-001",
+        "imagen":"./Assets/patinetas/acc-003.jpeg",
+        "productName": "Sombrero",
+        "productPrice": "$250",
+        "productDescription": "Sombrero de playa 100%paja, estilo Pierside,lifeguard",
+        "stockQuantity": 7
+      },
+      {
+        "id":"Acc-002",
+        "imagen":"./Assets/patinetas/acc-002.jpeg",
+        "productName": "Gorra",
+        "productPrice": "$200",
+        "productDescription": "Gorra de algodón color rosa",
+        "stockQuantity": 4
+      },
+      {
+        "id":"Acc-003",
+        "imagen":"./Assets/patinetas/acc-001.jpeg",
+        "productName": "Camisa",
+        "productPrice": "$270",
+        "productDescription": "Camisa de algodoón, con cuello redondo, manga corta color morado y blanco",
+        "stockQuantity": 4
+      }
+
+    ]
+  
