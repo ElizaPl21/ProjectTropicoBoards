@@ -13,7 +13,7 @@
 }
 
 .cuerpoCon {
-    background-color:white;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,16 +22,21 @@
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 50px;
-    border: 2px solid black; /* Borde negro de 2 píxeles */
-    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
+    border: 2px solid black;
+    /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1);
+    /* Sombra con desplazamiento y suavidad */
 }
+
 .form-con {
     align-items: center;
 }
+
 .form-control {
     min-width: 100px;
     border-radius: 7px;
 }
+
 .btn {
     margin-left: 30%;
     margin-right: 30%;
@@ -39,31 +44,56 @@
     background-color: #f7be7e;
     border: 1px solid rgb(231, 135, 26);
     border-radius: 10px;
-    color: #FFF; 
-    font-size: 16px; 
+    color: #FFF;
+    font-size: 16px;
 }
 
 .btn:hover {
-    background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
-    cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
-    border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
 
 }
 
-@media (max-width:813px){
-    .cuerpoCon{
+@media (max-width:912px) {
+    .cuerpoCon {
+        max-width: 550px;
+        margin-top: 40%;
+        align-items: center;
+
+    }
+
+    .footer {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width:813px) {
+    .cuerpoCon {
         max-width: 250px;
         margin: auto;
         align-items: center;
-        }
-        .barra-nav{
-            margin-bottom: 5%;
-        }
-        
-        .footer{
-            margin-top: 5%;
-        }
     }
 
+    .barra-nav {
+        margin-bottom: 5%;
+    }
 
+    .footer {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:768px) {
+    .cuerpoCon {
+        max-width: 550px;
+        margin-top: 40%;
+        align-items: center;
+    }
+
+}
