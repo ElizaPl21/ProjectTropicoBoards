@@ -1,10 +1,9 @@
 
 .body-LOGIN{
-    padding-top: 70px;
+    padding-top: 90px;
     background-color: #fff2e6;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
-
 }
 
 .titulo-RU,
@@ -67,28 +66,29 @@
     color: #000000;
 }
 
-.footer{
-    margin-top: 200px;
-}
-  
 
-@media (max-width:500px) {
+@media (max-width:950px) {
  
     .cuerpo-LI,
     .cuerpo-RU {
-        margin-left: 5%;
-        margin-right: 5%;
+    max-width: 350px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
     }
 }
 
 @media (max-width: 525px) {
     .body-LOGIN {
-        margin-top: 70px;
+        margin-top: 30px;
     }
   }
 
 
 
+  
 
      
 
