@@ -80,8 +80,21 @@
    
 }
 .btn{
-    background-color: #A66CFF;
-    border: #A66CFF solid; 
+    margin-left: 30%;
+    margin-right: 30%;
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF; 
+    font-size: 16px;
+  }
+
+  .btn:hover {
+    background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
   }
 
 @media (max-width:800px){
