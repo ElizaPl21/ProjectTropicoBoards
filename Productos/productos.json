@@ -73,13 +73,31 @@
         "productDescription": "Color arcoiris con diseño de mandala",
         "stockQuantity": 6
       },
+      
       {
-        "id":"Pat-010",
-        "imagen":"./Assets/patinetas/pat010.jpeg",
-        "productName": "Fish",
-        "productPrice": "$2500",
-        "productDescription": "Color aquamarine con diseño de palmeras",
+        "id":"Acc-001",
+        "imagen":"./Assets/patinetas/acc-003.jpeg",
+        "productName": "Sombrero",
+        "productPrice": "$250",
+        "productDescription": "Sombrero de playa 100%paja, estilo Pierside,lifeguard",
         "stockQuantity": 7
+      },
+      {
+        "id":"Acc-002",
+        "imagen":"./Assets/patinetas/acc-002.jpeg",
+        "productName": "Gorra",
+        "productPrice": "$200",
+        "productDescription": "Gorra de algodón color rosa",
+        "stockQuantity": 4
+      },
+      {
+        "id":"Acc-003",
+        "imagen":"./Assets/patinetas/acc-001.jpeg",
+        "productName": "Camisa",
+        "productPrice": "$270",
+        "productDescription": "Camisa de algodoón, con cuello redondo, manga corta color morado y blanco",
+        "stockQuantity": 4
       }
+
     ]
   

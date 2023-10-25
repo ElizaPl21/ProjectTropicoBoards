@@ -1,9 +1,10 @@
 .navbar {
-  background-color: #85E6C5 !important;
+  background-color: #0199CA !important;
   font-family: 'Acme', sans-serif;
   font-size: 25px;
   font-weight: 600;
   text-align: center;
+  z-index: 1000;
 }
 
 .navbar-nav {

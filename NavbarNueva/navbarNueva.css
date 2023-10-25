@@ -11,7 +11,9 @@
     width: 100vw;
     z-index: 20; 
 }
-
+.enlace {
+  color: white;
+}
 .titulo-navbar {
     font-family: 'Rowdies', sans-serif;
     font-size: 25px;
@@ -19,11 +21,12 @@
     margin-right: auto;
 }
 
+
 .seccion-navbar:hover {
     color: #ffeee3;
     font-family: 'Cabin', sans-serif;
     font-size: 20px;
-    text-decoration: underline;
+    
 }
 
 .img-logo {
@@ -57,7 +60,7 @@
     margin-right: 10px;
     padding: 10px;
     display: flex;
-
+    
   }
   
   .boton {

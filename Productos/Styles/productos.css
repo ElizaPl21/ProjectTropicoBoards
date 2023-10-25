@@ -9,19 +9,21 @@
 }
 
 .titulo-prod {
-  font-size: 35px;
-  font-family: 'Rowdies', sans-serif;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
   text-align: center;
-  color: rgb(252, 252, 252);
+  color: rgb(18, 17, 17);
   padding-top: 120px;
 }
 
 .product{
-  background-color: #C8FFE0;
+  background-color: #fff2e6;
 }
 
 .card {
   margin: 25px;
+  border-radius: 5%;
+  border-color: black;
 }
 
 .list-group{
@@ -31,8 +33,11 @@
   text-align: center;
   font-family: 'Cabin', sans-serif;
   font-size: 18px;
+  
 
 }
+
+
 
 @media (max-width:700px){
   .list-group{
@@ -48,24 +53,35 @@ height: 475px;
 text-align: center;
 transition: transform 0.2s ease;
 display: block;
+border-radius: 11%;
 }
 
 .card-img-top:hover {
   transform: scale(1.2);
+  z-index: 1001;
 }
 
 .sticky-element {
   position: sticky;
-  z-index: 20;
+  z-index: 1000;
   top: 0; /* Ajusta el valor según tu diseño */
 }
 
 .btn{
-  background-color: #A66CFF;
-  font-family: "Cabin", sans-serif;
-  font-size: 18px;
-  color: white;
-  border: solid #A66CFF;
+  margin-left: 30%;
+    margin-right: 30%;
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF; 
+    font-size: 16px;
+}
+.btn:hover {
+  background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
+  cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
+  border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
 }
 
 /* Estilos del footer contacto */

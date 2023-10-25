@@ -29,9 +29,7 @@ function mostrarProducto(producto) {
   image.src = producto.imagen;
  
 //Obteniendo id
-  const number = document.createElement("li");
-  number.classList.add("list-group-item");
-  number.textContent = `ID: ${producto.id}`;
+  
 
 //Obteniendo nombre
   const name = document.createElement("li");
@@ -50,7 +48,7 @@ function mostrarProducto(producto) {
 
 //Obteniendo stock
   const stock = document.createElement("li");
-  stock.classList.add("list-group-item");
+  stock.classList.add("list-group-item","item");
   stock.textContent = `En stock: ${producto.stockQuantity}`;
 
  //boton
@@ -64,7 +62,6 @@ button.innerText = "Agregar al carrito";
 
 
   card.appendChild(image);
-  card.appendChild(number);
   card.appendChild(name);
   card.appendChild(price);
   card.appendChild(description);
@@ -77,7 +74,7 @@ button.innerText = "Agregar al carrito";
 // Cargar productos y mostrar los primeros 10
 fetchProductos()
   .then((productos) => {
-    for (let i = 0; i < 10 && i < productos.length; i++) {
+    for (let i = 0; i < 13 && i < productos.length; i++) {
       mostrarProducto(productos[i]);
     }
 
