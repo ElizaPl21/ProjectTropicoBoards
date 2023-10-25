@@ -66,6 +66,10 @@
     color: #000000;
 }
 
+.footer{
+    margin-top: 210px;
+}
+
 
 @media (max-width:950px) {
  
