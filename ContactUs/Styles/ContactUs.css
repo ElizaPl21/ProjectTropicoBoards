@@ -1,6 +1,7 @@
 .contac {
     background-color: #fff2e6;
     padding-top: 90px;
+    min-height: max-content;
 }
 
 .tituloCon {
@@ -53,57 +54,16 @@
 @media (max-width:813px){
     .cuerpoCon{
         max-width: 250px;
-        /*margin-left: 15%;
-        margin-right: 10px;
-        margin-top: 40px;
-        margin-bottom: 20px;*/
         margin: auto;
         align-items: center;
         }
         .barra-nav{
             margin-bottom: 5%;
         }
+        
         .footer{
             margin-top: 5%;
         }
     }
 
-    /*.form-con, #name{
-        max-width: 170px;
-        font-size: 15px;
-    }
-    .tituloCon{
-        font-size: 18px;
-    }
-    .barra-nav{
-        margin-bottom: 5%;
-    }
-    .footer{
-        margin-top: 5%;
-    }
-        
-    }*/
-   /* .footer {
-        margin: 5%;
-       
 
-    }
-    .iconos-contacto{
-        padding-left: 1%;
-        padding-right: 1%;
-      
-      }
-      
-      
-      @media (max-width:800px){
-        .footer{
-            height: auto;
-            align-self: center;
-        }
-        .iconos-contacto {
-            height:  50px;
-            margin: 15px;
-        }
-        
-      
-      } */
