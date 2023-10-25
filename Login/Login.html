@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,202 +17,153 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <!-- Link de archivos CSS -->
-    <link rel="stylesheet" href="../nav_bar/styles/styles_nav.css">
-    <link rel="stylesheet" href="./Styles/Login.css">   
-    <!-- <link rel="stylesheet" href="/Login/Styles/Registro.css"> -->
+    <link rel="stylesheet" href="./Styles/Login.css">
+    <link rel="stylesheet" href="../NavbarNueva/navbarNueva.css">
+    <link rel="stylesheet" href="../NavbarNueva/contacto.css">
+    <!-- Link para tener icono superior en la pestaña -->
+    <link rel="icon" href="../NavbarNueva/assets/logo.png">
+    <!--Link iconos-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="icon" href="../NavbarNueva/assets/logo.png">
 
-</head>
-
-<body class="body-LI">
-
-    <div class="MainContainer-LI">
-        <!-- Contenedor Navbar -->
-        <div class="navbar-LI">
-            <nav class="navbar navbar-expand-xl bg-body-tertiary">
-                <a class="navbar-brand" href="/Home/Home.html">
-                    <img class="logo-img imgLogo" src="../nav_bar/assets/logo.png" alt="Logo de TropicoBoards">
-                </a>
-
-                <h2 id="tiLL">TropicoBoards</h2>
+    <body class="body-LOGIN">
 
 
+    <!--COMIENZA NAVBAR --> 
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container-fluid" id="menuDer">
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link active " aria-current="page" id="pru" href="/Home/Home.html">Principal</a>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Noticias
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Eventos</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Dealers</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                                    id="pru" aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/Productos/productos.html">Patinetas</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Mercancias</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="pru" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Explorar
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Galeria de fotos</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Testimonios</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Videos</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item ">
-                                <a class="nav-link active " aria-current="page" id="pru" href="/Acerca de nosotros/AcercaDe.html">Nosotros</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="letter" aria-current="page" href="/ContactUs/ContactUs.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="letter" href="#">Iniciar Sesión</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <header class="barra-nav">
+        <section class="barra">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="imagen">
+          <img class="logo-img imgLogo" src="../NavbarNueva/assets/logo.png" alt="Logo Tropico-Boards">
         </div>
-
-        <!-- Seccion de Inicio de Sesion -->
+          <a class="navbar-brand titulo-navbar" href="#">TROPICO BOARDS</a>
+      
+          <div class="contenido">
+            <div class="lista-iconos">
+          <li class="lista-iconos carrito">
+            <i class="seccion-navbar fi fi-sr-user fas fa-shopping-cart"></i>
+            </li>
+            <li class="lista-iconos">
+              <i class=" seccion-navbar fi fi-sr-shopping-cart"></i>
+            </li>
+          
+      
+          <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" secciones-navbar collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active seccion-navbar" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link seccion-navbar" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link seccion-navbar" href="#">Nosotros</a>
+              </li>
+      
+            </ul>
+          </div>
+          
+        </div>
+        </div>
+      </nav>
+      </section>
+      </header>
+       
+<!--TERMMINA NAVBAR --> 
         <div class="cuerpo-LI">
             <h1 class="titulo-LI">Inicio de Sesión</h1>
-            <form class="form-LI">
+            <form id="inicioSesionForm" class="form-LI">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="form2Example1" class="form-control" required placeholder="ejmplo@correo.com" />
-                    <label class="form-label" for="form2Example1">Email address</label>
+                    <input type="email" id="correoInicio" class="form-control" required placeholder="ejemplo@correo.com" />
+                    <label class="form-label" for="correoInicio">Correo electrónico</label>
+                    <div id="correoInicioError" class="error"></div>
                 </div>
-
+        
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <input type="password" id="form2Example2" class="form-control" placeholder="Contraseña" />
-                    <label class="form-label" for="form2Example2">Contraseña</label>
+                    <input type="password" id="contrasenaInicio" class="form-control" required placeholder="Contraseña" />
+                    <label class="form-label" for="contrasenaInicio">Contraseña</label>
+                    <div id="contrasenaInicioError" class="error"></div>
                 </div>
-
+        
                 <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
                 <div class="text-center">
-                    <p>Aún no eres miembro? <a href="#Registro">Registrate</a></p>
+                    <p>¿Aún no eres miembro? </p>
+                    <a id="mostrarRegistro" href="#contenedorRegistro">Regístrate</a>
                 </div>
             </form>
         </div>
-        <!-- Encabezado de la seccion de Registro -->
-        <p id="Registro"></p>
 
-        <!-- Seccion de Registro de Usuarios -->
-        <div class="cuerpo-RU">
-            <div class="titulo-RU" >Registro</div>
-            <form class="form-LI">
+        <!-- SECCIÓN DE REGISTRO -->
 
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="text" id="nombreUsuario" class="form-control" required  placeholder="Nombre"/>
-                    <label class="form-label" for="nombreUsuario">Nombre</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="text" id="apellidoUsuario" class="form-control" required  placeholder="Apellido"/>
-                    <label class="form-label" for="apellidoUsuario">Apellido</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <!-- <label class="formTitle" for="correo">Correo electronico</label><br>
-                    <input class="formImput" type="email" id="correo" required placeholder="ejmplo@correo.com"><br> -->
-                    <input type="email" id="correo" class="form-control" required placeholder="ejmplo@correo.com" />
-                    <label class="form-label" for="correo">Correo electrónico</label>
-                </div>
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="contraseña" class="form-control" />
-                    <label class="form-label" for="contraseña">Contraseña</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <input type="password" id="verificacionContraseña" class="form-control" />
-                    <label class="form-label" for="verificacionContraseña">Confrimar contraseña</label>
-                </div>
-                <div class="containerBoton-RU">
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-                </div>
-            </form>
-            
-        </div>
-
-        <!-- Seccion (footer )contacto -->
-        <div class="card text-center mb-3 mx-auto" style="max-width: 70rem;">
-            <div class="containerContactoLI">
-      
-              <h3 class="contactoLI" class="subtitulo">
-      
-                <p class="descripcion"> <a href="/ContactUs/ContactUs.html">
-                  <img class="iconosContactoLI" src="/Pago/assets/Location.png" alt="Icono ubicacion">
-                </a> <span class="textoContactoLI">Dirección: <br>Un lugar en Veracruz</p></span>
-      
-              </h3>
-              <h3 class="contactoLI" class="subtitulo">
-      
-                <p class="descripcion"><a href="/ContactUs/ContactUs.html">
-                  <img class="iconosContactoLI" src="/Pago/assets/icono-telefono.png" alt="Icono telefono">
-                </a> <span class="textoContactoLI">Teléfono: <br>(999)9-99-99-99</p></span>
-      
-              </h3>
-              <h3 class="contactoLI" class="subtitulo">
-                
-                <p class="descripcion"> <a href="/ContactUs/ContactUs.html">
-                  <img class="iconosContactoLI" src="/Pago/assets/email.png" alt="Icono correo">
-                </a><span class="textoContactoLI">Email: <br>correodela@empresa.com</p> </span>
-      
-              </h3>
-              <h3 class="contactoLI" class="subtitulo">
-                <a href="https://www.instagram.com/tropico_boards/" target="_blank">
-                  <img class="iconosContactoLI" src="/Pago/assets/insta.png" alt="Logo instagram">
-                </a>
-                <span class="textoContactoLI descripcion">Instagram</span>
-              </h3>
+        <div id="contenedorRegistro" style="display: none;">
+            <div class="cuerpo-RU">
+                <div class="titulo-RU">Registro</div>
+                <form id="registroForm" class="form-LI">
+                    <div class="form-outline mb-4">
+                        <input type="text" id="nombreUsuario" class="form-control" required placeholder="Nombre" />
+                        <label class="form-label" for="nombreUsuario">Nombre</label>
+                        <div id="nombreUsuarioError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="text" id="apellidoUsuario" class="form-control" required placeholder="Apellido" />
+                        <label class="form-label" for "apellidoUsuario">Apellido</label>
+                        <div id="apellidoUsuarioError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="email" id="correoRegistro" class="form-control" required placeholder="ejemplo@correo.com" />
+                        <label class="form-label" for="correoRegistro">Correo electrónico</label>
+                        <div id="correoRegistroError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="password" id="contrasenaRegistro" class="form-control" required placeholder="Contraseña" />
+                        <label class="form-label" for="contrasenaRegistro">Contraseña</label>
+                        <div id="contrasenaRegistroError" class="error"></div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="password" id="verificacionContrasena" class="form-control" required placeholder="Confirmar contraseña" />
+                        <label class="form-label" for="verificacionContrasena">Confirmar contraseña</label>
+                        <div id="verificacionContrasenaError" class="error"></div>
+                    </div>
+                    <div class="containerBoton-RU">
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                    </div>
+                </form>
             </div>
-          </div>
+        </div>
 
-        
+     <!--    Sección contacto -->
+
+    <footer class="footer">
+  <div class="iconos-contacto">
+    <li class="lista-contacto" >
+  <a href="https://www.facebook.com/profile.php?id=100063545682301" target="_blank"><img src="../NavbarNueva/assets/facebook (1).png" alt="logo-facebook"></a>
+   </li>
+   <li class="lista-contacto">
+  <a href="https://www.instagram.com/tropico_boards/" target="_blank"><img src="../NavbarNueva/assets/instagram (1).png" alt="logo-instagram"></a>
+   </li>
+   <li class="lista-contacto">
+  <img src="../NavbarNueva/assets/sobre.png" alt="logo-correo">
+   </li>
+   <li class="lista-contacto">
+  <img src="../NavbarNueva/assets/llamada-telefonica (1).png" alt="logo-telefono">
+  </li>
+  <p class="parrafo">Tropico Boards</p><br>
+  <p class="parrafo aviso">Aviso de privacidad</p>
+
+    </div>
+  </footer>
+
+
+
+
+<script src="./js/Login.js"></script>   
 
 </body>
 

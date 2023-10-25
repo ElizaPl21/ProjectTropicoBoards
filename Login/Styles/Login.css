@@ -1,51 +1,10 @@
-.body-LI {
-    background-color: #C8FFE0;
-    height: 1000px;
-    padding-top: 120px;
+
+.body-LOGIN{
+    padding-top: 90px;
+    background-color: #fff2e6;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
 }
-
-.navbar-LI {
-    position: fixed;
-    top: 0%;
-    height: 120px;
-    width: 100vw;
-    z-index: 20;
-}
-
-
-.mainContainer-LI {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-
-}
-
-.encabezado-LI {
-    display: flex;
-    position: relative;
-    text-align: center;
-    width: auto;
-    height: 300px;
-}
-
-.img-LI {
-    width: 100%;
-    object-fit: cover;
-    object-position: 0% 25%;
-}
-
-/* .titulo-LI {
-    font-family: 'Rowdies', sans-serif;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-} */
 
 .titulo-RU,
 .titulo-LI {
@@ -59,18 +18,18 @@
 
 .cuerpo-LI,
 .cuerpo-RU {
-    background-color: white;
+    background-color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2%;
     padding: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.cuerpo-RU {
     margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 50px;
+    border: 2px solid black; /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
 }
 
 .form-LI {
@@ -81,83 +40,59 @@
 
 .form-control {
     min-width: 300px;
+    border-radius: 90px;
 }
 
 .btn {
     margin-left: 30%;
     margin-right: 30%;
     text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF; 
+    font-size: 16px; 
 }
 
-.containerBoton-RU {
-    display: flex;
+.btn:hover {
+    background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
+
 }
 
-.boton-RU {
-    background-color: #614BC3;
-    border: #000000 solid;
-    border-radius: 13px;
-    justify-content: flex-end;
+#mostrarRegistro {
+    color: #000000;
 }
 
-.btn{
-    background-color: #A66CFF;
-    border: #A66CFF solid; 
-  }
+.footer{
+    margin-top: 210px;
+}
 
-@media (max-width:500px) {
-    .navbar-LI {
-        height: 60px;
-    }
 
-    .body-LI {
-        padding-top: 70px;
-    }
-
+@media (max-width:950px) {
+ 
     .cuerpo-LI,
     .cuerpo-RU {
-        margin-left: 5%;
-        margin-right: 5%;
+    max-width: 350px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
     }
 }
-/* Estilos del footer contacto */
-.containerContactoLI {
-    display: flex;
-    padding: 10px;
-    margin: 15px;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-  }
-  
-  .contactoLI{
-    padding-left: 1%;
-    padding-right: 1%;
-  
-  }
-  
-  .iconosContactoLI {
-    height: 35px;
-    width: auto;
-  }
-  
-  @media (max-width:800px){
-    .containerContactoLI{
-        height: auto;
-        align-self: center;
+
+@media (max-width: 525px) {
+    .body-LOGIN {
+        margin-top: 30px;
     }
-    .iconosContactoLI {
-        height:  50px;
-        margin: 15px;
-    }
-    .textoContactoLI{
-        display: none;
-    }
-  
   }
+
+
+
   
-  
-  
-    
+
+     
+
