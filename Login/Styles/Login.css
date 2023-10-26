@@ -71,8 +71,7 @@
 }
 
 
-@media (max-width:950px) {
- 
+@media (max-width:950px) { 
     .cuerpo-LI,
     .cuerpo-RU {
     max-width: 350px;

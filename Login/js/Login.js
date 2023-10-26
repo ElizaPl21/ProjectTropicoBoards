@@ -30,7 +30,7 @@ const inicioSesionForm = document.getElementById("inicioSesionForm");
             return; // No se envía el formulario
         }
 
-        if (contrasenaInicio.length < 6) {
+        if (contrasenaInicio.length >=8) {
             document.getElementById("contrasenaInicioError").textContent = "La contraseña es demasiado corta";
             return; // No se envía el formulario
         }
@@ -59,36 +59,48 @@ const inicioSesionForm = document.getElementById("inicioSesionForm");
      const contrasenaRegistro = document.getElementById("contrasenaRegistro").value;
      const verificacionContrasena = document.getElementById("verificacionContrasena").value;
 
-     if (nombreUsuario.trim() === "") {
-         document.getElementById("nombreUsuarioError").textContent = "El nombre es obligatorio";
-         return;
-     }
+     /*const Users=JSON.parse(localStorage.getItem("users")) || [];
+     const esUsuarioRegistrado = Users.find(user=> user.correoRegistro===correoRegistro);
+    */
+    /* if(esUsuarioRegistrado){
+        return alert ("El usuario ya esta registrado")
+    }
+    Users.push({nombreUsuario:nombreUsuario, apellidoUsuario:apellidoUsuario, correoRegistro:correoRegistro, contrasenaRegistro:contrasenaRegistro,verificacionContrasena:verificacionContrasena})
+    localStorage.setItem("users",JSON.stringify(Users))
+    alert ("Refistro exitoso")
+    //Redirección*/
 
-     if (apellidoUsuario.trim() === "") {
-         document.getElementById("apellidoUsuarioError").textContent = "El apellido es obligatorio";
-         return;
-     }
 
-     if (!isValidEmail(correoRegistro)) {
-         document.getElementById("correoRegistroError").textContent = "El correo no es válido";
-         return;
-     }
+      if (nombreUsuario.trim() === "") {
+          document.getElementById("nombreUsuarioError").textContent = "El nombre es obligatorio";
+          return;
+      }
 
-     if (contrasenaRegistro.length < 6) {
-         document.getElementById("contrasenaRegistroError").textContent = "La contraseña debe tener al menos 6 caracteres";
-         return;
-     }
+      if (apellidoUsuario.trim() === "") {
+          document.getElementById("apellidoUsuarioError").textContent = "El apellido es obligatorio";
+          return;
+      }
 
-     if (contrasenaRegistro !== verificacionContrasena) {
-         document.getElementById("verificacionContrasenaError").textContent = "Las contraseñas no coinciden";
-         return;
-     }
+      if (!isValidEmail(correoRegistro)) {
+          document.getElementById("correoRegistroError").textContent = "El correo no es válido";
+          return;
+      }
 
-     registroForm.submit();
- });
+      if (contrasenaRegistro.length >=8) {
+          document.getElementById("contrasenaRegistroError").textContent = "La contraseña debe tener al menos 8 caracteres";
+          return;
+      }
+
+      if (contrasenaRegistro !== verificacionContrasena) {
+          document.getElementById("verificacionContrasenaError").textContent = "Las contraseñas no coinciden";
+          return;
+      }
+
+      registroForm.submit();
+  });
 
  function isValidEmail(email) {
      const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-     return emailRegex.test(email);
- }
+      return emailRegex.test(email);
+  }
 
