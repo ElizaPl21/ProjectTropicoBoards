@@ -30,7 +30,7 @@ const inicioSesionForm = document.getElementById("inicioSesionForm");
             return; // No se envía el formulario
         }
 
-        if (contrasenaInicio.length < 6) {
+        if (contrasenaInicio.length < 8) {
             document.getElementById("contrasenaInicioError").textContent = "La contraseña es demasiado corta";
             return; // No se envía el formulario
         }
@@ -74,8 +74,8 @@ const inicioSesionForm = document.getElementById("inicioSesionForm");
          return;
      }
 
-     if (contrasenaRegistro.length < 6) {
-         document.getElementById("contrasenaRegistroError").textContent = "La contraseña debe tener al menos 6 caracteres";
+     if (contrasenaRegistro.length < 8) {
+         document.getElementById("contrasenaRegistroError").textContent = "La contraseña debe tener al menos 8 caracteres";
          return;
      }
 
