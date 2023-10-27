@@ -27,6 +27,7 @@
   <link rel="icon" href="../NavbarNueva/assets/logo.png">
   <!-- Link de JavaScript-->
   <script async defer src="./js/Login.js"></script>
+  <script async defer src="./js/Login2.js"></script>
 </head>
 
 <body class="body-LOGIN">
@@ -48,7 +49,7 @@
             <div class="lista-iconos">
               <li class="lista-iconos carrito">
                 <a class="enlace" href="../Login/Login.html"><i
-                    class="seccion-navbar fi fi-sr-user fas fa-shopping-cart"></i></a>
+                    class=" cerrar seccion-navbar fi fi-sr-user fas fa-shopping-cart"></i></a>
               </li>
               <li class="lista-iconos">
                 <a class="enlace" href="../Pago/Pago.html"><i class=" seccion-navbar fi fi-sr-shopping-cart"></i></a>
@@ -89,22 +90,22 @@
     <form id="inicioSesionForm" class="form-LI">
       <!-- Email input -->
       <div class="form-outline mb-4">
-        <input type="email" id="correoInicio" class="form-control" required placeholder="ejemplo@correo.com" />
-        <label class="form-label" for="correoInicio">Correo electrónico</label>
-        <div id="correoInicioError" class="error"></div>
+        <input type="email" id="correo" class="form-control" required placeholder="ejemplo@correo.com" />
+        <label class="form-label" for="correo">Correo electrónico</label>
+        <div id="correoError" class="error"></div>
       </div>
 
       <!-- Password input -->
       <div class="form-outline mb-4">
-        <input type="password" id="contrasenaInicio" class="form-control" required placeholder="Contraseña" />
-        <label class="form-label" for="contrasenaInicio">Contraseña</label>
-        <div id="contrasenaInicioError" class="error"></div>
+        <input type="password" id="contrasena" class="form-control" required placeholder="Contraseña" />
+        <label class="form-label" for="contrasena">Contraseña</label>
+        <div id="contrasenaError" class="error"></div>
       </div>
 
       <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
       <div class="text-center">
         <p>¿Aún no eres miembro? </p>
-        <a id="mostrarRegistro" href="#contenedorRegistro">Regístrate</a>
+        <a id="mostrarRegistro" href="./Registro.html">Regístrate</a>
       </div>
     </form>
   </div>

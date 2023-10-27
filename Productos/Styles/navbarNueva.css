@@ -11,6 +11,9 @@
   width: 100vw;
   z-index: 20; 
 }
+.enlace {
+  color: white;
+}
 
 .titulo-navbar {
   font-family: 'Rowdies', sans-serif;
