@@ -1,0 +1,36 @@
+
+.carro-nuevo {
+    margin-top: 120px;
+}
+
+#productos-container {
+    width: 500px;
+    margin: auto;
+}
+
+.tarjeta-patineta {
+    display: flex;
+    gap: 20px;
+    text-align:  center;
+}
+
+.tarjeta-patineta img {
+    height: 100px;
+    aspect-ratio: 1;
+}
+.tarjeta-patineta h3{
+    width: 130px;
+    font-size: 15px;
+}
+
+.tarjeta-patineta p, .cantidad {
+    font-size: 13px;
+}
+
+#totales {
+    text-align: center;
+}
+
+.footer {
+    margin:auto;
+}

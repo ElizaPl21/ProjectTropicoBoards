@@ -14,6 +14,19 @@
 .enlace {
   color: white;
 }
+
+#cuenta-carrito {
+  background-color:rgb(247, 108, 73);
+  border-radius: 100%;
+  display: inline-block;
+  width: 15px;
+  line-height: 15px;
+  aspect-ratio: 1;
+  text-align: center;
+  
+
+}
+
 .titulo-navbar {
     font-family: 'Rowdies', sans-serif;
     font-size: 25px;
@@ -26,7 +39,7 @@
     color: #ffeee3;
     font-family: 'Cabin', sans-serif;
     font-size: 20px;
-    
+    text-decoration: none;
 }
 
 .img-logo {
