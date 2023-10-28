@@ -1,0 +1,167 @@
+
+body{
+    background-color: #fff2e6;
+    font-family: "Cabin", sans-serif;
+
+}
+
+.barra-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    height: auto;
+}
+
+
+
+.navbar {
+    background: linear-gradient(to right, #ffeee3, #e9ac67, #f7a446, #ff9215);
+    padding: 0;
+    height: 120px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.logo-img {
+    width: 80px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.logo-img{
+    transition: 0.5s;
+    object-fit: cover;
+  }
+
+.logo-img:hover{
+    transform: scale(1.2);
+  }
+
+.titulo-navbar {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.titulo-navbar:hover{
+    color: black;
+}
+
+.seccion-navbar {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+    .titulo-navbar {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo-navbar {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo-navbar {
+        display: none;
+    }
+    .logo-img {
+        width: 40px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+    }
+}
+
+
+/*EStilos de formulario*/
+#tarjeta-form {
+    margin-top: 200px;
+    margin-bottom: 100px; 
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid black; /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
+}
+
+.form-content {
+    background-color:white;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tarjetas {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/*Estilos contacto*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fde3cb;
+    margin-bottom: 0;
+  }
+ 
+  .descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.parrafo {
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.aviso {
+    text-decoration: underline;
+}
+
+
+
+  /*Estilos botones*/
+
+  .btn {
+  
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
+
+}
