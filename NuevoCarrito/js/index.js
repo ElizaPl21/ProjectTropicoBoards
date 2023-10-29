@@ -1,7 +1,6 @@
 const contenedorTarjetas = document.getElementById('productos-container');
 
-
-function crearTarjetas (productos) {
+function crearTarjetasProductos (productos) {
     productos.forEach(producto => {
         const nuevoProducto = document.createElement("div");
         nuevoProducto.classList = "tarjeta-patineta";
@@ -9,11 +8,10 @@ function crearTarjetas (productos) {
             <img src = ${producto.imagen}>
             <h3 class="subtitulo contenido"> ${producto.productName}</h3> 
             <p class="precio contenido">${producto.productPrice}</p>
-            <button class="btn btn-primary btn-block mb-4">Agregar al carrito</button>
-        `
+            <button class="btn btn-primary btn-block mb-4">Agregar al carrito</button>`
         contenedorTarjetas.appendChild(nuevoProducto);
         nuevoProducto.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto));
     });
 }
 
-crearTarjetas(patinetas);
+crearTarjetasProductos(patinetas);
