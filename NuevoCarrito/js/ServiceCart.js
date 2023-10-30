@@ -1,3 +1,5 @@
+const cuentaCarritoElement = document.getElementById('cuenta-carrito');
+
 function agregarAlCarrito(producto) {
     const memoria =JSON.parse(localStorage.getItem("patinetas"));
     console.log(memoria);
@@ -43,7 +45,7 @@ function getNuevoProductoMemoria(producto) {
     return nuevoProducto;
 }
 
-const cuentaCarritoElement = document.getElementById('cuenta-carrito');
+
 function actualizarNumeroCarrito(){
     
     const memoria =JSON.parse(localStorage.getItem("patinetas"));
