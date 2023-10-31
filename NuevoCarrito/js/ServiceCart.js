@@ -1,5 +1,5 @@
 //Esto es como lo tuyo solamente que no me funciona, no se si me equivoque en algo
-/*const cuentaCarritoElement = document.getElementById("cuenta-carrito");
+const cuentaCarritoElement = document.getElementById("cuenta-carrito");
 function agregarAlCarrito(producto){
   const memoria = JSON.parse(localStorage.getItem("patinetas"));
   let cuenta=0;
@@ -52,8 +52,8 @@ function actualizarNumeroCarrito(){
 }
 
 actualizarNumeroCarrito();
-*/
 
+/*
 //Esta es otra función funciona solo el refresh
 const cuentaCarritoElement = document.getElementById("cuenta-carrito");
 
@@ -130,3 +130,4 @@ function reiniciarCarrito(){
 
 
 actualizarNumeroCarrito();
+*/

@@ -20,104 +20,11 @@
   background-color: #fff2e6;
 }
 
-.card {
-  margin: 25px;
-  border-radius: 5%;
-  border-color: black;
+li{
+  list-style-type:none;
 }
 
-.list-group{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas por fila */
-  grid-gap: 10px; 
-  text-align: center;
-  font-family: 'Cabin', sans-serif;
-  font-size: 18px;
-  
-
-}
-
-
-
-@media (max-width:700px){
-  .list-group{
-    display: flex;  
-      
-  }
-}
-
-.card-img-top {    
-overflow: hidden;
-width: auto;
-height: 475px;
-text-align: center;
-transition: transform 0.2s ease;
-display: block;
-border-radius: 11%;
-}
-
-.card-img-top:hover {
-  transform: scale(1.2);
-  z-index: 1001;
-}
-
-.sticky-element {
-  position: sticky;
-  z-index: 1000;
-  top: 0; /* Ajusta el valor según tu diseño */
-}
-
-.btn{
-  margin-left: 30%;
-    margin-right: 30%;
-    text-wrap: nowrap;
-    background-color: #f7be7e;
-    border: 1px solid rgb(231, 135, 26);
-    border-radius: 10px;
-    color: #FFF; 
-    font-size: 16px;
-}
-.btn:hover {
-  background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
-  cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
-  border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
-}
-
-/* Estilos del footer contacto */
-.containerContactoLI {
+.cuerpo{
   display: flex;
-  padding: 10px;
-  margin: 15px;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-
-.contactoLI{
-  padding-left: 1%;
-  padding-right: 1%;
-
-}
-
-.iconosContactoLI {
-  height: 35px;
-  width: auto;
-}
-
-@media (max-width:800px){
-  .containerContactoLI{
-      height: auto;
-      align-self: center;
-  }
-  .iconosContactoLI {
-      height:  50px;
-      margin: 15px;
-  }
-  .textoContactoLI{
-      display: none;
-  }
-
+  flex-direction: row;
 }

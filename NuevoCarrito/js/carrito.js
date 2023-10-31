@@ -1,5 +1,5 @@
 //No me funciona la accion de agregar al carrito, pero igual quita y suma funciona solamente con el refresh
-/*const contenedorTarjetas = document.getElementById("productos-container");
+const contenedorTarjetas = document.getElementById("productos-container");
 const unidadesElement = document.getElementById("unidades");
 const precioElement = document.getElementById("precio");
 const carritoVacioElement = document.getElementById("carrito-vacio");
@@ -78,8 +78,8 @@ function reiniciarCarrito() {
   actualizarTotales();
   crearTarjetas();
 }
-*/
 
+/*
 //Segunda manera conrefresh funciona con html en cantidad en vez de unidades
 const contenedorTarjetas = document.getElementById('tarjeta-container');
 const cantidadElement = document.getElementById('cantidad');
@@ -162,4 +162,4 @@ document.getElementById("vacio").addEventListener("click", () => {
     totales.classList.toggle("escondido", productos);
   }
  
-
+*/

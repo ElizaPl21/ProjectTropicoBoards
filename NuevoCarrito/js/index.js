@@ -8,7 +8,7 @@ function crearTarjetasProductos (productos) {
             <img src = ${producto.imagen}>
             <h3 class="subtitulo contenido"> ${producto.productName}</h3> 
             <p class="precio contenido">${producto.productPrice}</p>
-            <button class="btn btn-primary btn-block mb-4">Agregar al carrito</button>`
+            <button class="boton-item btn btn-primary btn-block mb-4">Agregar al carrito</button>`
         contenedorTarjetas.appendChild(nuevoProducto);
         nuevoProducto.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto));
     });

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrito</title>
+  <title>Productos</title>
 
   <!-- Link Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,13 +12,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-
   <!--STYLESHEET-->
+
   <link rel="stylesheet" href="../NavbarNueva/navbarNueva.css">
   <link rel="stylesheet" href="../NavbarNueva/contacto.css">
-  <link rel="stylesheet" href="./carrito.css">
-  <!-- <link rel="stylesheet" href="../Productos/Styles/carrito.css"> -->
- 
+  <link rel="stylesheet" href="../NuevoCarrito/index.css">
 
   <!--Link iconos-->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
@@ -29,14 +27,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cabin&family=Rowdies:wght@700&display=swap"
     rel="stylesheet">
-
   <!--JAVASCRIPT-->
-  <script src="./js/patinetas.js"></script>
-  <!-- <script src="./js/ServiceCart.js" defer></script> -->
-  <script src="./js/carrito_compras.js" defer></script>
+  <script src="../NuevoCarrito/js/patinetas.js"></script>
+  <script src="../Productos/carrito_compras.js" defer></script>
+  <script src="../NuevoCarrito/js/index.js" defer></script>
 </head>
 
-<body class="carro-nuevo">
+<body class="nuevo-carro">
   <!--INICIA NAVBAR-->
   <header class="barra-nav">
     <section class="barra">
@@ -55,8 +52,8 @@
                     class="seccion-navbar fi fi-sr-user fas fa-shopping-cart"></i></a>
               </li>
               <li class="lista-iconos">
-                <a class="enlace" href="./carrito.html"><i class=" seccion-navbar fi fi-sr-shopping-cart"></i><span
-                    class="cuenta-carrito">0</span></a>
+                <a class="enlace" href="../Productos/carrito.html"><i class=" seccion-navbar fi fi-sr-shopping-cart"></i><span
+                    id="cuenta-carrito">0</span></a>
               </li>
 
 
@@ -86,35 +83,10 @@
     </section>
   </header>
 
-  <!-- <main class="main">
-    <p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
-    <section id="productos-container"></section>
-    <section id="totales">
-      <p>Total unidades: <span id="unidades">0</span></p>
-      <p>Total precio: $<span id="precio">0</span></p>
-      <button disabled>Comprar</button>
-      <button id="vacio">Vaciar carrito</button>
+  <main class="main">
+    <section id="productos-container">
     </section>
-  </main> -->
-
-  <div class="carrito" id="carrito">
-    <div class="header-carrito">
-        <h2>Tu Carrito</h2>
-    </div>
-
-    <div class="carrito-items">
-       
-    </div>
-    <div class="carrito-total">
-        <div class="fila">
-            <strong>Tu Total</strong>
-            <span class="carrito-precio-total">
-                $120.000,00
-            </span>
-        </div>
-        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>     
-       </div>
-</div>
+  </main>
 
   <!-- AQUI EMPIEZA LA PARTE DE CONTACTO -->
   <footer class="footer">
@@ -136,7 +108,6 @@
       </li>
       <p class="parrafo">Tropico Boards</p><br>
       <p class="parrafo aviso">Aviso de privacidad</p>
-
     </div>
   </footer>
 
