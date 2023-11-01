@@ -88,38 +88,3 @@
       text-align: center;
     }
 }
-/*
-@media(max-width:680px){
-    .tarjeta-patineta {
-        max-width: 200px;
-        text-align: center;
-        padding: 10px;
-        background-color: white;
-        margin:auto;
-        margin-left: 0;
-    }
-}
-
-@media(max-width:480px){
-    .tarjeta-patineta {
-        max-width: 100px;
-        text-align: center;
-        padding: 10px;
-        background-color: white;
-        margin:auto;
-        margin-left: 0;
-    }
-    button {
-        max-width: 80px;
-        height: auto;
-
-    }
-
-    .precio {
-        font-size: 15px;
-    }
-    .subtitulo {
-        font-size: 20px;
-    }
-
-} */
