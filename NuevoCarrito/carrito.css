@@ -65,6 +65,9 @@
 
 }
 
+#carrito-vacio {
+    text-align: center;
+}
 @media(max-width:600px) {
     .tarjeta-patineta {
         max-width:100%;
