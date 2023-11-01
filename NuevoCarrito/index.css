@@ -75,15 +75,15 @@
 
 
 @media(max-width:500px) {
-    .tarjeta-patineta {
-      margin-right: 90px;
+    .main {
+      margin-left: 80px;
       min-width: 200px;
       text-align: center;
     }
 }
 @media(max-width:414px) {
-    .productos-container {
-      margin-right: auto;
+    .main{
+      margin-left: 65px;
       min-width: auto;
       text-align: center;
     }

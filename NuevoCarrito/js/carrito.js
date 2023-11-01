@@ -18,9 +18,9 @@ function crearTarjetas() {
       <h3 class="subtitulo contenido">${producto.productName}</h3> 
       <p class="precio contenido">$${producto.productPrice}</p>
       <div>
-          <button class="restar"> - </button>
+          <button class="btn restar"> - </button>
           <span class="cantidad">${producto.cantidad}</span>
-          <button class="sumar"> + </button>
+          <button class="btn sumar"> + </button>
       </div>
   `;
       contenedorTarjetas.appendChild(nuevoProducto);

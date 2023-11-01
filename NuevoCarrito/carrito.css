@@ -1,6 +1,7 @@
 
 .carro-nuevo {
     margin-top: 120px;
+    background-color: #fff2e6;
 }
 
 #productos-container {
@@ -12,11 +13,13 @@
     display: flex;
     gap: 20px;
     text-align:  center;
+
 }
 
 .tarjeta-patineta img {
     height: 100px;
     aspect-ratio: 1;
+    margin-bottom: 10px;
 }
 .tarjeta-patineta h3{
     width: 130px;
@@ -41,3 +44,33 @@
     display: none;
   }
   
+  .btn {
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
+
+}
+
+@media(max-width:600px) {
+    .tarjeta-patineta {
+        max-width:100%;
+        margin:0;
+        gap:3px;
+        margin-left: 10px;
+        
+    }
+}
