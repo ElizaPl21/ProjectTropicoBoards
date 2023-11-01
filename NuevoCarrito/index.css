@@ -53,8 +53,6 @@
 
 
 .btn {
-    margin-left: 30%;
-    margin-right: 30%;
     text-wrap: nowrap;
     background-color: #f7be7e;
     border: 1px solid rgb(231, 135, 26);
@@ -75,16 +73,22 @@
 
 }
 
-@media(max-width:850px) {
+
+@media(max-width:500px) {
     .tarjeta-patineta {
-        max-width: 250px;
-        text-align: center;
-        padding: 10px;
-        background-color: white;
-        margin-left: 50px;
+      margin-right: 90px;
+      min-width: 200px;
+      text-align: center;
     }
 }
-
+@media(max-width:414px) {
+    .productos-container {
+      margin-right: auto;
+      min-width: auto;
+      text-align: center;
+    }
+}
+/*
 @media(max-width:680px){
     .tarjeta-patineta {
         max-width: 200px;
@@ -118,4 +122,4 @@
         font-size: 20px;
     }
 
-}
+} */
