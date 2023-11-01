@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!--STYLESHEET-->
+
+  <link rel="stylesheet" href="../NavbarNueva/navbarNueva.css">
+  <link rel="stylesheet" href="../NavbarNueva/contacto.css">
+  <link rel="stylesheet" href="./index.css">
+
+  <!--Link iconos-->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel="icon" href="../NavbarNueva/assets/logo.png">
+
+  <!-- Fonts desde goolge -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cabin&family=Rowdies:wght@700&display=swap"
+    rel="stylesheet">
+  <!--JAVASCRIPT-->
+  <script src="./js/patinetas.js" defer></script>
+  <script src="./js/index.js" defer></script>
+  <script src="./js/ServiceCart.js" defer></script>
+  <script src="./js/carrito.js" defer></script>
+
+
+</head>
+
+<body class="nuevo-carro">
+  <!--INICIA NAVBAR-->
+  <header class="barra-nav">
+    <section class="barra">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="imagen">
+            <a href="./Home.html"><img class="logo-img imgLogo" src="../NavbarNueva/assets/logo.png"
+                alt="Logo Tropico-Boards"></a>
+          </div>
+          <a class="navbar-brand titulo-navbar" href="./Home.html">TROPICO BOARDS</a>
+
+          <div class="contenido">
+            <div class="lista-iconos">
+              <li class="lista-iconos carrito">
+                <a class="enlace" href="../Login/Login.html"><i
+                    class="seccion-navbar fi fi-sr-user fas fa-shopping-cart"></i></a>
+              </li>
+              <li class="lista-iconos">
+                <a class="enlace" href="./carrito.html"><i class=" seccion-navbar fi fi-sr-shopping-cart"></i><span
+                    id="cuenta-carrito">0</span></a>
+              </li>
+
+
+              <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class=" secciones-navbar collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active seccion-navbar" aria-current="page" href="./Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link seccion-navbar" href="../Productos/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link seccion-navbar" href="../Acerca de nosotros/AcercaDe.html">Nosotros</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+      </nav>
+    </section>
+  </header>
+
+  <main class="main">
+    <section id="productos-container">
+    </section>
+  </main>
+
+  <!-- AQUI EMPIEZA LA PARTE DE CONTACTO -->
+  <footer class="footer">
+    <div class="iconos-contacto">
+      <li class="lista-contacto">
+        <a href="https://www.facebook.com/profile.php?id=100063545682301" target="_blank"><img
+            src="../NavbarNueva/assets/facebook (1).png" alt="logo-facebook"></a>
+      </li>
+      <li class="lista-contacto">
+        <a href="https://www.instagram.com/tropico_boards/" target="_blank"><img
+            src="../NavbarNueva/assets/instagram (1).png" alt="logo-instagram"></a>
+      </li>
+      <li class="lista-contacto">
+        <a href="../ContactUs/ContactUs.html"><img src="../NavbarNueva/assets/sobre.png" alt="logo-correo"></a>
+      </li>
+      <li class="lista-contacto">
+        <a href="../ContactUs/ContactUs.html"><img src="../NavbarNueva/assets/llamada-telefonica (1).png"
+            alt="logo-telefono"></a>
+      </li>
+      <p class="parrafo">Tropico Boards</p><br>
+      <p class="parrafo aviso">Aviso de privacidad</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
