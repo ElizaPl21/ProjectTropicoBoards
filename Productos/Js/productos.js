@@ -2,7 +2,7 @@
 //con esta linea aseguramos que se ejecte el codigo carrito compras despues de ejcutar productos
 document.addEventListener("DOMContentLoaded", function() {
 //Constantes que dan información a los elementos de la DOM en HTML
-const division = document.querySelector(".list-group.list-group-flush");
+const contenedorTarjetas = document.getElementById("productos-container");
 
 // Función para cargar productos desde el archivo JSON
 const fetchProductos= async() => {
@@ -19,12 +19,12 @@ const fetchProductos= async() => {
 // Función para mostrar un producto en la DOM-Creando tarjeta
 function mostrarProducto(producto) {
   const card = document.createElement("div");
-  card.style.setProperty("width", "18rem", "card-container");
-  card.classList.add("card");
+  //card.style.setProperty("width", "18rem", "productos-container");
+  card.classList.add("tarjeta-patineta");
 
  //Obteniendo imagen
   const image = document.createElement("img");
-  image.classList.add("card-img-top","imagencss");
+  image.classList.add("tarjeta-patineta", "img-item");
   image.alt = "...";
   image.src = producto.imagen;
  
@@ -33,23 +33,24 @@ function mostrarProducto(producto) {
 
 //Obteniendo nombre
   const name = document.createElement("li");
-  name.classList.add("list-group-item", "titulo-item");
+  name.classList.add("tarjeta-patineta", "titulo-item");
   name.textContent = `${producto.productName}`;
+
 
 //Obteniendo precio
   const price = document.createElement("li");
-  price.classList.add("list-group-item", "precio-item");
+  price.classList.add("tarjeta-patineta", "precio-item");
   price.textContent = `Precio: ${producto.productPrice}`;
 
 //Obteniendo descripción
-  const description = document.createElement("li");
-  description.classList.add("list-group-item");
-  description.textContent = `Descripción: ${producto.productDescription}`;
+  // const description = document.createElement("li");
+  // description.classList.add("productos-container");
+  // description.textContent = `Descripción: ${producto.productDescription}`;
 
 //Obteniendo stock
-  const stock = document.createElement("li");
-  stock.classList.add("list-group-item","item");
-  stock.textContent = `En stock: ${producto.stockQuantity}`;
+  // const stock = document.createElement("li");
+  // stock.classList.add("productos-container","item");
+  // stock.textContent = `En stock: ${producto.stockQuantity}`;
 
  //boton
 const button = document.createElement("button");
@@ -64,11 +65,11 @@ button.innerText = "Agregar al carrito";
   card.appendChild(image);
   card.appendChild(name);
   card.appendChild(price);
-  card.appendChild(description);
-  card.appendChild(stock);
+  //card.appendChild(description);
+  //card.appendChild(stock);
   card.appendChild(button);
 
-  division.appendChild(card);
+  contenedorTarjetas.appendChild(card);
 }
 
 // Cargar productos y mostrar los primeros 10
@@ -84,3 +85,4 @@ fetchProductos()
     document.body.appendChild(scriptCarrito);
   });
   });
+  

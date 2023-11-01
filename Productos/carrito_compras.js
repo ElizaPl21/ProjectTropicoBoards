@@ -59,7 +59,7 @@ function agregarAlCarritoClicked(event){
     var item = button.parentElement;
     var titulo = item.getElementsByClassName('titulo-item')[0].innerText;
     var precio = item.getElementsByClassName('precio-item')[0].innerText;
-    var imgElements = item.getElementsByClassName('imagencss');
+    var imgElements = item.getElementsByClassName('img-item');
 if (imgElements.length > 0) {
   var imagenSrc = imgElements[0].src;
   console.log(imagenSrc);
@@ -168,19 +168,19 @@ function eliminarItemCarrito(event){
 
     //la siguiente funciòn controla si hay elementos en el carrito
     //Si no hay elimino el carrito
-    ocultarCarrito();
+    //ocultarCarrito();
 }
 //Funciòn que controla si hay elementos en el carrito. Si no hay oculto el carrito.
 function ocultarCarrito(){
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
-    if(carritoItems.childElementCount==0){
-        var carrito = document.getElementsByClassName('carrito')[0];
-        carrito.style.marginRight = '-100%';
-        carrito.style.opacity = '0';
-        carritoVisible = false;
+     if(carritoItems.childElementCount==0){
+         var carrito = document.getElementsByClassName('carrito')[0];
+         carrito.style.marginRight = '-100%';
+         carrito.style.opacity = '0';
+         carritoVisible = false;
     
-        var items =document.getElementsByClassName('productos-container')[0];
-        items.style.width = '100%';
+         var items =document.getElementsByClassName('productos-container')[0];
+         items.style.width = '100%';
     }
 }
 function actualizarTotalCarrito() {
@@ -231,3 +231,5 @@ function actualizarTotalCarrito() {
       document.getElementsByClassName('carrito-precio-total')[0].innerText = 'Valor no válido';
     }
   }
+
+
