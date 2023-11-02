@@ -45,3 +45,8 @@ function actualizarNumeroCarrito() {
     cuentaCarritoElement.innerText = 0;
   }
 }
+
+//Agregue esta linea de codigo para que se viera el contador del carrito en las demás paginas
+document.addEventListener("DOMContentLoaded", function() {
+  actualizarNumeroCarrito();
+});
