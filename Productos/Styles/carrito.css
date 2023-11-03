@@ -1,17 +1,44 @@
 /* seccion carrito */
-.carrito {
+ /* .carrito {
         position: absolute;
         top: 130%; /* Ajusta la posición vertical según tus necesidades */
-        right: 0;
+       /* right: 0;
         width: 300px; /* Ajusta el ancho según tus necesidades */
-        border: 1px solid #666;
+        /*border: 1px solid #666;
         border-radius: 10px;
         overflow: hidden;
         z-index: 999; /* Asegura que el carrito esté por encima de otros elementos */
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);
     margin-right: -100%;
     opacity: 0;
-}
+}  */
+
+.carrito {
+    position: fixed;
+    min-height: 120px;
+    width: auto;
+    text-align: center;
+    word-wrap: break-word;
+    right: 0;
+    
+} 
+
+     /* position: sticky !important;
+    /* position: absolute; */
+    /* margin-top: 30px; /* Ajusta la posición vertical según tus necesidades */
+   /*top: 120px;
+   right: 0; */
+
+   /* width: 35%; Ajusta el ancho según tus necesidades
+   border: 1px solid #666;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+    transition: .3s;
+/* margin-left: auto; */
+/*opacity: 0;*/
+/* z-index: 999; */
+
 .carrito .header-carrito{
     background-color:#e8b85f;
     color: #fff;
@@ -119,7 +146,7 @@
 }
 .carrito-total .btn-pagar:hover{
     scale: 1.05;
-    
+
 }
 
 /* SECCION RESPONSIVE */

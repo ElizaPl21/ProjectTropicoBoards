@@ -1,0 +1,90 @@
+.nuevo-carro {
+    margin-top: 120px;
+    background-color: #fff2e6;
+}
+
+.main {
+    margin-left: 180px;
+}
+
+.titulo-item, .precio{
+    list-style: none;
+}
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 20px;
+    
+    margin-bottom: 70px;
+}
+
+.tarjeta-patineta {
+    max-width: 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    transition: 200ms;
+}
+
+.tarjeta-patineta:hover {
+    translate: 0 -10px;
+    max-width: 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.tarjeta-patineta img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.subtitulo {
+    font-size: 25px;
+    font-family: "Acme", sans-serif;
+}
+
+.precio{
+    font-size: 18px;
+    font-family: "Cabin", sans-serif;
+}
+
+
+.btn {
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
+
+}
+
+
+@media(max-width:500px) {
+    .main {
+      margin-left: 80px;
+      min-width: 200px;
+      text-align: center;
+    }
+}
+@media(max-width:414px) {
+    .main{
+      margin-left: 65px;
+      min-width: auto;
+      text-align: center;
+    }
+}
