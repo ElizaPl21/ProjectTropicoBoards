@@ -117,5 +117,5 @@ actualizarTotales();
 document.getElementsByClassName('btn-pagar')[0].addEventListener('click',pagarClicked)
 function pagarClicked(){
   alert("Gracias por la compra");
-  window.location.href="../Pago/Pago.html";
+  window.location.href="../Pago/Pago.html"
 }
