@@ -46,7 +46,7 @@
      }
      Users.push({nombreUsuario:nombreUsuario, apellidoUsuario:apellidoUsuario, correo:correo, contrasena:contrasena,verificacionContrasena:verificacionContrasena})
      localStorage.setItem("users",JSON.stringify(Users))
-     alert ("Refistro exitoso")
+     alert ("Registro exitoso")
      
      //Redirección a login
      window.location.href="./Login.html"
