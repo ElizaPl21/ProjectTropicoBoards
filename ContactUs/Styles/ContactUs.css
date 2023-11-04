@@ -19,6 +19,7 @@
     align-items: center;
     margin: 2%;
     padding: 5%;
+    max-width: 50%;
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 50px;
@@ -26,6 +27,7 @@
     /* Borde negro de 2 píxeles */
     box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1);
     /* Sombra con desplazamiento y suavidad */
+    
 }
 
 .form-con {
@@ -62,22 +64,23 @@
 
 @media (max-width:912px) {
     .cuerpoCon {
-        max-width: 550px;
-        margin-top: 40%;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 50px;
         align-items: center;
+        margin-bottom: 30px;
 
     }
 
-    .footer {
-        margin-top: 30%;
-    }
 }
 
 @media (max-width:813px) {
     .cuerpoCon {
-        max-width: 250px;
+        max-width: 60%;
         margin: auto;
         align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .barra-nav {
@@ -91,8 +94,8 @@
 
 @media (max-width:768px) {
     .cuerpoCon {
-        max-width: 550px;
-        margin-top: 40%;
+        max-width: 80%;
+        margin-top: 50px;
         align-items: center;
     }
 
