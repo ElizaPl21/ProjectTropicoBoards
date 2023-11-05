@@ -2,6 +2,9 @@
 .carro-nuevo {
     margin-top: 120px;
     background-color: #fff2e6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #productos-container {
@@ -32,12 +35,12 @@
 
 #totales {
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+    margin-top: auto;
+    padding: 16px 0;
 }
 
 .escondido{

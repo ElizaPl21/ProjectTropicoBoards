@@ -1,12 +1,12 @@
 // admin.js
 
 // Función para validar y agregar un nuevo producto
-document.getElementById("productForm").addEventListener("submit", function(event) {
+document.getElementById("productForm").addEventListener("submit", function (event) {
     event.preventDefault();
     const productName = document.getElementById("productName").value;
     const productDescription = document.getElementById("productDescription").value;
     const productStock = document.getElementById("productStock").value;
-    
+
     // Validar campos y mostrar errores utilizando las alertas de Bootstrap
     if (validarCampos(productName, productDescription, productStock)) {
         // Agregar el producto a la lista
@@ -34,7 +34,7 @@ function addProductToPage(product) {
 }
 
 // Función para exportar los productos a formato JSON
-document.getElementById("exportJson").addEventListener("click", function() {
+document.getElementById("exportJson").addEventListener("click", function () {
     // Implementa la lógica para convertir los productos a JSON
     // Puedes mostrar el JSON en una alerta o hacer lo que desees con él
 });

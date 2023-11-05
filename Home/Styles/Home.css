@@ -1,5 +1,4 @@
-
-.body-HOME{
+.body-HOME {
     margin-top: 90px;
     background-color: #fff2e6;
     height: 1000px;
@@ -17,13 +16,14 @@
     display: table-row-group;
 }
 
-.contenedor{
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
     padding: 20px;
 }
-.centrado{
+
+.centrado {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,8 +32,9 @@
     font-family: 'Rowdies', sans-serif;
     font-size: 35px;
 }
-  /* ESTILOS TARJETAS PRODUCTOS */
-  .card-text {
+
+/* ESTILOS TARJETAS PRODUCTOS */
+.card-text {
     font-family: 'Acme', sans-serif;
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
@@ -54,8 +55,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-     
-  .tarjeta {
+
+.tarjeta {
     width: 300px;
     margin: 10px;
     transition: all, 300ms;
@@ -77,7 +78,7 @@
     width: 250px;
     display: block;
     margin: auto;
-    top: 40px; 
+    top: 40px;
 }
 
 .tarjeta:hover.cover .image {
@@ -121,7 +122,8 @@
     font-size: 18px;
 }
 
-.texto, .texto1 {
+.texto,
+.texto1 {
     color: #0e093d;
 }
 
@@ -133,18 +135,19 @@
 }
 
 /*IMAGEN*/
-.contenedor{
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
 }
- 
+
 .descuento {
     color: #ffffff;
     font-family: 'Rowdies', sans-serif;
     font-size: 30px;
 }
-.centrado{
+
+.centrado {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -152,36 +155,43 @@
 }
 
 
-@media (max-width:800px){
-    .containerContactoAcercaDe{
+@media (max-width:800px) {
+    .containerContactoAcercaDe {
         height: auto;
         align-self: center;
     }
+
     .iconosContactoAcercaDe {
-        height:  50px;
+        height: 50px;
         margin: 15px;
     }
-    .textoContactoAcercaDe{
+
+    .textoContactoAcercaDe {
         display: none;
     }
-  
-  }
+
+}
+
 /*Agregar a cada página para la responsividad de navbar*/
-  @media (max-width: 525px) {
+@media (max-width: 525px) {
     .body-HOME {
         margin-top: 70px;
     }
-  }
+}
 
 /* ESTILOS DEL DIV DEL VIDEO */
 .video-container {
-    max-width: 100%; /* Establece un ancho máximo del 100% del contenedor padre */
-    margin: 5%; /* Centra el div horizontalmente en el viewport */
+    max-width: 100%;
+    /* Establece un ancho máximo del 100% del contenedor padre */
+    margin: 5%;
+    /* Centra el div horizontalmente en el viewport */
 }
 
 .video-container video {
-    width: 100%; /* Asegura que el video se ajuste al 100% del ancho del div */
-    height: auto; /* Ajusta automáticamente la altura en función del ancho */
+    width: 100%;
+    /* Asegura que el video se ajuste al 100% del ancho del div */
+    height: auto;
+    /* Ajusta automáticamente la altura en función del ancho */
 }
 
 @media(max-width: 500px) {

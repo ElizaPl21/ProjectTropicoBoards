@@ -1,9 +1,9 @@
-
-.body-LOGIN{
+.body-LOGIN {
     padding-top: 90px;
     background-color: #fff2e6;
-    font-family: "Cabin", sans-serif;
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .titulo-RU,
@@ -18,7 +18,7 @@
 
 .cuerpo-LI,
 .cuerpo-RU {
-    background-color:white;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,8 +28,10 @@
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 50px;
-    border: 2px solid black; /* Borde negro de 2 píxeles */
-    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
+    border: 2px solid black;
+    /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1);
+    /* Sombra con desplazamiento y suavidad */
 }
 
 .form-LI {
@@ -50,15 +52,19 @@
     background-color: #f7be7e;
     border: 1px solid rgb(231, 135, 26);
     border-radius: 10px;
-    color: #FFF; 
-    font-size: 16px; 
+    color: #FFF;
+    font-size: 16px;
 }
 
 .btn:hover {
-    background-color: #f7a446; /* Cambiar el color de fondo al pasar el mouse */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar una sombra suave al pasar el mouse */
-    cursor: pointer; /* Cambiar el cursor al icono de mano al pasar el mouse */
-    border: 2px solid #e8b85f; /* Agregar un borde al pasar el mouse */
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
 
 }
 
@@ -66,32 +72,21 @@
     color: #000000;
 }
 
-.footer{
-    margin-top: 210px;
+.footer {
+    margin-top: auto;
+    padding: 16px 0;
 }
 
 
-@media (max-width:950px) { 
+@media (max-width:950px) {
+
     .cuerpo-LI,
     .cuerpo-RU {
-    max-width: 350px;
-    margin: auto;
-    align-items: center;
-    margin-bottom: 15px;
-    margin-top: 10px;
+        max-width: 350px;
+        margin: auto;
+        align-items: center;
+        margin-bottom: auto;
+        margin-top: auto;
 
     }
 }
-
-@media (max-width: 525px) {
-    .body-LOGIN {
-        margin-top: 30px;
-    }
-  }
-
-
-
-  
-
-     
-

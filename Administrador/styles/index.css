@@ -1,8 +1,6 @@
-
-body{
+body {
     background-color: #fff2e6;
     font-family: "Cabin", sans-serif;
-
 }
 
 .barra-nav {
@@ -26,30 +24,31 @@ body{
 }
 
 .logo-img {
-    width: 80px; /* Ajusta el tamaño del logo */
+    width: 80px;
+    /* Ajusta el tamaño del logo */
     height: auto;
     margin-right: 20px;
     margin-left: 20px;
     transition: 0.5s;
 }
 
-.logo-img{
+.logo-img {
     transition: 0.5s;
     object-fit: cover;
-  }
+}
 
-.logo-img:hover{
+.logo-img:hover {
     transform: scale(1.2);
-  }
+}
 
 .titulo-navbar {
     font-family: 'Rowdies', sans-serif;
     font-size: 25px;
     color: black;
-    
+
 }
 
-.titulo-navbar:hover{
+.titulo-navbar:hover {
     color: black;
 }
 
@@ -76,8 +75,10 @@ body{
     .titulo-navbar {
         display: none;
     }
+
     .logo-img {
-        width: 40px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+        width: 40px;
+        /* Ajusta el tamaño del logo en pantallas pequeñas */
     }
 }
 
@@ -85,15 +86,17 @@ body{
 /*EStilos de formulario*/
 #tarjeta-form {
     margin-top: 200px;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
     background-color: white;
     border-radius: 50px;
-    border: 2px solid black; /* Borde negro de 2 píxeles */
-    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1); /* Sombra con desplazamiento y suavidad */
+    border: 2px solid black;
+    /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1);
+    /* Sombra con desplazamiento y suavidad */
 }
 
 .form-content {
-    background-color:white;
+    background-color: white;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
     margin-top: 50px;
@@ -121,9 +124,9 @@ body{
     padding: 10px;
     background-color: #fde3cb;
     margin-bottom: 0;
-  }
- 
-  .descripcion {
+}
+
+.descripcion {
     text-align: center;
     font-size: 18px;
     font-family: 'Cabin', sans-serif;
@@ -142,10 +145,10 @@ body{
 
 
 
-  /*Estilos botones*/
+/*Estilos botones*/
 
-  .btn {
-  
+.btn {
+
     text-wrap: nowrap;
     background-color: #f7be7e;
     border: 1px solid rgb(231, 135, 26);

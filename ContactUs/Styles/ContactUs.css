@@ -1,7 +1,9 @@
 .contac {
-    background-color: #fff2e6;
     padding-top: 90px;
-    min-height: max-content;
+    background-color: #fff2e6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .tituloCon {
@@ -10,6 +12,7 @@
     color: black;
     text-align: center;
     margin-bottom: 5%;
+
 }
 
 .cuerpoCon {
@@ -19,6 +22,9 @@
     align-items: center;
     margin: 2%;
     padding: 5%;
+    padding-top: 5%;
+    margin-top: 35px;
+    margin-bottom: 33px;
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 50px;
@@ -29,12 +35,14 @@
 }
 
 .form-con {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .form-control {
-    min-width: 100px;
-    border-radius: 7px;
+    min-width: 300px;
+    border-radius: 10px;
 }
 
 .btn {
@@ -60,40 +68,19 @@
 
 }
 
-@media (max-width:912px) {
-    .cuerpoCon {
-        max-width: 550px;
-        margin-top: 40%;
-        align-items: center;
-
-    }
-
-    .footer {
-        margin-top: 30%;
-    }
+.footer {
+    margin-top: auto;
+    padding: 16px 0;
 }
 
-@media (max-width:813px) {
-    .cuerpoCon {
-        max-width: 250px;
+@media (max-width:950px) {
+
+    .cuerpoCon,
+    .form-control {
+        max-width: 100%;
         margin: auto;
         align-items: center;
-    }
-
-    .barra-nav {
         margin-bottom: 5%;
-    }
-
-    .footer {
         margin-top: 5%;
     }
-}
-
-@media (max-width:768px) {
-    .cuerpoCon {
-        max-width: 550px;
-        margin-top: 40%;
-        align-items: center;
-    }
-
 }
