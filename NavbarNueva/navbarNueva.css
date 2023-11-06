@@ -13,17 +13,21 @@
 }
 .enlace {
   color: white;
+  text-decoration: none;
+  position: relative;
 }
 
+
 #cuenta-carrito {
-  background-color:rgb(247, 108, 73);
+  background-color:rgb(253, 139, 110);
   border-radius: 100%;
   display: inline-block;
   width: 15px;
   line-height: 15px;
   aspect-ratio: 1;
   text-align: center;
-  
+  font-size: 15px;
+  position: absolute;
 }
 
 .titulo-navbar {
@@ -33,7 +37,10 @@
     margin-right: auto;
 }
 
-
+.seccion-navbar {
+  color: black ;
+  font-size: 20px;
+}
 .seccion-navbar:hover {
     color: #ffeee3;
     font-family: 'Cabin', sans-serif;
@@ -109,6 +116,9 @@
    .fi {
     margin-left: 10px;
     padding-left: 10px;
+   }
+   #cuenta-carrito {
+    margin-top: 20px;
    }
   }
 
