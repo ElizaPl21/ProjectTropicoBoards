@@ -94,6 +94,7 @@
 
   <!--TERMMINA NAVBAR -->
 
+
   <!--INICIA FORMULARIO LOGIN-->
   <div class="cuerpo-LI">
     <h1 class="titulo-LI">Inicio de Sesión</h1>
@@ -112,7 +113,26 @@
         <div id="contrasenaError" class="error"></div>
       </div>
 
-      <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesión</button>
+      <button type="submit" id="mensaje" class="btn btn-primary btn-block mb-4" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">Iniciar sesión</button>
+      <!--Modal-->
+      <div class="modal" tabindex="-1" role="dialog" id="loginModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p id="modalMessage"></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="text-center">
         <p>¿Aún no eres miembro? </p>
         <a id="mostrarRegistro" href="./Registro.html">Regístrate</a>

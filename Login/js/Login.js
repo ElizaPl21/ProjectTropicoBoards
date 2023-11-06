@@ -20,26 +20,29 @@ const inicioSesionForm = document.getElementById("inicioSesionForm");
             document.getElementById("contrasenaError").textContent = "La contraseña es demasiado corta";
             return; // No se envía el formulario
         }
-
-        // Si las validaciones son exitosas, aquí puedes enviar el formulario
-       // inicioSesionForm.submit();*/
        
 //Inicio de sesion en LocalStorage
-const Users= JSON.parse(localStorage.getItem("users")) || []
-const validacionUsuario = Users.find(user => user.correo===correo && user.contrasena===contrasena);
-const esUsuarioRegistrado = Users.find(user=> user.correo===correo);
+const Users = JSON.parse(localStorage.getItem("users")) || [];
+const validacionUsuario = Users.find(user => user.correo === correo && user.contrasena === contrasena);
 
-if(!validacionUsuario) {
-    return alert("Usuario y/o contraseña incorrectos");
+const modalMessage = document.getElementById("modalMessage");
+
+if (!validacionUsuario) {
+  modalMessage.textContent = "Usuario y/o contraseña incorrectos";
+  const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+  loginModal.show();
+} else {
+  modalMessage.textContent = "¡Bienvenido! " + validacionUsuario.nombreUsuario;
+  localStorage.setItem('login_success', JSON.stringify(validacionUsuario));
+  const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+  loginModal.show();
+  window.location.href = '../Home/Home.html';
 }
-    alert("¡Bienvenido! " + validacionUsuario.nombreUsuario);
-    localStorage.setItem('login_success', JSON.stringify(validacionUsuario))
-    window.location.href='../Home/Home.html'
-    
     });
 
-    // Función para validar un correo electrónico
-    function isValidEmail(correoInicio) {
-        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-        return emailRegex.test(correoInicio);
-    }
+// Función para validar un correo electrónico
+function isValidEmail(correoInicio) {
+  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  return emailRegex.test(correoInicio);
+}
+
