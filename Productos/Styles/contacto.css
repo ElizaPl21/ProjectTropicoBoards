@@ -1,0 +1,53 @@
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fde3cb;
+    margin-bottom: 0;
+  }
+ 
+  .descripcion {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.iconos.contacto {
+    width: 200px;
+    justify-content: space-between;
+}
+
+.parrafo {
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.aviso {
+    text-decoration: underline;
+}
+
+/*ICONOS CONTACTO*/
+.lista-contacto {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+@media (max-width:800px){
+    .containerContactoAcercaDe{
+        height: auto;
+        align-self: center;
+    }
+    .iconosContactoAcercaDe {
+        height:  50px;
+        margin: 15px;
+    }
+    .textoContactoAcercaDe{
+        display: none;
+    }
+  
+  }

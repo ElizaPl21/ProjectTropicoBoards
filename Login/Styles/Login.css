@@ -76,7 +76,10 @@
     margin-top: auto;
     padding: 16px 0;
 }
-
+.cuerpo-RU {
+    margin-top: 5%;
+    margin-bottom:5%;
+}
 
 @media (max-width:950px) {
 
@@ -87,6 +90,10 @@
         align-items: center;
         margin-bottom: auto;
         margin-top: auto;
+    }
 
+    .cuerpo-RU {
+        margin-top: 6%;
+        margin-bottom: 6%;
     }
 }
